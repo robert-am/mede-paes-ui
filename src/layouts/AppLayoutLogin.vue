@@ -1,13 +1,13 @@
 <template>
   <div class="login">
-    <v-app-bar app dark>
+    <v-app-bar app dark dense>
       <router-link to="/">
         <v-img alt="PAES Logo"
                class="shrink mr-2"
                contain
                src="@/assets/logo.png"
                transition="scale-transition"
-               width="50"
+               width="30"
         ></v-img>
       </router-link>
     </v-app-bar>
@@ -23,5 +23,6 @@
   .login {
     height: 100%;
     background: url("https://picsum.photos/1920/1080");
+    overflow: hidden;
   }
 </style>

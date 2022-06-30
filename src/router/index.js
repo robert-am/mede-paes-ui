@@ -1,5 +1,6 @@
 import Vue from "vue"
 import Router from "vue-router";
+
 Vue.use(Router)
 
 export default new Router({
@@ -7,13 +8,13 @@ export default new Router({
         {
             path: "/",
             component: () => import('@/views/HomePage'),
-            meta:{
+            meta: {
                 layout: 'AppLayoutHome'
             }
         },
         {
             path: "/about",
-            component:() => import('@/views/AboutPage'),
+            component: () => import('@/views/AboutPage'),
             meta: {
                 layout: 'AppLayoutAbout'
             }
@@ -28,15 +29,34 @@ export default new Router({
         {
             path: "/paes",
             component: () => import('@/views/AppPage'),
-            meta:{
+            meta: {
                 layout: 'AppLayoutHome'
-            },
-            children: [
-                {path: "/paes/encuesta", component: import('@/views/HomePage') },
-            ]
+            }
         },
         {
-            path:"/:catchAll(.*)",
+            path: "/paes/poll",
+            component: () => import('@/views/PollPage'),
+            meta: {
+                layout: 'AppLayoutHome'
+            }
+        },
+        {
+            path: "/paes/designer",
+            component: () => import('@/views/DesignerPage'),
+            meta: {
+                layout: 'AppLayoutHome'
+            }
+        },
+        {
+            path: "/paes/users",
+            component: () => import('@/views/UserPage'),
+            meta: {
+                layout: 'AppLayoutHome'
+            }
+        },
+
+        {
+            path: "/:catchAll(.*)",
             component: () => import ('@/common/components/NotFoundComponent'),
             name: "NotFound"
         }

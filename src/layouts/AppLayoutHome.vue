@@ -2,12 +2,13 @@
   <div>
     <header class="header"></header>
     <AppLayoutsLinks></AppLayoutsLinks>
-    <slot/>
+    <div class="container">
+      <slot/>
+    </div>
   </div>
 </template>
 <script>
 import AppLayoutsLinks from "@/layouts/AppLayoutLinks";
-
 export default {
   name: "AppLayoutHome",
   components: {
@@ -16,5 +17,7 @@ export default {
 }
 </script>
 <style>
-
+.container{
+  margin-left: 60px;
+}
 </style>
