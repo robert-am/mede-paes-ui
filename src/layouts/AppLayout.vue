@@ -12,7 +12,7 @@
     computed: {
       layout(){
         const layout = this.$route.meta.layout || defautlLayout
-        return () => import(`/layouts/${layout}.vue`)
+        return () => import(`@/layouts/${layout}.vue`)
       }
     }
   }

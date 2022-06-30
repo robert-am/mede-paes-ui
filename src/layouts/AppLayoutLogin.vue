@@ -1,6 +1,16 @@
 <template>
-  <div>
-    <header class="header"></header>
+  <div class="login">
+    <v-app-bar app dark>
+      <router-link to="/">
+        <v-img alt="PAES Logo"
+               class="shrink mr-2"
+               contain
+               src="@/assets/logo.png"
+               transition="scale-transition"
+               width="50"
+        ></v-img>
+      </router-link>
+    </v-app-bar>
     <slot/>
   </div>
 </template>
@@ -9,4 +19,9 @@
   components: {}
 }
 </script>
-<style scoped></style>
+<style scoped>
+  .login {
+    height: 100%;
+    background: url("https://picsum.photos/1920/1080");
+  }
+</style>

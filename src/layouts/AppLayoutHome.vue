@@ -6,7 +6,7 @@
   </div>
 </template>
 <script>
-import AppLayoutsLinks from "@/layouts/AppLayoutsLinks";
+import AppLayoutsLinks from "@/layouts/AppLayoutLinks";
 
 export default {
   name: "AppLayoutHome",
