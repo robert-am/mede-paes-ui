@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "FO-GESR Observaciones Generales - Seguridad Alimentaria",
   "questions": [
     {
       "id": 1,
@@ -56,6 +56,181 @@
       "order": 1,
       "label": "Observaciones Generales",
       "options": [],
+      "answer": ""
+    },
+    {
+      "id": 8,
+      "type": "label",
+      "order": 1,
+      "label": "Inventario físico de dotación"
+    },
+    {
+      "id": 7,
+      "type": "option",
+      "order": 1,
+      "label": "1.1 ¿El contratista codifica los equipos, teniendo en cuenta la utilización de material resistente a la humedad que permita su visualización en todo momento?",
+      "options": [
+        "Cumple (C)",
+        "No Cumple (N.C)",
+        "No Observado (NO)",
+        "No Aplica (NA)"
+      ],
+      "answer": ""
+    },
+    {
+      "id": 8,
+      "type": "option",
+      "order": 1,
+      "label": "1.2 ¿El contratista cuenta con el inventario de equipos debidamente diligenciado y actualizado?",
+      "options": [
+        "Cumple (C)",
+        "No Cumple (N.C)",
+        "No Observado (NO)",
+        "No Aplica (NA)"
+      ],
+      "answer": ""
+    },
+    {
+      "id": 8,
+      "type": "option",
+      "order": 1,
+      "label": "1.2 ¿El contratista cuenta con el inventario de equipos debidamente diligenciado y actualizado?",
+      "options": [
+        "Cumple (C)",
+        "No Cumple (N.C)",
+        "No Observado (NO)",
+        "No Aplica (NA)"
+      ],
+      "answer": ""
+    },
+    {
+      "id": 8,
+      "type": "option",
+      "order": 1,
+      "label": "1.2 ¿El contratista cuenta con el inventario de equipos debidamente diligenciado y actualizado?",
+      "options": [
+        "Cumple (C)",
+        "No Cumple (N.C)",
+        "No Observado (NO)",
+        "No Aplica (NA)"
+      ],
+      "answer": ""
+    },
+    {
+      "id": 8,
+      "type": "option",
+      "order": 1,
+      "label": "1.2 ¿El contratista cuenta con el inventario de equipos debidamente diligenciado y actualizado?",
+      "options": [
+        "Cumple (C)",
+        "No Cumple (N.C)",
+        "No Observado (NO)",
+        "No Aplica (NA)"
+      ],
+      "answer": ""
+    },
+    {
+      "id": 8,
+      "type": "option",
+      "order": 1,
+      "label": "1.2 ¿El contratista cuenta con el inventario de equipos debidamente diligenciado y actualizado?",
+      "options": [
+        "Cumple (C)",
+        "No Cumple (N.C)",
+        "No Observado (NO)",
+        "No Aplica (NA)"
+      ],
+      "answer": ""
+    },
+    {
+      "id": 8,
+      "type": "option",
+      "order": 1,
+      "label": "1.2 ¿El contratista cuenta con el inventario de equipos debidamente diligenciado y actualizado?",
+      "options": [
+        "Cumple (C)",
+        "No Cumple (N.C)",
+        "No Observado (NO)",
+        "No Aplica (NA)"
+      ],
+      "answer": ""
+    },
+    {
+      "id": 8,
+      "type": "option",
+      "order": 1,
+      "label": "1.2 ¿El contratista cuenta con el inventario de equipos debidamente diligenciado y actualizado?",
+      "options": [
+        "Cumple (C)",
+        "No Cumple (N.C)",
+        "No Observado (NO)",
+        "No Aplica (NA)"
+      ],
+      "answer": ""
+    },
+    {
+      "id": 8,
+      "type": "option",
+      "order": 1,
+      "label": "1.2 ¿El contratista cuenta con el inventario de equipos debidamente diligenciado y actualizado?",
+      "options": [
+        "Cumple (C)",
+        "No Cumple (N.C)",
+        "No Observado (NO)",
+        "No Aplica (NA)"
+      ],
+      "answer": ""
+    },
+    {
+      "id": 8,
+      "type": "option",
+      "order": 1,
+      "label": "1.2 ¿El contratista cuenta con el inventario de equipos debidamente diligenciado y actualizado?",
+      "options": [
+        "Cumple (C)",
+        "No Cumple (N.C)",
+        "No Observado (NO)",
+        "No Aplica (NA)"
+      ],
+      "answer": ""
+    },
+    {
+      "id": 8,
+      "type": "option",
+      "order": 1,
+      "label": "1.2 ¿El contratista cuenta con el inventario de equipos debidamente diligenciado y actualizado?",
+      "options": [
+        "Cumple (C)",
+        "No Cumple (N.C)",
+        "No Observado (NO)",
+        "No Aplica (NA)"
+      ],
+      "answer": ""
+    },
+    {
+      "id": 8,
+      "type": "option",
+      "order": 1,
+      "label": "1.2 ¿El contratista cuenta con el inventario de equipos debidamente diligenciado y actualizado?",
+      "options": [
+        "Cumple (C)",
+        "No Cumple (N.C)",
+        "No Observado (NO)",
+        "No Aplica (NA)"
+      ],
+      "answer": ""
+    },
+    {
+      "id": 8,
+      "type": "check",
+      "order": 1,
+      "label": "1.2 ¿El contratista cuenta con el inventario de equipos debidamente diligenciado y actualizado?",
+      "options": [
+        "Cumple (C)",
+        "No Cumple (N.C)",
+        "No Observado (NO)",
+        "No Aplica (NA)"
+      ],
       "answer": ""
     },
     {

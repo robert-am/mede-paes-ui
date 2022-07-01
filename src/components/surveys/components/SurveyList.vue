@@ -38,6 +38,7 @@
     <v-dialog
         v-model="dialog"
         fullscreen
+        scrollable
         transition="dialog-bottom-transition"
     >
       <SurveyEdit></SurveyEdit>

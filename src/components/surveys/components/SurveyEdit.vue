@@ -3,6 +3,7 @@
     <v-toolbar
         dark
         color="primary"
+
     >
       <v-btn
           icon
@@ -11,7 +12,7 @@
       >
         <v-icon>mdi-close</v-icon>
       </v-btn>
-      <v-toolbar-title>{{ title }}</v-toolbar-title>
+      <v-toolbar-title>{{ survey.name }}</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items>
         <v-btn
@@ -25,6 +26,11 @@
     </v-toolbar>
     <v-card-text>
       <div class="form-row" v-for="(question, index ) in questions" :key="index">
+        <div v-if="question.type == 'label'">
+          <div>
+            <h2>{{question.label}}</h2>
+          </div>
+        </div>
         <div v-if="question.type == 'text'">
           <v-text-field :label="question.label" v-model="question.answer"></v-text-field>
         </div>
@@ -66,6 +72,16 @@
           <span>{{question.label}}</span>
           <vue-signature-pad width="400px" height="200px" :v-model="question.answer"></vue-signature-pad>
         </div>
+        <div v-if="question.type == 'check'">
+          <span>{{question.label}}</span>
+          <div v-for="(option, idx) in question.options " :key="idx">
+            <v-checkbox
+              v-model="option.answer"
+              :label="option"
+              hide-details
+          ></v-checkbox>
+          </div>
+        </div>
       </div>
     </v-card-text>
   </v-card>
@@ -79,6 +95,7 @@ export default {
   components: {},
   data: () => ({
     title: "Acta de Visita Supervisión General",
+    survey: survey,
     questions: survey.questions,
     /*questions: [
       {
