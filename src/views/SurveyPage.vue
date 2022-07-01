@@ -1,16 +1,16 @@
 <template>
   <div class="flex-grow-0">
-    <h2>Title</h2>
+    <h2 class="pa-4">Encuestas Disponibles</h2>
+    <SurveyList></SurveyList>
   </div>
 </template>
 <script>
+import SurveyList from "@/components/surveys/components/SurveyList";
 export default {
   name: "PollPage",
-  components: {},
+  components: {SurveyList},
   methods: {
-    login(){
-      console.log("Todo: Implement Service Login")
-    }
+
   }
 }
 </script>

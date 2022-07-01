@@ -27,28 +27,28 @@ export default new Router({
             }
         },
         {
-            path: "/paes",
+            path: "/survey",
             component: () => import('@/views/AppPage'),
             meta: {
                 layout: 'AppLayoutHome'
             }
         },
         {
-            path: "/paes/poll",
-            component: () => import('@/views/PollPage'),
+            path: "/survey/surveys",
+            component: () => import('@/views/SurveyPage'),
             meta: {
                 layout: 'AppLayoutHome'
             }
         },
         {
-            path: "/paes/designer",
-            component: () => import('@/views/DesignerPage'),
+            path: "/survey/designer",
+            component: () => import('@/views/SurveyDesigner'),
             meta: {
                 layout: 'AppLayoutHome'
             }
         },
         {
-            path: "/paes/users",
+            path: "/survey/users",
             component: () => import('@/views/UserPage'),
             meta: {
                 layout: 'AppLayoutHome'

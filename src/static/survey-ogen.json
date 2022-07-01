@@ -1,0 +1,94 @@
+{
+  "name": "",
+  "questions": [
+    {
+      "id": 1,
+      "type": "text",
+      "order": 1,
+      "label": "Contratista",
+      "options": [],
+      "answer": ""
+    },
+    {
+      "id": 2,
+      "type": "date",
+      "order": 1,
+      "label": "Fecha",
+      "options": [],
+      "answer": "",
+      "isEnable": "false"
+    },
+    {
+      "id": 3,
+      "type": "text",
+      "order": 1,
+      "label": "Sede",
+      "options": [],
+      "answer": ""
+    },
+    {
+      "id": 4,
+      "type": "text",
+      "order": 1,
+      "label": "Complemento",
+      "options": [],
+      "answer": ""
+    },
+    {
+      "id": 5,
+      "type": "text",
+      "order": 1,
+      "label": "Licitación Pública",
+      "options": [],
+      "answer": ""
+    },
+    {
+      "id": 6,
+      "type": "text",
+      "order": 1,
+      "label": "Dependencia",
+      "options": [],
+      "answer": ""
+    },
+    {
+      "id": 7,
+      "type": "textarea",
+      "order": 1,
+      "label": "Observaciones Generales",
+      "options": [],
+      "answer": ""
+    },
+    {
+      "id": 8,
+      "type": "text",
+      "order": 1,
+      "label": "Profesional",
+      "options": [],
+      "answer": ""
+    },
+    {
+      "id": 9,
+      "type": "signature",
+      "order": 1,
+      "label": "Firma Profesional",
+      "options": [],
+      "answer": ""
+    },
+    {
+      "id": 10,
+      "type": "text",
+      "order": 1,
+      "label": "Persona que recibe la socialización",
+      "options": [],
+      "answer": ""
+    },
+    {
+      "id": 11,
+      "type": "signature",
+      "order": 1,
+      "label": "Firma Persona que recibe la socialización",
+      "options": [],
+      "answer": ""
+    }
+  ]
+}

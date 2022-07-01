@@ -61,9 +61,9 @@ export default {
       mini: true,
       items: [
         {title: 'Home', icon: 'mdi-home-city' , path:"/"},
-        {title: 'Diseñador de Encuestas', icon: 'mdi-file-document-edit-outline', path:"/paes/designer"},
-        {title: 'Encuestas', icon: 'mdi-text-box-check-outline', path:"/paes/poll"},
-        {title: 'Usuarios', icon: 'mdi-account', path:"/paes/users"},
+        {title: 'Diseñador de Encuestas', icon: 'mdi-file-document-edit-outline', path:"/survey/designer"},
+        {title: 'Encuestas', icon: 'mdi-text-box-check-outline', path:"/survey/surveys"},
+        {title: 'Usuarios', icon: 'mdi-account', path:"/survey/users"},
       ],
     }
   },
