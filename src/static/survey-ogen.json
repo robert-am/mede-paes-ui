@@ -78,6 +78,36 @@
       "answer": ""
     },
     {
+      "id": 7,
+      "type": "multi-question",
+      "order": 1,
+      "label": "1.1 ¿El contratista codifica los equipos, teniendo en cuenta la utilización de material resistente a la humedad que permita su visualización en todo momento?",
+      "innerQuestions": [
+        {
+          "label": "CT",
+          "answer": ""
+        },
+        {
+          "label": "RI",
+          "answer": ""
+        },
+        {
+          "label": "VL",
+          "answer": ""
+        },
+        {
+          "label": "RC",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
       "id": 8,
       "type": "option",
       "order": 1,
@@ -89,6 +119,36 @@
         "No Aplica (NA)"
       ],
       "answer": ""
+    },
+    {
+      "id": 7,
+      "type": "multi-question",
+      "order": 1,
+      "label": "1.1 ¿El contratista codifica los equipos, teniendo en cuenta la utilización de material resistente a la humedad que permita su visualización en todo momento?",
+      "innerQuestions": [
+        {
+          "label": "CT",
+          "answer": ""
+        },
+        {
+          "label": "RI",
+          "answer": ""
+        },
+        {
+          "label": "VL",
+          "answer": ""
+        },
+        {
+          "label": "RC",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
     },
     {
       "id": 8,

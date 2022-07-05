@@ -28,7 +28,7 @@
       <div class="form-row" v-for="(question, index ) in questions" :key="index">
         <div v-if="question.type == 'label'">
           <div>
-            <h2>{{question.label}}</h2>
+            <h2>{{ question.label }}</h2>
           </div>
         </div>
         <div v-if="question.type == 'text'">
@@ -68,18 +68,34 @@
         <div v-if="question.type == 'textarea'">
           <v-textarea v-model="question.answer" :label="question.label"></v-textarea>
         </div>
-        <div v-if="question.type == 'signature'" >
-          <span>{{question.label}}</span>
+        <div v-if="question.type == 'signature'">
+          <span>{{ question.label }}</span>
           <vue-signature-pad width="400px" height="200px" :v-model="question.answer"></vue-signature-pad>
         </div>
         <div v-if="question.type == 'check'">
-          <span>{{question.label}}</span>
+          <span>{{ question.label }}</span>
           <div v-for="(option, idx) in question.options " :key="idx">
             <v-checkbox
-              v-model="option.answer"
-              :label="option"
-              hide-details
-          ></v-checkbox>
+                v-model="option.answer"
+                :label="option"
+                hide-details
+            ></v-checkbox>
+          </div>
+        </div>
+        <div v-if="question.type == 'multi-question'">
+          <div>
+            <v-row>
+              <v-col >
+                <span>{{ question.label }}</span>
+              </v-col>
+              <v-col v-for="(innerQuestion, idx) in question.innerQuestions" :key="idx">
+                <span>{{ innerQuestion.label }}</span>
+                <v-radio-group v-model="innerQuestion.answer">
+                  <v-radio v-for="(option, idx2) in question.options" :label="option" :value="option"
+                            :key="idx2"></v-radio>
+                </v-radio-group>
+              </v-col>
+            </v-row>
           </div>
         </div>
       </div>
@@ -124,7 +140,7 @@ export default {
 }
 </script>
 <style>
-  .signature{
-    border: 1px solid black;
-  }
+.signature {
+  border: 1px solid black;
+}
 </style>
