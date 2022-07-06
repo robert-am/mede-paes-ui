@@ -1,0 +1,1168 @@
+{
+    "name": "FO-GESR Acta de Visita de Supervisión General en Establecimiento Educativo – Seguridad Alimentaria",
+    "questions": [
+        {
+            "id": 1,
+            "type": "text",
+            "order": 1,
+            "label": "Contratista",
+            "options": [],
+            "answer": "",
+            "isEnabled": "false"
+        },
+        {
+          "id": 2,
+          "type": "text",
+          "order": 1,
+          "label": "Codigo",
+          "options": [],
+          "answer": "",
+          "isEnabled": "false"
+        },
+        {
+          "id": 3,
+          "type": "label",
+          "order": 1,
+          "label": "Espacio Intervenido"
+        },
+        {
+          "id": 4,
+          "type": "text",
+          "order": 1,
+          "label": "Establecimiento Educativo",
+          "options": [],
+          "answer": "",
+          "isEnabled": "false"
+        },
+        {
+          "id": 5,
+          "type": "text",
+          "order": 1,
+          "label": "Direccion",
+          "options": [],
+          "answer": "",
+          "isEnabled": "false"
+        },
+        {
+          "id": 6,
+          "type": "option",
+          "order": 1,
+          "label": "Concepto de Secretaria de Salud - R.P.S.",
+          "options": [
+            "No Tiene",
+            "Favorable",
+            "Condicionado"
+          ],
+          "answer": ""
+        },
+        {
+          "id": 7,
+          "type": "date",
+          "order": 1,
+          "label": "Fecha de la visita - R.P.S.",
+          "options": [],
+          "answer": "",
+          "isEnable": "false"
+        },
+
+        {
+          "id": 8,
+          "type": "option",
+          "order": 1,
+          "label": "Concepto de Secretaria de Salud - R.C.",
+          "options": [
+            "No Tiene",
+            "Favorable",
+            "Condicionado"
+          ],
+          "answer": ""
+        },
+        {
+          "id": 9,
+          "type": "date",
+          "order": 1,
+          "label": "Fecha de la visita - R.C.",
+          "options": [],
+          "answer": "",
+          "isEnable": "false"
+        },
+
+        {
+          "id": 10,
+          "type": "option",
+          "order": 1,
+          "label": "Concepto de Secretaria de Salud - R.I.",
+          "options": [
+            "No Tiene",
+            "Favorable",
+            "Condicionado"
+          ],
+          "answer": ""
+        },
+        {
+          "id": 11,
+          "type": "date",
+          "order": 1,
+          "label": "Fecha de la visita - R.I.",
+          "options": [],
+          "answer": "",
+          "isEnable": "false"
+        },
+
+        {
+          "id": 12,
+          "type": "option",
+          "order": 1,
+          "label": "Concepto de Secretaria de Salud - V.I.",
+          "options": [
+            "No Tiene",
+            "Favorable",
+            "Condicionado"
+          ],
+          "answer": ""
+        },
+        {
+          "id": 13,
+          "type": "date",
+          "order": 1,
+          "label": "Fecha de la visita",
+          "options": [],
+          "answer": "",
+          "isEnable": "false"
+        },
+        {
+          "id": 14,
+          "type": "text",
+          "order": 1,
+          "label": "Operador(es):",
+          "options": [],
+          "answer": "",
+          "isEnabled": "false"
+        },
+        {
+          "id": 15,
+          "type": "text",
+          "order": 1,
+          "label": "U.T PAE 2022",
+          "options": [],
+          "answer": "",
+          "isEnabled": "false"
+        },
+        {
+          "id": 16,
+          "type": "label",
+          "order": 1,
+          "label": "Visita"
+        },
+        {
+          "id": 17,
+          "type": "label",
+          "order": 1,
+          "label": " Registre la fecha según directriz previa, seleccione con 'SI' sí la visita es Efectiva. Registre hora de inicio y finalización de la visita. Diligencie con un 'SI' el Tipo de Complemento o complementos a evaluar en el E.E y "
+        },
+        {
+          "id": 18,
+          "type": "label",
+          "order": 1,
+          "label": " registre según las modalidades de atención el Número de titulares de derecho programados según grupo poblacional (grados escolares: Transición, 1 a 3; 4 a 5, 6 a 9, 10 a 11), informe que Semana y Menú se ejecuta el día "
+        },
+        {
+          "id": 19,
+          "type": "label",
+          "order": 1,
+          "label": " de la visita para cada Complemento. Esta información está sujeta a cambios de acuerdo a los pliegos de cada licitación del programa de Alimentación PAE"
+        },
+        {
+          "id": 20,
+          "type": "date",
+          "order": 1,
+          "label": "Fecha de la visita",
+          "options": [],
+          "answer": "",
+          "isEnable": "false"
+        },
+        {
+          "id": 21,
+          "type": "text",
+          "order": 1,
+          "label": "Hora Inicio de la Visita",
+          "options": [],
+          "answer": "",
+          "isEnabled": "false"
+        },
+        {
+          "id": 22,
+          "type": "text",
+          "order": 1,
+          "label": "Hora Finalizacion de la Visita",
+          "options": [],
+          "answer": "",
+          "isEnabled": "false"
+        },
+        {
+          "id": 23,
+          "type": "option",
+          "order": 1,
+          "label": "Visita Efectiva",
+          "options": [
+            "SI",
+            "NO"
+          ],
+          "answer": ""
+        },
+        {
+          "id": 24,
+          "type": "label",
+          "order": 1,
+          "label": "Complemento(s)"
+        },
+        {
+          "id": 25,
+          "type": "option",
+          "order": 1,
+          "label": "Complemento tipo Almuerzo",
+          "options": [
+            "SI",
+            "NO"
+          ],
+          "answer": "",
+          "isEnabled": "false"
+        },
+        {
+          "id": 26,
+          "type": "label",
+          "order": 1,
+          "label": "Numero de Beneficiarios por Complemento"
+        },
+        {
+          "id": 27,
+          "type": "text",
+          "order": 1,
+          "label": "Transicion",
+          "options": [],
+          "answer": "",
+          "isEnabled": "false"
+        },
+        {
+          "id": 28,
+          "type": "text",
+          "order": 1,
+          "label": "Primero a Tercero (1ero a 3ro)",
+          "options": [],
+          "answer": "",
+          "isEnabled": "false"
+        },
+        {
+          "id": 29,
+          "type": "text",
+          "order": 1,
+          "label": "Cuato a Quinto (4to a 5to)",
+          "options": [],
+          "answer": "",
+          "isEnabled": "false"
+        },
+        {
+          "id": 30,
+          "type": "text",
+          "order": 1,
+          "label": "Sexto a Noveno (6to a 9no)",
+          "options": [],
+          "answer": "",
+          "isEnabled": "false"
+        },
+        {
+          "id": 31,
+          "type": "text",
+          "order": 1,
+          "label": "Decimo a Once (10mo a 11) ",
+          "options": [],
+          "answer": "",
+          "isEnabled": "false"
+        },
+        {
+          "id": 32,
+          "type": "text",
+          "order": 1,
+          "label": "Semana del dia de la visita",
+          "options": [],
+          "answer": "",
+          "isEnabled": "false"
+        },
+        {
+          "id": 33,
+          "type": "text",
+          "order": 1,
+          "label": "Menú del dia de la visita",
+          "options": [],
+          "answer": "",
+          "isEnabled": "false"
+        },
+        {
+          "id": 34,
+          "type": "label",
+          "order": 1,
+          "label": "Complemento"
+        },
+        {
+          "id": 35,
+          "type": "option",
+          "order": 1,
+          "label": "Racion Industrializada",
+          "options": [
+            "SI",
+            "NO"
+          ],
+          "answer": "",
+          "isEnabled": "false"
+        },
+        {
+          "id": 36,
+          "type": "label",
+          "order": 1,
+          "label": "Numero de Beneficiarios por Complemento"
+        },
+        {
+          "id": 37,
+          "type": "text",
+          "order": 1,
+          "label": "Transicion",
+          "options": [],
+          "answer": "",
+          "isEnabled": "false"
+        },
+        {
+          "id": 38,
+          "type": "text",
+          "order": 1,
+          "label": "Primero a Tercero (1ero a 3ro)",
+          "options": [],
+          "answer": "",
+          "isEnabled": "false"
+        },
+        {
+          "id": 39,
+          "type": "text",
+          "order": 1,
+          "label": "Cuato a Quinto (4to a 5to)",
+          "options": [],
+          "answer": "",
+          "isEnabled": "false"
+        },
+        {
+          "id": 40,
+          "type": "text",
+          "order": 1,
+          "label": "Sexto a Noveno (6to a 9no)",
+          "options": [],
+          "answer": "",
+          "isEnabled": "false"
+        },
+        {
+          "id": 41,
+          "type": "text",
+          "order": 1,
+          "label": "Decimo a Once (10mo a 11) ",
+          "options": [],
+          "answer": "",
+          "isEnabled": "false"
+        },
+        {
+          "id": 42,
+          "type": "text",
+          "order": 1,
+          "label": "Semana del dia de la visita",
+          "options": [],
+          "answer": "",
+          "isEnabled": "false"
+        },
+        {
+          "id": 43,
+          "type": "text",
+          "order": 1,
+          "label": "Menú del dia de la visita",
+          "options": [],
+          "answer": "",
+          "isEnabled": "false"
+        },
+        {
+          "id": 44,
+          "type": "label",
+          "order": 1,
+          "label": "Complemento"
+        },
+        {
+          "id": 45,
+          "type": "option",
+          "order": 1,
+          "label": "Vaso de Leche",
+          "options": [
+            "SI",
+            "NO"
+          ],
+          "answer": "",
+          "isEnabled": "false"
+        },
+        {
+          "id": 46,
+          "type": "label",
+          "order": 1,
+          "label": "Numero de Beneficiarios por Complemento"
+        },
+        {
+          "id": 47,
+          "type": "text",
+          "order": 1,
+          "label": "Transicion",
+          "options": [],
+          "answer": "",
+          "isEnabled": "false"
+        },
+        {
+          "id": 48,
+          "type": "text",
+          "order": 1,
+          "label": "Primero a Tercero (1ero a 3ro)",
+          "options": [],
+          "answer": "",
+          "isEnabled": "false"
+        },
+        {
+          "id": 49,
+          "type": "text",
+          "order": 1,
+          "label": "Cuato a Quinto (4to a 5to)",
+          "options": [],
+          "answer": "",
+          "isEnabled": "false"
+        },
+        {
+          "id": 50,
+          "type": "text",
+          "order": 1,
+          "label": "Sexto a Noveno (6to a 9no)",
+          "options": [],
+          "answer": "",
+          "isEnabled": "false"
+        },
+        {
+          "id": 51,
+          "type": "text",
+          "order": 1,
+          "label": "Decimo a Once (10mo a 11) ",
+          "options": [],
+          "answer": "",
+          "isEnabled": "false"
+        },
+        {
+          "id": 52,
+          "type": "text",
+          "order": 1,
+          "label": "Semana del dia de la visita",
+          "options": [],
+          "answer": "",
+          "isEnabled": "false"
+        },
+        {
+          "id": 53,
+          "type": "text",
+          "order": 1,
+          "label": "Menú del dia de la visita",
+          "options": [],
+          "answer": "",
+          "isEnabled": "false"
+        },
+        {
+          "id": 54,
+          "type": "label",
+          "order": 1,
+          "label": "Complemento"
+        },
+        {
+          "id": 55,
+          "type": "option",
+          "order": 1,
+          "label": "Racion de Contingencia",
+          "options": [
+            "SI",
+            "NO"
+          ],
+          "answer": "",
+          "isEnabled": "false"
+        },
+        {
+          "id": 56,
+          "type": "label",
+          "order": 1,
+          "label": "Numero de Beneficiarios por Complemento"
+        },
+        {
+          "id": 57,
+          "type": "text",
+          "order": 1,
+          "label": "Transicion",
+          "options": [],
+          "answer": "",
+          "isEnabled": "false"
+        },
+        {
+          "id": 58,
+          "type": "text",
+          "order": 1,
+          "label": "Primero a Tercero (1ero a 3ro)",
+          "options": [],
+          "answer": "",
+          "isEnabled": "false"
+        },
+        {
+          "id": 59,
+          "type": "text",
+          "order": 1,
+          "label": "Cuato a Quinto (4to a 5to)",
+          "options": [],
+          "answer": "",
+          "isEnabled": "false"
+        },
+        {
+          "id": 60,
+          "type": "text",
+          "order": 1,
+          "label": "Sexto a Noveno (6to a 9no)",
+          "options": [],
+          "answer": "",
+          "isEnabled": "false"
+        },
+        {
+          "id": 61,
+          "type": "text",
+          "order": 1,
+          "label": "Decimo a Once (10mo a 11) ",
+          "options": [],
+          "answer": "",
+          "isEnabled": "false"
+        },
+        {
+          "id": 62,
+          "type": "text",
+          "order": 1,
+          "label": "Semana del dia de la visita",
+          "options": [],
+          "answer": "",
+          "isEnabled": "false"
+        },
+        {
+          "id": 63,
+          "type": "text",
+          "order": 1,
+          "label": "Menú del dia de la visita",
+          "options": [],
+          "answer": "",
+          "isEnabled": "false"
+        },
+        {
+          "id": 64,
+          "type": "label",
+          "order": 1,
+          "label": "Lista de Chequeo"
+        },    
+        {
+          "id": 65,
+          "type": "label",
+          "order": 1,
+          "label": "Responda a cada una de los Títulos de Preguntas Orientadoras en los siguientes términos: Cumple con la letra (C), No cumple (N.C), No observado (NO) o No Aplica (NA). Debe respetar la"
+        }, 
+        {
+          "id": 66,
+          "type": "label",
+          "order": 1,
+          "label": "casilla descrita para cada modalidad de atención Complemento tipo almuerzo (CTA), Ración Industrializada (RI), Vaso de Leche (VL) y ración de contingencia (RC)"
+        },
+        {
+          "id": 67,
+          "type": "label",
+          "order": 1,
+          "label": "Inventario físico de dotación"
+        },
+        {
+          "id": 68,
+          "type": "multi-question",
+          "order": 1,
+          "label": "1.1 ¿El contratista codifica los equipos, teniendo en cuenta la utilización de material resistente a la humedad que permita su visualización en todo momento?",
+          "innerQuestions": [
+            {
+              "label": "CTA",
+              "answer": ""
+            },
+            {
+              "label": "RI",
+              "answer": ""
+            },
+            {
+              "label": "VL",
+              "answer": ""
+            },
+            {
+              "label": "RC",
+              "answer": ""
+            }
+          ],
+          "options": [
+            "C",
+            "N.C",
+            "NO",
+            "NA"
+          ]
+        },
+        {
+          "id": 69,
+          "type": "multi-question",
+          "order": 1,
+          "label": "1.2 ¿El contratista cuenta con el inventario de equipos debidamente diligenciado y actualizado?",
+          "innerQuestions": [
+            {
+              "label": "CTA",
+              "answer": ""
+            },
+            {
+              "label": "RI",
+              "answer": ""
+            },
+            {
+              "label": "VL",
+              "answer": ""
+            },
+            {
+              "label": "RC",
+              "answer": ""
+            }
+          ],
+          "options": [
+            "C",
+            "N.C",
+            "NO",
+            "NA"
+          ]
+        },
+        {
+          "id": 70,
+          "type": "label",
+          "order": 1,
+          "label": "Mantenimiento de Equipos"
+        },
+        {
+          "id": 71,
+          "type": "multi-question",
+          "order": 1,
+          "label": "2.1 ¿El contratista cuenta con el Cronograma por Establecimiento Educativo y fecha de ejecución de Mantenimientos Preventivos, igualmente se actualiza la información cuando se realiza dicho mantenimiento?",
+          "innerQuestions": [
+            {
+              "label": "CTA",
+              "answer": ""
+            },
+            {
+              "label": "RI",
+              "answer": ""
+            },
+            {
+              "label": "VL",
+              "answer": ""
+            },
+            {
+              "label": "RC",
+              "answer": ""
+            }
+          ],
+          "options": [
+            "C",
+            "N.C",
+            "NO",
+            "NA"
+          ]
+        },
+        {
+          "id": 72,
+          "type": "multi-question",
+          "order": 1,
+          "label": "2.2 ¿El contratista cuenta en su documentación, con el Plan de mantenimiento?",
+          "innerQuestions": [
+            {
+              "label": "CTA",
+              "answer": ""
+            },
+            {
+              "label": "RI",
+              "answer": ""
+            },
+            {
+              "label": "VL",
+              "answer": ""
+            },
+            {
+              "label": "RC",
+              "answer": ""
+            }
+          ],
+          "options": [
+            "C",
+            "N.C",
+            "NO",
+            "NA"
+          ]
+        }
+        ,
+        {
+          "id": 73,
+          "type": "multi-question",
+          "order": 1,
+          "label": "2.3 ¿El contratista utiliza los formatos de calidad establecidos por el ESAN, para el diligenciamiento de hojas de vida, fichas técnicas, e inventario de equipos?",
+          "innerQuestions": [
+            {
+              "label": "CTA",
+              "answer": ""
+            },
+            {
+              "label": "RI",
+              "answer": ""
+            },
+            {
+              "label": "VL",
+              "answer": ""
+            },
+            {
+              "label": "RC",
+              "answer": ""
+            }
+          ],
+          "options": [
+            "C",
+            "N.C",
+            "NO",
+            "NA"
+          ]
+        },
+        {
+          "id": 74,
+          "type": "label",
+          "order": 1,
+          "label": "Mantenimiento preventivo"
+        },
+        {
+          "id": 75,
+          "type": "multi-question",
+          "order": 1,
+          "label": "3.1 ¿El contratista ejecuta los mantenimientos preventivos en la fecha programada, y levanta la información detallada en la hoja de vida de cada uno de los equipos, al igual que en la ficha técnica cuando requiere ser actualizada?",
+          "innerQuestions": [
+            {
+              "label": "CTA",
+              "answer": ""
+            },
+            {
+              "label": "RI",
+              "answer": ""
+            },
+            {
+              "label": "VL",
+              "answer": ""
+            },
+            {
+              "label": "RC",
+              "answer": ""
+            }
+          ],
+          "options": [
+            "C",
+            "N.C",
+            "NO",
+            "NA"
+          ]
+        },
+        {
+          "id": 76,
+          "type": "multi-question",
+          "order": 1,
+          "label": "3.2 ¿Las fichas técnicas y hojas de vida de los equipos están debidamente diligenciadas, y corresponden a los equipos del comedor escolar y fechas de la licitación vigente?",
+          "innerQuestions": [
+            {
+              "label": "CTA",
+              "answer": ""
+            },
+            {
+              "label": "RI",
+              "answer": ""
+            },
+            {
+              "label": "VL",
+              "answer": ""
+            },
+            {
+              "label": "RC",
+              "answer": ""
+            }
+          ],
+          "options": [
+            "C",
+            "N.C",
+            "NO",
+            "NA"
+          ]
+        },
+        {
+          "id": 77,
+          "type": "multi-question",
+          "order": 1,
+          "label": "3.3 ¿El contratista realiza el mantenimiento de pintura de equipos, de acuerdo al proceso de: limpieza, lijado, fosfatado, aplicación de anticorrosivo y uniformidad de pintura que garantice la buena presentación del equipo, como lo indican las especificaciones técnicas?",
+          "innerQuestions": [
+            {
+              "label": "CTA",
+              "answer": ""
+            },
+            {
+              "label": "RI",
+              "answer": ""
+            },
+            {
+              "label": "VL",
+              "answer": ""
+            },
+            {
+              "label": "RC",
+              "answer": ""
+            }
+          ],
+          "options": [
+            "C",
+            "N.C",
+            "NO",
+            "NA"
+          ]
+        },
+        {
+          "id": 78,
+          "type": "multi-question",
+          "order": 1,
+          "label": "3.4 ¿El contratista realiza los mantenimientos preventivos a los equipos del comedor escolar, de acuerdo a los lineamientos de los numerales 9.2.3 y 10.3 del pliego de condiciones?",
+          "innerQuestions": [
+            {
+              "label": "CTA",
+              "answer": ""
+            },
+            {
+              "label": "RI",
+              "answer": ""
+            },
+            {
+              "label": "VL",
+              "answer": ""
+            },
+            {
+              "label": "RC",
+              "answer": ""
+            }
+          ],
+          "options": [
+            "C",
+            "N.C",
+            "NO",
+            "NA"
+          ]
+        },
+        {
+          "id": 79,
+          "type": "label",
+          "order": 1,
+          "label": "Mantenimiento Correctivo"
+        },
+        {
+          "id": 80,
+          "type": "multi-question",
+          "order": 1,
+          "label": "4.1 ¿El contratista realiza los mantenimientos correctivos dentro del plazo establecido en el pliego, 5 días hábiles escolares?",
+          "innerQuestions": [
+            {
+              "label": "CTA",
+              "answer": ""
+            },
+            {
+              "label": "RI",
+              "answer": ""
+            },
+            {
+              "label": "VL",
+              "answer": ""
+            },
+            {
+              "label": "RC",
+              "answer": ""
+            }
+          ],
+          "options": [
+            "C",
+            "N.C",
+            "NO",
+            "NA"
+          ]
+        },
+        {
+          "id": 81,
+          "type": "multi-question",
+          "order": 1,
+          "label": "4.2 ¿El contratista Informa el retiro de un equipo cuando la reparación de este lo requiera, y garantiza la disponibilidad de un equipo en óptimas condiciones que garantice la prestación del servicio?",
+          "innerQuestions": [
+            {
+              "label": "CTA",
+              "answer": ""
+            },
+            {
+              "label": "RI",
+              "answer": ""
+            },
+            {
+              "label": "VL",
+              "answer": ""
+            },
+            {
+              "label": "RC",
+              "answer": ""
+            }
+          ],
+          "options": [
+            "C",
+            "N.C",
+            "NO",
+            "NA"
+          ]
+        },
+        {
+          "id": 82,
+          "type": "multi-question",
+          "order": 1,
+          "label": "4.3 ¿Si en el mantenimiento preventivo se detectan fallas del equipo que requieran una acción correctiva, el contratista las repara dentro de 5 días hábiles escolares, como lo indica el pliego?",
+          "innerQuestions": [
+            {
+              "label": "CTA",
+              "answer": ""
+            },
+            {
+              "label": "RI",
+              "answer": ""
+            },
+            {
+              "label": "VL",
+              "answer": ""
+            },
+            {
+              "label": "RC",
+              "answer": ""
+            }
+          ],
+          "options": [
+            "C",
+            "N.C",
+            "NO",
+            "NA"
+          ]
+        },
+        {
+          "id": 83,
+          "type": "multi-question",
+          "order": 1,
+          "label": "4.4 ¿El funcionamiento de los equipos se encuentra en óptimas condiciones?",
+          "innerQuestions": [
+            {
+              "label": "CTA",
+              "answer": ""
+            },
+            {
+              "label": "RI",
+              "answer": ""
+            },
+            {
+              "label": "VL",
+              "answer": ""
+            },
+            {
+              "label": "RC",
+              "answer": ""
+            }
+          ],
+          "options": [
+            "C",
+            "N.C",
+            "NO",
+            "NA"
+          ]
+        },
+        {
+          "id": 84,
+          "type": "multi-question",
+          "order": 1,
+          "label": "4.5 ¿En términos generales, los mantenimientos correctivos se evidencian bien realizados?",
+          "innerQuestions": [
+            {
+              "label": "CTA",
+              "answer": ""
+            },
+            {
+              "label": "RI",
+              "answer": ""
+            },
+            {
+              "label": "VL",
+              "answer": ""
+            },
+            {
+              "label": "RC",
+              "answer": ""
+            }
+          ],
+          "options": [
+            "C",
+            "N.C",
+            "NO",
+            "NA"
+          ]
+        },
+        {
+          "id": 85,
+          "type": "multi-question",
+          "order": 1,
+          "label": "4.6 ¿La estructura de los equipos se evidencia en buenas condiciones, sin golpes significativos o partes rotas?",
+          "innerQuestions": [
+            {
+              "label": "CTA",
+              "answer": ""
+            },
+            {
+              "label": "RI",
+              "answer": ""
+            },
+            {
+              "label": "VL",
+              "answer": ""
+            },
+            {
+              "label": "RC",
+              "answer": ""
+            }
+          ],
+          "options": [
+            "C",
+            "N.C",
+            "NO",
+            "NA"
+          ]
+        },
+        {
+          "id": 86,
+          "type": "label",
+          "order": 1,
+          "label": "Dotación de equipos de medición          "
+        },
+        {
+          "id": 7,
+          "type": "multi-question",
+          "order": 1,
+          "label": "5.1 ¿El Contratista ubica equipos de medición que permiten calibración, y repone aquellos que requieren ser cambiados?",
+          "innerQuestions": [
+            {
+              "label": "CTA",
+              "answer": ""
+            },
+            {
+              "label": "RI",
+              "answer": ""
+            },
+            {
+              "label": "VL",
+              "answer": ""
+            },
+            {
+              "label": "RC",
+              "answer": ""
+            }
+          ],
+          "options": [
+            "C",
+            "N.C",
+            "NO",
+            "NA"
+          ]
+        },
+        {
+          "id": 87,
+          "type": "textarea",
+          "order": 1,
+          "label": "Notas de Apoyo",
+          "options": [],
+          "answer": ""
+        },
+        {
+          "id": 88,
+          "type": "text",
+          "order": 1,
+          "label": "Visita N° ",
+          "options": [],
+          "answer": ""
+        },
+        {
+          "id": 89,
+          "type": "option",
+          "order": 1,
+          "label": "Modalidad",
+          "options": [
+            " C.T.A (Complemento tipo almuerzo)",
+            " R.I (Ración Industrializada)",
+            " V.L (Vaso de Leche)",
+            " R.C (Racion Contingente)"
+          ],
+          "answer": ""
+        },
+        {
+          "id": 90,
+          "type": "text",
+          "order": 1,
+          "label": "Nombre del Interventor",
+          "options": [],
+          "answer": ""
+        },
+        {
+          "id": 91,
+          "type": "signature",
+          "order": 1,
+          "label": "Firma interventor",
+          "options": [],
+          "answer": ""
+        },
+        {
+          "id": 92,
+          "type": "text",
+          "order": 1,
+          "label": "Cedula",
+          "options": [],
+          "answer": ""
+        },
+        {
+          "id": 93,
+          "type": "text",
+          "order": 1,
+          "label": "Nombre de Quien Recibe la Socializacion",
+          "options": [],
+          "answer": ""
+        },
+        {
+          "id": 94,
+          "type": "signature",
+          "order": 1,
+          "label": "Firma de Quien Recibe la Socializacion",
+          "options": [],
+          "answer": ""
+        },
+        {
+          "id": 95,
+          "type": "text",
+          "order": 1,
+          "label": "Cedula de Quien Recibe la Socializacion",
+          "options": [],
+          "answer": ""
+        }
+    ]
+}
