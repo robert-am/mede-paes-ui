@@ -26,9 +26,19 @@
     </v-toolbar>
     <v-card-text>
       <div class="form-row" v-for="(question, index ) in questions" :key="index">
-        <div v-if="question.type == 'label'">
+        <div v-if="question.type == 'title'">
           <div>
             <h2>{{ question.label }}</h2>
+          </div>
+        </div>
+        <div v-if="question.type == 'subtitle'">
+          <div>
+            <h3>{{ question.label }}</h3>
+          </div>
+        </div>
+        <div v-if="question.type == 'label'">
+          <div style="text-align: center">
+            <h4>{{ question.label }}</h4>
           </div>
         </div>
         <div v-if="question.type == 'text'">
@@ -98,21 +108,38 @@
             </v-row>
           </div>
         </div>
+        <div v-if="question.type == 'table'">
+          <div>
+            <v-ro>
+              <v-col>
+                <v-data-table
+                    :headers="question.headers"
+                    :items="question.answers"
+                >
+
+                </v-data-table>
+              </v-col>
+            </v-ro>
+          </div>
+
+        </div>
       </div>
     </v-card-text>
   </v-card>
 </template>
 <script>
-import survey from '@/static/survey-ogen.json';
+//import survey from '@/static/survey-avsplanta.json';
 
 export default {
   name: "SurveyEdit",
-  props: {},
+  props: {
+    surveyName: String
+  },
   components: {},
   data: () => ({
     title: "Acta de Visita Supervisión General",
-    survey: survey,
-    questions: survey.questions,
+    survey: {},
+    questions: [],
     /*questions: [
       {
         id: 1,
@@ -136,6 +163,13 @@ export default {
       }
     ]*/
   }),
+  created() {
+    import(`@/static/${this.surveyName}`).then(survey => {
+      this.survey = survey;
+      this.questions = survey.questions
+    })
+
+  },
   methods: {}
 }
 </script>

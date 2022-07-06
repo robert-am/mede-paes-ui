@@ -1,172 +1,233 @@
 {
-    "name": "FO-GESR Acta de Visita de Supervisión en Planta o Bodega - Seguridad Alimentaria",
-    "questions": [ 
+  "name": "FO-GESR Acta de Visita de Supervisión en Planta o Bodega - Seguridad Alimentaria",
+  "questions": [
+    {
+      "id": 1,
+      "type": "text",
+      "order": 1,
+      "label": "Contratista",
+      "options": [],
+      "answer": ""
+    },
+    {
+      "id": 2,
+      "type": "text",
+      "order": 1,
+      "label": "Operador",
+      "options": [],
+      "answer": ""
+    },
+    {
+      "id": 3,
+      "type": "text",
+      "order": 1,
+      "label": "Codigo",
+      "options": [],
+      "answer": ""
+    },
+    {
+      "id": 4,
+      "type": "text",
+      "order": 1,
+      "label": "Bodega1",
+      "options": [],
+      "answer": ""
+    },
+    {
+      "id": 4,
+      "type": "text",
+      "order": 1,
+      "label": "Bodega2",
+      "options": [],
+      "answer": ""
+    },
+    {
+      "id": 5,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Modalidad de Atencion",
+      "innerQuestions": [
         {
-            "id": 1,
-            "type": "text",
-            "order": 1,
-            "label": "Contratista",
-            "options": [],
-            "answer": ""
-          },
-          {
-            "id": 2,
-            "type": "text",
-            "order": 1,
-            "label": "Operador",
-            "options": [],
-            "answer": ""
-          },
-          {
-            "id": 3,
-            "type": "text",
-            "order": 1,
-            "label": "Codigo",
-            "options": [],
-            "answer": ""
-          },
-          {
-            "id": 4,
-            "type": "text",
-            "order": 1,
-            "label": "Bodega",
-            "options": [],
-            "answer": ""
-          },
-          {
-            "id": 5,
-            "type": "multi-question",
-            "order": 1,
-            "label": "Modalidad de Atencion",
-            "innerQuestions": [
-              {
-                "label": "Complemento Tipo Almuerzo",
-                "answer": ""
-              },
-              {
-                "label": "Racion Industrializada",
-                "answer": ""
-              },
-              {
-                "label": "Vaso de Leche",
-                "answer": ""
-              },
-              {
-                "label": "Racion de Contingencia",
-                "answer": ""
-              }
-            ],
-            "options": [
-              "SI",
-              "NO"
-            ]
-          },
-          {
-            "id": 6,
-            "type": "option",
-            "order": 1,
-            "label": "Concepto de Secretaria de Salud o INVIMA",
-            "options": [
-              "No Tiene",
-              "Favorable",
-              "Condicionado"
-            ],
-            "answer": ""
-          },
-          {
-            "id": 7,
-            "type": "date",
-            "order": 1,
-            "label": "Fecha de Concepto",
-            "options": [],
-            "answer": ""
-          },
-          {
-            "id": 8,
-            "type": "text",
-            "order": 1,
-            "label": "Periodo o Mes Evaluado",
-            "options": [],
-            "answer": ""
-          },
-          {
-            "id": 9,
-            "type": "text",
-            "order": 1,
-            "label": "Nombre del Supervisor",
-            "options": [],
-            "answer": ""
-          },
-          {
-            "id": 10,
-            "type": "label",
-            "order": 1,
-            "label": "Procesos Realizados"
-          },
-          {
-            "id": 11,
-            "type": "date",
-            "order": 1,
-            "label": "Fecha de Visita",
-            "options": [],
-            "answer": ""
-          },
-          {
-            "id": 12,
-            "type": "text",
-            "order": 1,
-            "label": "Verificacion de Materia Prima",
-            "options": [],
-            "answer": ""
-          },
-          {
-            "id": 13,
-            "type": "text",
-            "order": 1,
-            "label": "Condiociones Higienico-Sanitarias",
-            "options": [],
-            "answer": ""
-          },
-          {
-            "id": 14,
-            "type": "text",
-            "order": 1,
-            "label": "Socializacion de Hallazgos ",
-            "options": [],
-            "answer": ""
-          },
-          {
-            "id": 15,
-            "type": "text",
-            "order": 1,
-            "label": "Control Metrologico",
-            "options": [],
-            "answer": ""
-          },
-          {
-            "id": 16,
-            "type": "text",
-            "order": 1,
-            "label": "Seguimiento a Personal o Vehiculos",
-            "options": [],
-            "answer": ""
-          },
-          {
-            "id": 17,
-            "type": "text",
-            "order": 1,
-            "label": "Regostro de la Bitacora",
-            "options": [],
-            "answer": ""
-          },
-          {
-            "id": 18,
-            "type": "text",
-            "order": 1,
-            "label": "Rastreo Fisico-Quimico o Microbilogico",
-            "options": [],
-            "answer": ""
-          }
-
-    ]
+          "label": "Complemento Tipo Almuerzo",
+          "answer": ""
+        },
+        {
+          "label": "Racion Industrializada",
+          "answer": ""
+        },
+        {
+          "label": "Racion de Contingencia",
+          "answer": ""
+        },
+        {
+          "label": "Vaso de Leche",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "SI",
+        "NO"
+      ]
+    },
+    {
+      "id": 6,
+      "type": "option",
+      "order": 1,
+      "label": "Concepto de Secretaria de Salud o INVIMA",
+      "options": [
+        "No Tiene",
+        "Favorable",
+        "Condicionado"
+      ],
+      "answer": ""
+    },
+    {
+      "id": 7,
+      "type": "date",
+      "order": 1,
+      "label": "Fecha de Concepto",
+      "options": [],
+      "answer": ""
+    },
+    {
+      "id": 8,
+      "type": "text",
+      "order": 1,
+      "label": "Periodo o Mes Evaluado",
+      "options": [],
+      "answer": ""
+    },
+    {
+      "id": 9,
+      "type": "text",
+      "order": 1,
+      "label": "Nombre del Supervisor",
+      "options": [],
+      "answer": ""
+    },
+    {
+      "id": 10,
+      "type": "label",
+      "order": 1,
+      "label": "Procesos Realizados"
+    },
+    {
+      "id": 11,
+      "type": "table",
+      "order": "1",
+      "label": "Procesos Realizados",
+      "headers": [
+        {
+          "text": "Fecha de Visita",
+          "value": "Fecha de Visita"
+        },
+        {
+          "text": "Verificacion de Materia Prima",
+          "value": "X"
+        },
+        {
+          "text": "Condiciones Higienico-Sanitarias",
+          "value": "X"
+        },
+        {
+          "text": "Socialización de Allaszgos",
+          "value": "X"
+        },
+        {
+          "text": "Control Metrologico",
+          "value": "X"
+        },
+        {
+          "text": "Seguimiento a Personal o Vehiculos",
+          "value": "X"
+        },
+        {
+          "text": "Registro de la Bitacora",
+          "value": "X"
+        },
+        {
+          "text": "Rastreo Fisico-Quimico o Microbilogico",
+          "value": "X"
+        }
+      ],
+      "fields": [
+        {
+          "id": 1,
+          "type": "text",
+          "order": 1,
+          "label": "Fecha de Visita",
+          "answer": ""
+        },
+        {
+          "id": 2,
+          "type": "text",
+          "order": 1,
+          "label": "Verificacion de Materia Prima",
+          "answer": ""
+        },
+        {
+          "id": 3,
+          "type": "text",
+          "order": 1,
+          "label": "Condiciones Higienico-Sanitarias",
+          "answer": ""
+        },
+        {
+          "id": 4,
+          "type": "text",
+          "order": 1,
+          "label": "Socialización de Allaszgos",
+          "answer": ""
+        },
+        {
+          "id": 5,
+          "type": "text",
+          "order": 1,
+          "label": "Control Metrologico",
+          "answer": ""
+        },
+        {
+          "id": 6,
+          "type": "text",
+          "order": 1,
+          "label": "Seguimiento a Personal o Vehiculos",
+          "answer": ""
+        },
+        {
+          "id": 7,
+          "type": "text",
+          "order": 1,
+          "label": "registro de la Bitcácora",
+          "answer": ""
+        },
+        {
+          "id": 7,
+          "type": "text",
+          "order": 1,
+          "label": "astreo Físico-Químico o Microbilógico",
+          "answer": ""
+        }
+      ],
+      "answers": []
+    },
+    {
+      "id": 12,
+      "type": "label",
+      "order": 1,
+      "label": "Pregunta Orientadora"
+    },
+    {
+      "id": 13,
+      "type": "label",
+      "order": 1,
+      "label": "Almacenamiento - Planta de Ensamble y Distribución de Alimentos"
+    },
+    {
+      "id": 12,
+      "type": "text",
+      "order": 1,
+      "label": "1.El contratista cuenta con una o más bodegas ubicadas en el Valle de Aburrá y/o Municipios de Antioquia, con un área mínima y de uso único y exclusivo para el almacenamiento y distribución de alimentos, a una distancia lineal no mayor a 30 kilómetros desde la plomada puente punto cero del Municipio de Medellín?",
+      "answer": ""
+    }
+  ]
 }
