@@ -1,55 +1,6 @@
 {
-  "name": "FO-GESR Acta de Visita de Supervisión en Planta o Bodega - Seguridad Alimentaria",
-  "code": "FO-GESR-1654",
-  "version": "1",
-  "internalCode": "",
-  "questions": [
-    {
-      "id": 1,
-      "type": "text",
-      "order": 1,
-      "label": "Contratista",
-      "options": [],
-      "answer": ""
-    },
-    {
-      "id": 2,
-      "type": "text",
-      "order": 1,
-      "label": "Operador",
-      "options": [],
-      "answer": ""
-    },
-    {
-      "id": 3,
-      "type": "text",
-      "order": 1,
-      "label": "Codigo",
-      "options": [],
-      "answer": ""
-    },
-    {
-      "id": 4,
-      "type": "text",
-      "order": 1,
-      "label": "Bodega1",
-      "options": [],
-      "answer": ""
-    },
-    {
-      "id": 4,
-      "type": "text",
-      "order": 1,
-      "label": "Bodega2",
-      "options": [],
-      "answer": ""
-    },
-    {
-      "id": 5,
-      "type": "multi-question",
-      "order": 1,
-      "label": "Modalidad de Atencion",
-      "innerQuestions": [
+    "name": "FO-GESR Acta de Visita de Supervisión en Planta o Bodega - Seguridad Alimentaria",
+    "questions": [ 
         {
             "id": 1,
             "type": "text",
@@ -218,9 +169,4 @@
           }
 
     ]
-    }
-
-
-
-   ]
 }

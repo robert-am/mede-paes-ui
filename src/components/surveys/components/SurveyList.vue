@@ -15,7 +15,7 @@
           <v-card-actions>
             <v-spacer></v-spacer>
             <v-btn @click="showListActaSupervisionG">Ver Actas</v-btn>
-            <v-btn @click="newActa('survey-vsgenee.json')">Nueva Acta</v-btn>
+            <v-btn @click="showListActaSupervisionG">Nueva Acta</v-btn>
           </v-card-actions>
         </v-card>
       </v-col>
@@ -30,7 +30,7 @@
           <v-card-actions>
             <v-spacer></v-spacer>
             <v-btn @click="showListActaSupervisionP">Ver Actas</v-btn>
-            <v-btn @click="newActa('survey-avsplanta.json')">Nueva Acta</v-btn>
+            <v-btn @click="showListActaSupervisionP">Nueva Acta</v-btn>
           </v-card-actions>
         </v-card>
       </v-col>
@@ -41,7 +41,7 @@
         scrollable
         transition="dialog-bottom-transition"
     >
-      <SurveyEdit :survey-name=tipoActa></SurveyEdit>
+      <SurveyEdit></SurveyEdit>
     </v-dialog>
   </div>
 </template>
@@ -58,7 +58,7 @@ export default {
   data() {
     return {
       dialog: false,
-      tipoActa: ''
+
     }
   },
   methods: {
@@ -68,10 +68,6 @@ export default {
 
     showListActaSupervisionP() {
       this.dialog = true
-    },
-    newActa(acta){
-      this.dialog = true
-      this.tipoActa = acta
     }
   }
 }
