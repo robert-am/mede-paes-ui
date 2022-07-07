@@ -1,5 +1,8 @@
 {
   "name": "FO-GESR Acta de Visita de Supervisión en Planta o Bodega - Seguridad Alimentaria",
+  "code": "FO-GESR-1654",
+  "version": "1",
+  "internalCode": "",
   "questions": [
     {
       "id": 1,
@@ -106,12 +109,6 @@
       "answer": ""
     },
     {
-      "id": 10,
-      "type": "label",
-      "order": 1,
-      "label": "Procesos Realizados"
-    },
-    {
       "id": 11,
       "type": "table",
       "order": "1",
@@ -119,40 +116,42 @@
       "headers": [
         {
           "text": "Fecha de Visita",
-          "value": "Fecha de Visita"
+          "value": "FechaVisita"
         },
         {
           "text": "Verificacion de Materia Prima",
-          "value": "X"
+          "value": "VerificacionMateriaPrima"
         },
         {
           "text": "Condiciones Higienico-Sanitarias",
-          "value": "X"
+          "value": "CondicionesHigienicoSanitarias"
         },
         {
           "text": "Socialización de Allaszgos",
-          "value": "X"
+          "value": "SocializaciónAllaszgos"
         },
         {
           "text": "Control Metrologico",
-          "value": "X"
+          "value": "ControlMetrologico"
         },
         {
           "text": "Seguimiento a Personal o Vehiculos",
-          "value": "X"
+          "value": "SeguimientoPersonalVehiculos"
         },
         {
           "text": "Registro de la Bitacora",
-          "value": "X"
+          "value": "RegistroBitacora"
         },
         {
           "text": "Rastreo Fisico-Quimico o Microbilogico",
-          "value": "X"
-        }
+          "value": "RastreoFisicoQuimicoMicrobilogico"
+        },
+        { "text": "Actions", "value": "actions", "sortable": false }
       ],
       "fields": [
         {
           "id": 1,
+          "name": "FechaVisita",
           "type": "text",
           "order": 1,
           "label": "Fecha de Visita",
@@ -160,6 +159,7 @@
         },
         {
           "id": 2,
+          "name": "VerificacionMateriaPrima",
           "type": "text",
           "order": 1,
           "label": "Verificacion de Materia Prima",
@@ -167,6 +167,7 @@
         },
         {
           "id": 3,
+          "name": "CondicionesHigienicoSanitarias",
           "type": "text",
           "order": 1,
           "label": "Condiciones Higienico-Sanitarias",
@@ -174,6 +175,7 @@
         },
         {
           "id": 4,
+          "name": "SocializaciónAllaszgos",
           "type": "text",
           "order": 1,
           "label": "Socialización de Allaszgos",
@@ -181,6 +183,7 @@
         },
         {
           "id": 5,
+          "name": "ControlMetrologico",
           "type": "text",
           "order": 1,
           "label": "Control Metrologico",
@@ -188,6 +191,7 @@
         },
         {
           "id": 6,
+          "name": "SeguimientoPersonalVehiculos",
           "type": "text",
           "order": 1,
           "label": "Seguimiento a Personal o Vehiculos",
@@ -195,16 +199,18 @@
         },
         {
           "id": 7,
+          "name": "RegistroBitacora",
           "type": "text",
           "order": 1,
-          "label": "registro de la Bitcácora",
+          "label": "Registro de la Bitcácora",
           "answer": ""
         },
         {
-          "id": 7,
+          "id": 8,
+          "name": "RastreoFisicoQuimicoMicrobilogico",
           "type": "text",
           "order": 1,
-          "label": "astreo Físico-Químico o Microbilógico",
+          "label": "Rastreo Físico-Químico o Microbilógico",
           "answer": ""
         }
       ],
@@ -224,9 +230,15 @@
     },
     {
       "id": 12,
-      "type": "text",
+      "type": "option",
       "order": 1,
       "label": "1.El contratista cuenta con una o más bodegas ubicadas en el Valle de Aburrá y/o Municipios de Antioquia, con un área mínima y de uso único y exclusivo para el almacenamiento y distribución de alimentos, a una distancia lineal no mayor a 30 kilómetros desde la plomada puente punto cero del Municipio de Medellín?",
+      "options": [
+        "Cumple (C)",
+        "No Cumple (N.C)",
+        "No Observado (NO)",
+        "No Aplica (NA)"
+      ],
       "answer": ""
     }
   ]

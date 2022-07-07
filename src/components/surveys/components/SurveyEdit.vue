@@ -3,7 +3,6 @@
     <v-toolbar
         dark
         color="primary"
-
     >
       <v-btn
           icon
@@ -37,14 +36,12 @@
           </div>
         </div>
         <div v-if="question.type == 'label'">
-          <div style="text-align: center">
-            <h4>{{ question.label }}</h4>
-          </div>
+          <q-label :value=question.label></q-label>
         </div>
         <div v-if="question.type == 'text'">
           <v-text-field :label="question.label" v-model="question.answer"></v-text-field>
         </div>
-        <div v-if="question.type == 'option'">
+        <div v-if="question.type == 'select'">
           <v-select
               v-model="question.answer"
               :label="question.label"
@@ -95,80 +92,68 @@
         <div v-if="question.type == 'multi-question'">
           <div>
             <v-row>
-              <v-col >
+              <v-col>
                 <span>{{ question.label }}</span>
               </v-col>
               <v-col v-for="(innerQuestion, idx) in question.innerQuestions" :key="idx">
                 <span>{{ innerQuestion.label }}</span>
                 <v-radio-group v-model="innerQuestion.answer">
                   <v-radio v-for="(option, idx2) in question.options" :label="option" :value="option"
-                            :key="idx2"></v-radio>
+                           :key="idx2"></v-radio>
+                </v-radio-group>
+              </v-col>
+            </v-row>
+          </div>
+        </div>
+        <div v-if="question.type == 'option'">
+          <div>
+            <v-row >
+              <v-col md="10">
+                <span>{{ question.label }}</span>
+              </v-col>
+              <v-col>
+                <v-radio-group>
+                  <v-radio v-for="(option, idx2) in question.options" :label="option" :value="option"
+                           :key="idx2"></v-radio>
                 </v-radio-group>
               </v-col>
             </v-row>
           </div>
         </div>
         <div v-if="question.type == 'table'">
-          <div>
-            <v-ro>
-              <v-col>
-                <v-data-table
-                    :headers="question.headers"
-                    :items="question.answers"
-                >
-
-                </v-data-table>
-              </v-col>
-            </v-ro>
-          </div>
-
+          <q-table
+              :title="question.label"
+              :headers="question.headers"
+              :items="question.answers"
+              :fields="question.fields"
+          >
+          </q-table>
         </div>
       </div>
     </v-card-text>
   </v-card>
 </template>
 <script>
-//import survey from '@/static/survey-avsplanta.json';
+
+import QLabel from "@/components/question/QLabel";
+import QTable from "@/components/question/QTable";
 
 export default {
   name: "SurveyEdit",
   props: {
     surveyName: String
   },
-  components: {},
+  components: {QTable, QLabel},
   data: () => ({
     title: "Acta de Visita Supervisión General",
     survey: {},
     questions: [],
-    /*questions: [
-      {
-        id: 1,
-        type: 'text',
-        order: 1,
-        label: 'Contratista',
-        options: [],
-        answer: ''
-      },
-      {
-        id: 1,
-        type: 'option',
-        order: 1,
-        label: 'CONCEPTO DE SECRETARÍA DE SALUD - R.P.S.',
-        options: [
-            'No Tiene',
-            'Favorable',
-            'Condicionado'
-        ],
-        answer: ''
-      }
-    ]*/
   }),
   created() {
     import(`@/static/${this.surveyName}`).then(survey => {
       this.survey = survey;
       this.questions = survey.questions
     })
-
   },
   methods: {}
 }
