@@ -7,7 +7,7 @@
 <script>
 import SurveyList from "@/components/surveys/components/SurveyList";
 export default {
-  name: "PollPage",
+  name: "SurveyPage",
   components: {SurveyList},
   methods: {
 
