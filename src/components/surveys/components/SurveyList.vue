@@ -1,36 +1,21 @@
 <template>
   <div>
     <v-row dense>
-      <v-col>
+      <v-col v-for="(survey, idx) in surveys" :key="idx">
         <v-card class="mx-auto" color="#26c6da">
           <v-card-title>
             <v-icon>mdi-document</v-icon>
-            Acta de Visita Supervisión General
+            {{ survey.title }}
           </v-card-title>
           <v-card-subtitle>
             {{
-              "FO-GESR Acta de Visita de Supervisión General en Establecimiento Educativo – Seguridad Alimentaria" | truncate
+              survey.name | truncate
             }}
           </v-card-subtitle>
           <v-card-actions>
             <v-spacer></v-spacer>
-            <v-btn @click="showListActaSupervisionG">Ver Actas</v-btn>
-            <v-btn @click="newActa('survey-vsgenee.json')">Nueva Acta</v-btn>
-          </v-card-actions>
-        </v-card>
-      </v-col>
-      <v-col>
-        <v-card class="mx-auto" color="#26c6da">
-          <v-card-title>
-            Acta de Visita Supervisión En planta o Bodega
-          </v-card-title>
-          <v-card-subtitle>
-            {{ "FO-GESR Acta de Visita de Supervisión en Planta O Bodega - Seguridad Alimentaria" | truncate }}
-          </v-card-subtitle>
-          <v-card-actions>
-            <v-spacer></v-spacer>
-            <v-btn @click="showListActaSupervisionP">Ver Actas</v-btn>
-            <v-btn @click="newActa('survey-avsplanta.json')">Nueva Acta</v-btn>
+            <v-btn @click="showListOfSurveys">Ver Actas</v-btn>
+            <v-btn @click="newSurvey(survey.file)">Nueva Acta</v-btn>
           </v-card-actions>
         </v-card>
       </v-col>
@@ -41,12 +26,13 @@
         scrollable
         transition="dialog-bottom-transition"
     >
-      <SurveyEdit :survey-name=tipoActa></SurveyEdit>
+      <SurveyEdit :survey-name=surveyType></SurveyEdit>
     </v-dialog>
   </div>
 </template>
 <script>
 import SurveyEdit from "@/components/surveys/components/SurveyEdit";
+
 export default {
   name: "SurveyList",
   components: {SurveyEdit},
@@ -58,20 +44,39 @@ export default {
   data() {
     return {
       dialog: false,
-      tipoActa: ''
+      surveyType: '',
+      surveys: [
+        {
+          title: "Acta de Visita Supervisión General",
+          code: "",
+          name: "FO-GESR Acta de Visita de Supervisión General en Establecimiento Educativo – Seguridad Alimentaria",
+          description: "",
+          file: "survey-vsgenee.json"
+        },
+        {
+          title: "Acta de Visita Supervisión General",
+          code: "",
+          name: "FO-GESR Acta de Visita de Supervisión en Planta O Bodega - Seguridad Alimentaria",
+          description: "",
+          file: "survey-avsplanta.json"
+        },
+        {
+          code: "",
+          name: "",
+          description: "",
+          file: "survey-avsplanta.json"
+        }
+      ]
     }
   },
   methods: {
-    showListActaSupervisionG() {
+    showListOfSurveys() {
       this.dialog = true
     },
 
-    showListActaSupervisionP() {
+    newSurvey(survey) {
       this.dialog = true
-    },
-    newActa(acta){
-      this.dialog = true
-      this.tipoActa = acta
+      this.surveyType = survey
     }
   }
 }
