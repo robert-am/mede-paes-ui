@@ -229,17 +229,3407 @@
       "label": "Almacenamiento - Planta de Ensamble y Distribución de Alimentos"
     },
     {
-      "id": 12,
-      "type": "option",
+      "id": 68,
+      "type": "multi-question",
       "order": 1,
-      "label": "1.El contratista cuenta con una o más bodegas ubicadas en el Valle de Aburrá y/o Municipios de Antioquia, con un área mínima y de uso único y exclusivo para el almacenamiento y distribución de alimentos, a una distancia lineal no mayor a 30 kilómetros desde la plomada puente punto cero del Municipio de Medellín?",
-      "options": [
-        "Cumple (C)",
-        "No Cumple (N.C)",
-        "No Observado (NO)",
-        "No Aplica (NA)"
+      "label": "1 ¿El contratista cuenta con una o más bodegas ubicadas en el Valle de Aburrá y/o Municipios de Antioquia, con un área mínima y de uso único y exclusivo para el almacenamiento y distribución de alimentos, a una distancia lineal no mayor a 30 kilómetros desde la plomada puente punto cero del Municipio de Medellín?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
       ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "2 ¿Si el contratista dispone de una bodega en donde concurren varias actividades, las cuales son afines al sector de alimentos de consumo humano, y discrimina e identifica cada uno de los programas o actividades que convergen en ella?      ",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "3 ¿El contratista cuenta con los equipos (cava de refrigeración y de congelación, básculas, balanzas y termómetros) e implementos (canastillas, estibas y carretillas), que dan cumplimiento a las normas higiénico-sanitarias requeridas por ley, a las especificaciones y cantidades mínimas establecidas y que garantizan el adecuado almacenamiento, transporte y distribución de los alimentos? ",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "4 ¿La bodega cuenta con concepto sanitario favorable; dicho concepto no es “Favorable con observaciones” o “Favorable condicionado”, es emitido por Secretaría de Salud del Municipio correspondiente o la autoridad competente y se mantiene durante todo el tiempo de ejecución del contrato?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 67,
+      "type": "label",
+      "order": 1,
+      "label": "Mantenimiento de Equipos"
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "5 ¿El contratista cuenta con un plan de mantenimiento para equipos, el cual contempla actividades de mantenimiento preventivo y correctivo, tanto para la bodega como para los comedores escolares; y cumple con los requisitos exigidos en las especificaciones técnicas?      ",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "6 Se debe tener una carpeta con toda la documentación: copia del plan de mantenimiento, inventario de equipos, ficha técnica, hoja de vida con la información de los mantenimientos preventivos y correctivos realizados a cada uno de los equipos y mantenerlas actualizadas incluyendo los resultados de los mantenimientos preventivos y correctivos que se hayan realizado durante su vida útil o ejecución del contrato.      ",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 67,
+      "type": "label",
+      "order": 1,
+      "label": "Ciclos de Menú"
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "7 ¿El contratista cumple con los ciclos de menú establecidos por la Secretaría de Inclusión Social, Familia y Derechos Humanos, Anexo A- Ciclos de Menú, ¿garantizando la entrega de las preparaciones y alimentos establecidos para cada uno de los ciclos?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "8 ¿Los menús cumplen con el gramaje establecido según los rangos de edad para las modalidades RC, RI, RPS?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "9 ¿Se realiza la reposición de alimentos oportunamente ante una situación de alerta reportada por la supervisión, interventoría o personal del CIF?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "10 ¿Notifica por escrito los cambios de un componente del menú del VL por otro de la misma semana, cumpliendo con el mismo grupo de alimentos?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "11 El contratista garantiza la entrega de fruta entera y pulpa de fruta, donde solo podrá repetir como máximo 3 veces durante el ciclo de 20 días, utilizando todas las variedades presentadas en la relación de frutas por grupo",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 67,
+      "type": "label",
+      "order": 1,
+      "label": "Caracteristicas Generales de los Alimentos"
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "12 ¿Los alimentos suministrados según los ciclos de menú son de primera calidad, cumplen con lo exigido en las características generales de los alimentos, Anexo B Características de Alimentos del pliego de condiciones?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "13 ¿El empaque y rotulado de todos los alimentos a suministrar durante la ejecución del contrato, deberán cumplir con lo estipulado en la Resolución 005109 de diciembre 29 de 2005, la Resolución 1506 de mayo 6 de 2011 y la Resolución 333 de febrero 10 de 2011 y las demás normas vigentes?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "14 ¿Los productos panificados que componen el ciclo de menú, de Ración industrializada, Ración de Contingencia y VL, son entregados garantizando como mínimo el 40% de su vida útil?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "15 Los alimentos que suministra el contratista cumplen con el registro, permiso o notificación sanitaria, acorde con lo establecido en el título III capítulo I de la Resolución 2674 de 2013 y las normas vigentes que lo modifiquen, excepto los que se eximen en dicho capítulo.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "16 ¿El contratista identifica como “producto no conforme” los productos que no cumplen con las características generales de los alimentos, estipuladas en el anexo B del presente pliego de condiciones e indica por escrito el      procedimiento para el manejo y disposición final de los mismos?      ",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "17 ¿Cumple con el uso de las marcas de alimentos actualizado, autorizadas y relacionadas en el Anexo D?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "18 ¿El contratista realiza el re empaque de alimentos cumpliendo con los requisitos exigidos por las especificaciones técnicas y la normatividad vigente?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "19 ¿Para la modalidad Ración Industrializada (RI) el contratista hace entrega de los alimentos funcionales a partir de productos de panadería con adición de 40 mg de ácidos grasos omega 3 EPA o DHA microencapsulado por cada 100 gr de producto, dos veces por semana de acuerdo a lo establecido en el Anexo A del pliego de condiciones?   ",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "20 ¿En el ciclo de menú se incluye la entrega de Alimentos Funcionales a partir de leches fermentadas como yogures con mezcla de cultivos probióticos y fibra prebiótica, de acuerdo con lo definido en el Anexo A - Ciclos de Menú del pliego de condiciones y según los parámetros establecidos? ",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 67,
+      "type": "label",
+      "order": 1,
+      "label": "Analisis Microbiologicos y Fisicoquimicos"
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "21 El contratista garantiza la implementación de acciones correctivas cuando se presenta algún grado de alteración en los resultados obtenidos de los análisis físico- químicos y/o microbiológicos, en un periodo de tiempo máximo de 15 días calendario?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "22 ¿El contratista retira de forma inmediata tanto en la bodega como en comedores escolares el lote correspondiente a los productos que presenten resultados de análisis microbiológicos con presencia de microorganismos patógenos e inicia de inmediato las gestiones necesarias?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 67,
+      "type": "label",
+      "order": 1,
+      "label": "Manejo Higienicos y Sanitario"
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "23 ¿La planta o bodega del contratista cumple con las condiciones higiénico-sanitarias según la resolución 2674 de 2013?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "24 ¿Para el complemento vaso de leche, ración industrializada y ración de contingencia el contratista guarda diariamente en refrigeración una muestra completa del menú ofrecido por día y por número de lote a los que haya lugar, por un tiempo mínimo de 72 horas o 96 horas en fines de semana con festivo? ¿Esta muestra es rotulada como mínimo con fecha de distribución, hora de despacho e ingredientes del menú?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "25 ¿En caso de presentarse producto vencido, deteriorado o contaminado (animales, insectos o roedores o sustancias químicas), signos y/o síntomas característicos de presunta enfermedad o brote alimentario en uno o más titulares de derecho, el contratista reporta de manera inmediata a la Secretaría de Salud del Municipio, a la interventoría o Supervisión y al Equipo de Seguridad Alimentaria, con el fin de realizar el procedimiento técnico      y administrativo correspondiente?      ",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 67,
+      "type": "label",
+      "order": 1,
+      "label": "Plan de Saneamiento Basico"
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "26 ¿El contratista diseña un plan de saneamiento básico (PSB) que incluya la planta o bodega y es implementado según lo establecido en las especificaciones técnicas?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "27 ¿El Plan de Saneamiento Básico (PSB) cuenta con las fichas técnicas y hojas de seguridad de los insumos químicos empleados, y como evidencia de su implementación cuenta con registros de verificación, listas de chequeo      y demás soportes de las actividades realizadas?      ",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 67,
+      "type": "label",
+      "order": 1,
+      "label": "PRpgrama de Limpieza y desinfección"
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "28 ¿Los procedimientos de limpieza y desinfección satisfacen las necesidades particulares del proceso y cuenta con todos los Procedimientos Operativos Estandarizados de Saneamiento - POES, incluyendo los agentes y sustancias que se utilizan indicando las concentraciones o formas de uso, tiempos de contacto, los equipos e implementos requeridos para efectuar las operaciones y la periodicidad de las actividades desarrolladas en      planta?      ",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "29 ¿Para la desinfección de equipos, utensilios, superficies, canastillas, estibas y canecas, el contratista utiliza solución desinfectante con amonio cuaternario de quinta generación?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "30 ¿El contratista implementa el uso de la cintilla medidora para medir la concentración de amonio cuaternario establecida? ",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "31 ¿Se mantiene en óptimas condiciones de higiene y limpieza las zonas altas como techos, paredes y lámparas de la planta o bodega?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 67,
+      "type": "label",
+      "order": 1,
+      "label": "Programa de Control de Plagas"
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "32 ¿El contratista formula e implementa un programa de control de plagas, el cual incluya un mapa de riesgo y los formatos de registro de control de prevención y presencia de plagas, ajustado a las condiciones de cada una de las instalaciones de la bodega y de cada espacio físico en donde funcionen las diferentes modalidades, según especificaciones técnicas?      ",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "33 ¿El contratista instala barreras físicas para evitar el ingreso de plagas del exterior al interior de la planta y/o bodega y estas cumplen con las condiciones solicitadas en el pliego?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "34 ¿El contratista realiza el control químico o biológico de manera oportuna si se evidencia infestación de plagas, y deja registro de las actividades realizadas y del tipo de sustancias empleadas; así como la copia de licencia      sanitaria de funcionamiento del proveedor de la aplicación y certificado de la empresa MIRP?      ",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 67,
+      "type": "label",
+      "order": 1,
+      "label": "Programa de Desechos Solidos"
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "35 ¿El contratista elabora un programa de desechos sólidos, teniendo en cuenta el Resolución 879 de 2007 del Área Metropolitana del Valle de Aburrá y la normatividad vigente, y este es verificado para garantizar que el      plan sea eficiente?      ",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "36 ¿El contratista garantiza un adecuado manejo de residuos sólidos, para evitar que estos sean fuente de alimento y albergue de plagas, e implementa el uso de las bolsas entregadas en el kit de aseo establecido en el      pliego de condiciones?      ",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "37 ¿El contratista elabora el procedimiento a implementar para dar cumplimiento a la recolección y disposición final del aceite usado?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 67,
+      "type": "label",
+      "order": 1,
+      "label": "Programa de Abastecimiento o suministro de agua"
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "38 ¿El contratista documenta y aplica un programa de control de agua potable, para el proceso de almacenamiento, distribución y producción; cumpliendo con lo establecido en la legislación colombiana, el cual debe incluir las acciones a aplicar en caso de emergencia que impidan el normal suministro o abastecimiento de agua debido a daños en redes de suministro, suspensión del servicio, ¿entre otras?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 67,
+      "type": "label",
+      "order": 1,
+      "label": "Suministro de implementos de Aseo"
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "39 ¿El contratista garantiza los insumos e implementos necesarios para llevar a cabo de forma adecuada la limpieza y desinfección, y además garantiza la permanencia de los productos en cantidades suficientes y en perfecto      estado?      ",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "40 ¿El contratista relaciona los productos de aseo en una remisión de entrega indicando los requisitos mínimos establecidos en la licitación pública?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 67,
+      "type": "label",
+      "order": 1,
+      "label": "Temperaturas y Empaque"
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "41 ¿Todos los alimentos que componen el complemento de las diferentes modalidades cuentan con empaque primario, que cumple con el rotulado según la normatividad que aplique, excepto las frutas y verduras?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "42 ¿El producto panificado es empacado en bolsa de polipropileno transparente y marcada con rótulo de color rojo para el grupo de transición, amarillo para primero a tercero, verde para cuarto y quinto, blanco para sexto a noveno y negro para decimo, y con la siguiente leyenda: “Municipio de Medellín Secretaría de Inclusión Social, Familia y Derechos Humanos; prohibida su venta o comercialización”. Además, contiene la imagen vigente de la Alcaldía de Medellín acorde a los lineamientos impartidos por el área de comunicaciones de la Alcaldía, nombre del contratista y teléfono?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "43 ¿Las bebidas lácteas: leche líquida, yogurt y yogurt griego o tipo griego, tienen impreso en su empaque la leyenda: “Municipio de Medellín Secretaría de Inclusión Social, Familia y Derechos Humanos; prohibida su venta o comercialización”? Además, contiene la imagen vigente de la Alcaldía de Medellín, ¿acorde a los lineamientos impartidos por el área de comunicaciones de la Alcaldía?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "44 ¿El queso de porción individual deberá ser suministrado en bolsa plástica individual, transparente y sellada?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "45 ¿La fruta y la bebida de todos los menús están empacados según las cantidades requeridas, teniendo en cuenta para las bebidas un máximo de 50 unidades por bolsa y para las frutas su transporte es en canastillas plásticas perforadas garantizando la conservación adecuada del producto?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "46 ¿El complemento se distribuye al EE con las condiciones de temperatura y empaque descritas en el pliego de condiciones, la fruta, ¿el dulce y el panificado solo se refrigera en el transporte?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "47 ¿El contratista dentro del Plan Integral de Gestión De Residuos Sólidos (PGIRS) se tiene contemplado actividades y/o estrategias para la reducción de residuos plásticos de un solo uso, dando así respuesta a lo establecido en el acuerdo 020 de diciembre de 2020 del municipio de Medellín?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 67,
+      "type": "label",
+      "order": 1,
+      "label": "Distribucion y Transporte"
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "48 ¿El contratista de acuerdo con los pedidos realizados por el equipo de Seguridad Alimentaria, entrega a los EE atendidos y reportados en el Anexo C - Consolidado de Cupos por IE, los insumos que componen la ración      según el ciclo de menú y los cupos asignados?      ",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "49 ¿El contratista para el transporte de los alimentos utiliza canastillas plásticas, costales de fibra o bolsas plásticas transparentes según el tipo de alimento; todos estos en adecuadas condiciones de limpieza, y respeta el margen mínimo de 5 cm entre el borde superior de la canastilla y el tendido del producto, ¿para evitar el deterioro de los alimentos cuando las canastillas sean apiladas?      ",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "50 ¿Las bolsas que contienen los productos se transportan en canastillas?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "51 ¿El contratista elabora y entrega diligenciado el formato establecido por el MEN (Rutas, periodicidad y días de entrega de víveres, en EE) al Equipo de Seguridad Alimentaria y      cuando se presentan novedades en los EE atendidos (ingreso o retiro), estas son incluidas, oficializando dicho cambio a la Interventoría o Supervisión y al Equipo de Seguridad Alimentaria?      ",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "52 ¿La planilla de remisión de entrega de víveres, vaso de leche, ración contingencia y ración industrializada para cada establecimiento educativo, está acorde a la establecida por el MEN, así mismo el formato establecido por el MEN para la reposición o entrega de faltantes (formato reposición faltantes – Ración Preparada en sitio)?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "53 ¿El contratista tiene disponible en la planta o bodega una porción completa de los alimentos que componen el complemento tipo Vaso de Leche, ración industrializada y ración de contingencia, con el fin de ser evaluada por parte de la Interventoría o Supervisión en el momento del despacho?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 67,
+      "type": "label",
+      "order": 1,
+      "label": "Caracteristicas de los Vehiculos para el Transporte de Alimentos"
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "54 ¿Los alimentos son transportados en vehículos que garantizan las adecuadas condiciones higiénico-sanitarias de estos, dando cumplimiento a lo establecido en la resolución 2674 de 2013 del Ministerio de Salud y Protección Social en su artículo 29 y 30 y en la resolución 2505 de 2004 del Ministerio de Transporte y demás normas que las modifique?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "55 ¿Los vehículos utilizados para la realización de esta actividad son suficientes para garantizar la entrega adecuada y oportuna de los alimentos teniendo en cuenta el tiempo establecido para ello en el presente pliego de condiciones?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "56 ¿El contratista cuenta con una carpeta en bodega, en donde se encuentra copia de la documentación de cada vehículo, como lo indican las especificaciones técnicas?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "57 ¿Los vehículos utilizados para esta actividad, conservan durante la ejecución del contrato el concepto sanitario favorable; y en caso del cambio de este concepto, ¿el contratista aporta un vehículo que cumpla con todas las condiciones requeridas?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "58 ¿Los vehículos empleados en la entrega de los alimentos e insumos para el programa, se encuentran identificados con lona, imantado u otro material, según los lineamientos emitidos por el área de Comunicaciones de la Alcaldía de Medellín?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 67,
+      "type": "label",
+      "order": 1,
+      "label": "personal Requerido"
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "59 ¿El contratista cuenta con una carpeta en la bodega por cada manipulador de alimentos contratado, que contiene la hoja de vida, copia del certificado de manipulación y copia del certificado de aptitud laboral en las      condiciones solicitadas en las especificaciones técnicas?      ",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "60 ¿El contratista tiene en un lugar visible los horarios de trabajo del personal vinculado para la ejecución del programa?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "61 ¿El contratista proporciona un ambiente laboral adecuado a todo el personal, donde cada uno de ellos se siente respetado y valorado como persona y como empleado, lo cual llevará a un gran compromiso en el      cumplimiento de sus obligaciones?      ",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "62 ¿El contratista formula e implementa un plan de capacitación continua, no inferior a 10 horas anuales y este contiene metodología, duración, profesional que dicte la actualización, cronograma y temas específicos a      impartir?      ",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "63 ¿El contratista establece e implementa acorde al Decreto 1072 de 2015, la Resolución 0312 de 2019 y la circular 20196000014 de 2019 un sistema de gestión de la seguridad y salud en el trabajo?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "64 ¿Los conductores y auxiliares empleados en la ejecución del Programa usan el uniforme cumpliendo con la imagen corporativa del Municipio de Medellín?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "65 ¿Los conductores y auxiliares empleados en la ejecución del programa cuentan con certificado de aptitud para manipular alimentos, lo portan de manera permanente?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "66 ¿El contratista cuenta con el personal mínimo requerido en bodega para la operación del programa solicitado en las especificaciones técnicas?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "67 ¿El personal que labora en bodega y de transporte no presenta sintomatología que ponga en riesgo la inocuidad del complemento?",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 16,
+      "type": "label",
+      "order": 1,
+      "label": "SEGUIMIENTO A LAS CONDICIONES HIGIÉNICO SANITARIAS, Evalúe cada una de las Condiciones Higiénico Sanitarias con los siguientes términos: Cumple con la letra (C), No cumple (N.C), No Aplica (N.A) y No Observado (N.O) Utilizando la Casilla de Registro según la programación de verificación del periodo evaluado."
+    },    
+    {
+      "id": 16,
+      "type": "label",
+      "order": 1,
+      "label": "Res 2674 Título II De 2013"
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 6 (1.1) La planta o bodega están ubicados en lugares aislados de cualquier foco de insalubridad que represente riesgos potenciales para la contaminación del alimento.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 6 (1.2) Su funcionamiento no debe poner en riesgo la salud y el bienestar de la comunidad.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 6 (1.3) Sus accesos y alrededores se mantendrán limpios, libres de acumulación de basuras y deberán tener superficies pavimentadas o recubiertas con materiales que faciliten el mantenimiento sanitario e impidan la generación de polvo, el estancamiento de aguas o la presencia de otras fuentes de contaminación para el alimento.      ",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 6 (2.1) La edificación debe estar diseñada y construida de manera que proteja los ambientes de producción e impida la entrada de polvo, lluvia, suciedades u otros contaminantes, así como del ingreso y refugio de plagas y animales domésticos.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 6 (2.3) Los diversos ambientes de la edificación deben tener el tamaño adecuado para la instalación, operación y mantenimiento de los equipos, así como para la circulación del personal y el traslado de materiales o productos. Estos ambientes deben estar ubicados según la secuencia lógica del proceso, desde la recepción de los insumos hasta el despacho del producto terminado, de tal manera que se eviten retrasos indebidos y la contaminación cruzada. De ser requerido, tales ambientes deben dotarse de las condiciones de temperatura, humedad u otras necesarias para la ejecución higiénica de las operaciones de producción y/o para la conservación del alimento.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 6 (2.4) La edificación y sus instalaciones deben estar construidas de manera que se faciliten las operaciones de limpieza, desinfección y control de plagas según lo establecido en el plan de saneamiento del establecimiento.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 6 (2.6) Sus áreas deben ser independientes y separadas físicamente de cualquier tipo de vivienda y no pueden ser utilizadas como dormitorio.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 6 (2.9) En los establecimientos contemplados en el presente título, no se permite el almacenamiento de elementos, productos químicos o peligrosos ajenos a las actividades propias realizadas en este.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 6 (3.1) El agua que se utilice debe ser de calidad potable y cumplir con las normas vigentes establecidas por el Ministerio de Salud y Protección Social.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 6 (3.2) Se debe disponer de agua potable a la temperatura y presión requeridas en las diferentes actividades que se realizan en el establecimiento, así como para una limpieza y desinfección efectiva.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 6 (3.4) El sistema de conducción o tuberías debe garantizar la protección de la potabilidad del agua.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 6 (3.5) El establecimiento debe disponer de un tanque de almacenamiento de agua con capacidad suficiente para un día de trabajo, garantizando la potabilidad de la misma. La construcción y el material de dicho tanque se realizará conforme a lo establecido en las normas sanitarias vigentes y deberá cumplir con los siguientes requisitos:",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 6 (3.5.1) Los pisos, paredes y tapas deben estar construidos con materiales que no generen sustancias o contaminantes tóxicos, deben ser resistentes, no porosos, impermeables, no absorbentes y con acabados libres de grietas o defectos que dificulten la limpieza y desinfección.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 6 (3.5.2) Debe ser de fácil acceso para limpieza y desinfección periódica según lo establecido en el plan de saneamiento.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 6 (3.5.3) Debe garantizar protección total contra el acceso de animales, cuerpos extraños o contaminación por aguas lluvias.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 6 (3.5.4) Deben estar debidamente identificado e indicada su capacidad.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 6 (4.2) El manejo de residuos líquidos dentro del establecimiento debe realizarse de manera que impida la contaminación del alimento o de las superficies de potencial contacto con este.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 6 (5.1) Los residuos sólidos que se generen deben ser ubicados de manera tal que no representen riesgo de contaminación al alimento, a los ambientes o superficies de potencial contacto con este.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 6 (5.2)Los residuos sólidos deben ser removidos frecuentemente de las áreas de producción y disponerse de manera que se elimine la generación de malos olores, el refugio y alimento de animales y plagas y que no contribuya de otra forma al deterioro ambiental.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 6 (5.5) Aquellos establecimientos que generen residuos peligrosos deben cumplir con la reglamentación sanitaria vigente.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 6 (6.1) Deben disponer de instalaciones sanitarias en cantidad suficiente tales como servicios sanitarios y vestidores, independientes para hombres y mujeres, separados de las áreas de elaboración. Para el caso de microempresas que tienen un reducido número de operarios (no más de 6 operarios), se podrá disponer de un baño para el servicio de hombres y mujeres.      ",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 6 (6.2) Los servicios sanitarios deben mantenerse limpios y proveerse de los recursos requeridos para la higiene personal, tales como, pero sin limitarse a: papel higiénico, dispensador de jabón, desinfectante, implementos desechables o equipos automáticos para el secado de las manos y papeleras de accionamiento indirecto o no manual.      ",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 6 (6.3) Se deben instalar lavamanos con grifos de accionamiento no manual dotados con dispensador de jabón desinfectante, implementos desechables o equipos automáticos para el secado de manos, en las áreas de elaboración o próximos a estas para la higiene del personal que participe en la manipulación de los alimentos y para facilitar la supervisión de estas prácticas. Estas áreas deben ser de uso exclusivo para este propósito.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 6 (6.4) En las proximidades de los lavamanos se deben colocar avisos o advertencias al personal sobre la necesidad de lavarse las manos luego de usar los servicios sanitarios, después de cualquier cambio de actividad y antes de iniciar las labores de producción.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 7 (1.1) Los pisos deben estar construidos con materiales que no generen sustancias o contaminantes tóxicos, resistentes, no porosos, impermeables, no absorbentes, no deslizantes y con acabados libres de grietas o defectos que dificulten la limpieza, desinfección y mantenimiento sanitario.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 7 (1.3) Cuando el drenaje de las cavas o cuartos fríos de refrigeración o congelación se encuentren en el interior de los mismos, se debe disponer de un mecanismo que garantice el sellamiento total del drenaje, el cual puede ser removido para propósitos de limpieza y desinfección.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 7 (1.4) El sistema de tuberías y drenajes para la conducción y recolección de las aguas residuales debe tener la capacidad y la pendiente requeridas para permitir una salida rápida y efectiva de los volúmenes máximos generados por el establecimiento. Los drenajes de piso deben tener la debida protección con rejillas y si se requieren trampas adecuadas para grasas y/o sólidos, deben estar diseñadas de forma que permitan su limpieza.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 7 (2.2) Las uniones entre las paredes y entre éstas y los pisos, deben estar selladas y tener forma redondeada para impedir la acumulación de suciedad y facilitar la limpieza y desinfección.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 7 (3.1) Los techos deben estar diseñados y construidos de manera que se evite la acumulación de suciedad, la condensación, la formación de hongos y levaduras, el desprendimiento superficial y además facilitar la limpieza y el mantenimiento.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 7 (3.2) En lo posible, no se debe permitir el uso de techos falsos o dobles techos, a menos que se construyan con materiales impermeables, resistentes, lisos, de fácil limpieza y con accesibilidad a la cámara superior para realizar la limpieza, desinfección y desinfestación.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 7 (3.3) En el caso de los falsos techos, las láminas utilizadas, deben fijarse de tal manera que se evite su fácil remoción por acción de corrientes de aire u otro factor externo ajeno a las labores de limpieza, desinfección y desinfestación.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 7 (4.1) Las ventanas y otras aberturas en las paredes deben construirse de manera tal que se evite la entrada y acumulación de polvo, suciedades, al igual que el ingreso de plagas y facilitar la limpieza y desinfección.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 7 (4.2) Las ventanas que se comuniquen con el ambiente exterior deben estar diseñadas de tal manera que se evite el ingreso de plagas y otros contaminantes, y estar provistas con malla anti insecto de fácil limpieza y buena conservación que sean resistentes a la limpieza y la manipulación. Los vidrios de las ventanas ubicadas en áreas de proceso deben tener protección para evitar contaminación en caso de ruptura.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 7 (5.1) Las puertas deben tener superficie lisa, no absorbente, deben ser resistentes y de suficiente amplitud; donde se precise, tendrán dispositivos de cierre automático y ajuste hermético. Las aberturas entre las puertas exteriores y los pisos, y entre éstas y las paredes deben ser de tal manera que se evite el ingreso de plagas.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 7 (6.2) Las estructuras elevadas y los accesorios deben aislarse en donde sea requerido, estar diseñadas y con un acabado para prevenir la acumulación de suciedad, minimizar la condensación, el desarrollo de hongos y el desprendimiento superficial.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 7 (6.3) Las instalaciones eléctricas, mecánicas y de prevención de incendios deben estar diseñadas y con un acabado de manera que impidan la acumulación de suciedades y el albergue de plagas.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 7 (7.1) Los establecimientos a que hace referencia el artículo 2° de la presente resolución tendrán una adecuada y suficiente iluminación natural o artificial, la cual se obtendrá por medio de ventanas, claraboyas, y lámparas convenientemente distribuidas.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 7 (7.2) La iluminación debe ser de la calidad e intensidad adecuada para la ejecución higiénica y efectiva de todas las actividades.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 7 (7.3) Las lámparas, accesorios y otros medios de iluminación del establecimiento deben ser del tipo de seguridad y estar protegidos para evitar la contaminación en caso de ruptura y, en general, contar con una iluminación uniforme que no altere los colores naturales.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 9 (1) Los equipos y utensilios empleados en el manejo de alimentos deben estar fabricados con materiales resistentes al uso y a la corrosión, así como a la utilización frecuente de los agentes de limpieza y desinfección.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 9 (2) Todas las superficies de contacto con el alimento deben cumplir con las resoluciones 683, 4142 y 4143 de 2012 o las normas que las modifiquen, adicionen o sustituyan.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 10 (3) Los equipos que se utilicen en operaciones críticas para lograr la inocuidad del alimento deben estar dotados de los instrumentos y accesorios requeridos para la medición y registro de las variables del proceso. Así mismo, deben poseer dispositivos para permitir la toma de muestras del alimento y materias primas.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 12 Educación y capacitación. Todas las personas que realizan actividades de manipulación de alimentos deben tener formación en educación sanitaria, principios básicos de Buenas Prácticas de Manufactura y prácticas higiénicas en manipulación de alimentos. Igualmente, deben estar capacitados para llevar a cabo las tareas que se les asignen o desempeñen, con el fin de que se encuentren en capacidad de adoptar las precauciones y medidas preventivas necesarias para evitar la contaminación o deterioro de los alimentos.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 12ª Las empresas deben tener un plan de capacitación continuo y permanente para el personal manipulador de alimentos desde el momento de su contratación y luego ser reforzado mediante charlas, cursos u otros medios efectivos de actualización. Dicho plan debe ser de por lo menos 10 horas anuales, sobre asuntos específicos de que trata la presente resolución. Esta capacitación estará bajo la responsabilidad de la empresa y podrá ser efectuada por esta, por personas naturales o jurídicas contratadas y por las autoridades sanitarias. Cuando el plan de capacitación se realice a través de personas naturales o jurídicas diferentes a la empresa, estas deben demostrar su idoneidad técnica y científica y su formación y experiencia específica en las áreas de higiene de los alimentos, Buenas Prácticas de Manufactura y sistemas preventivos de aseguramiento de la inocuidad.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 13 Plan de capacitación. El plan de capacitación debe contener, al menos, los siguientes aspectos: Metodología, duración, docentes, cronograma y temas específicos a impartir. El enfoque, contenido y alcance de la capacitación impartida debe ser acorde con la empresa, el proceso tecnológico y tipo de establecimiento de que se trate. En todo caso, la empresa debe demostrar a través del desempeño de los operarios y la condición sanitaria del establecimiento la efectividad e impacto de la capacitación impartida.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 13 Parágrafo 1 Para reforzar el cumplimiento de las prácticas higiénicas, se colocarán en sitios estratégicos avisos alusivos a la obligatoriedad y necesidad de su observancia durante la manipulación de alimentos.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 13 Parágrafo 2 El manipulador de alimentos debe ser entrenado para comprender y manejar el control de los puntos del proceso que están bajo su responsabilidad y la importancia de su vigilancia o monitoreo; además, debe conocer los límites del punto del proceso y las acciones correctivas a tomar cuando existan desviaciones en dichos límites. ",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 14 (1) Mantener una estricta limpieza e higiene personal y aplicar buenas prácticas higiénicas en sus labores, de manera que se evite la contaminación del alimento y de las superficies de contacto con este.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 14 (2) Usar vestimenta de trabajo que cumpla los siguientes requisitos: De color claro que permita visualizar fácilmente su limpieza; con cierres o cremalleras y/o broches en lugar de botones u otros accesorios que puedan caer en el alimento; sin bolsillos ubicados por encima de la cintura; cuando se utiliza delantal, este debe permanecer atado al cuerpo en forma segura para evitar la contaminación del alimento y accidentes de trabajo. La empresa será responsable de una dotación de vestimenta de trabajo en número suficiente para el personal manipulador, con el propósito de facilitar el cambio de indumentaria el cual será consistente con el tipo de trabajo que desarrolla. En ningún caso se podrán aceptar colores grises o aquellos que impidan evidenciar su limpieza, en la dotación de los manipuladores de alimentos.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 14 (3) El manipulador de alimentos no podrá salir e ingresar al establecimiento con la vestimenta de trabajo.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 14 (4) Lavarse las manos con agua y jabón desinfectante, antes de comenzar su trabajo, cada vez que salga y regrese al área asignada y después de manipular cualquier material u objeto que pudiese representar un riesgo de contaminación para el alimento. Será obligatorio realizar la desinfección de las manos cuando los riesgos asociados con la etapa del proceso así lo justifiquen.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 14 (5) Mantener el cabello recogido y cubierto totalmente mediante malla, gorro u otro medio efectivo y en caso de llevar barba, bigote o patillas se debe usar cubiertas para estas. No se permite el uso de maquillaje.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 14 (6) Dependiendo del riesgo de contaminación asociado con el proceso o preparación, será obligatorio el uso de tapabocas desechables cubriendo nariz y boca mientras se manipula el alimento. Es necesario evaluar sobre todo el riesgo asociado a un alimento de mayor y riesgo medio en salud pública en las etapas finales de elaboración o manipulación del mismo, cuando este se encuentra listo para el consumo y puede estar expuesto a posible contaminación.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 14 (7) Mantener las uñas cortas, limpias y sin esmalte.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 14 (8) No se permite utilizar reloj, anillos, aretes, joyas u otros accesorios mientras el personal realice sus labores. En caso de usar lentes, deben asegurarse a la cabeza mediante bandas, cadenas u otros medios ajustables.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 14 (9) Usar calzado cerrado, de material resistente e impermeable y de tacón bajo.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 14 (10) De ser necesario el uso de guantes, estos deben mantenerse limpios, sin roturas o desperfectos y ser tratados con el mismo cuidado higiénico de las manos sin protección. El material de los guantes, debe ser apropiado para la operación realizada y debe evitarse la acumulación de humedad y contaminación en su interior para prevenir posibles afecciones cutáneas de los operarios. El uso de guantes no exime al operario de la obligación de lavarse las manos, según lo contempla el numeral 4 del presente artículo.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 14 (11) No está permitido comer, beber o masticar cualquier objeto o producto, como tampoco fumar o escupir en las áreas donde se manipulen alimentos.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 14 (12) El personal que presente afecciones de la piel o enfermedad infectocontagiosa debe ser excluido de toda actividad directa de manipulación de alimentos.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 14 (13) Los manipuladores no deben sentarse, acostarse, inclinarse o similares en el pasto, andenes o lugares donde la ropa de trabajo pueda contaminarse.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 14 (14) Los visitantes a los establecimientos o plantas deben cumplir estrictamente todas las prácticas de higiene establecidas en esta resolución y portar la vestimenta y dotación adecuada, la cual debe ser suministrada por la empresa.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 16 (1) La recepción de materias primas debe realizarse en condiciones que eviten su contaminación, alteración y daños físicos y deben estar debidamente identificadas de conformidad con la Resolución 5109 de 2005 o las normas que la modifiquen, adicionen o sustituyan, y para el caso de los insumos, deben cumplir con las resoluciones 1506 de 2011 y/o la 683 de 2012, según corresponda, o las normas que las modifiquen, adicionen o sustituyan.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 16 (2) Toda materia prima debe poseer una ficha técnica la cual debe estar a disposición de la autoridad sanitaria competente cuando esta lo requiera.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 16 (7) Los depósitos de materias primas y productos terminados ocuparán espacios independientes, salvo en aquellos casos en que a juicio de la autoridad sanitaria competente no se presenten peligros de contaminación para los alimentos.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 16 (8) Las zonas donde se reciban o almacenen materias primas estarán separadas de las que se destinan a elaboración o envasado del producto final. La autoridad sanitaria competente podrá eximir del cumplimiento de este requisito a los establecimientos en los cuales no exista peligro de contaminación para los alimentos.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 17 (1) Los envases y embalajes deben estar fabricados con materiales tales que garanticen la inocuidad del alimento, de acuerdo a lo establecido en la reglamentación expedida por el Ministerio de Salud y Protección Social especialmente las resoluciones 683, 4142 y 4143 de 2012; 834 y 835 de 2013 o las normas que las modifiquen, adicionen o sustituyan al respecto.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 17 (2) El material del envase y embalaje debe ser adecuado y conferir una protección apropiada contra la contaminación.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 17 (3) No deben haber sido utilizados previamente para fines diferentes que puedan ocasionar la contaminación del alimento a contener.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 17 (5) Los envases y embalajes deben almacenarse en un sitio exclusivo para este fin en condiciones de limpieza y debidamente protegidos.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 18 (1) Todo el proceso de fabricación del alimento, incluyendo las operaciones de envasado y almacenamiento, deben realizarse en óptimas condiciones sanitarias, de limpieza y conservación y con los controles necesarios para reducir el crecimiento de microorganismos y evitar la contaminación del alimento. Para cumplir con este requisito, se deben controlar factores, tales como tiempo, temperatura, humedad, actividad acuosa (Aw), pH, presión y velocidad de flujo. Adicionalmente, se debe vigilar las operaciones de fabricación, tales como congelación, deshidratación, tratamiento térmico, acidificación y refrigeración, asegurando que los tiempos de espera, las fluctuaciones de temperatura y otros factores, no contribuyan a la alteración o contaminación del alimento.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 18 (3) Los alimentos que por su naturaleza permiten un rápido crecimiento de microorganismos indeseables, deben mantenerse en condiciones tales que se evite su proliferación. Para el cumplimiento de este requisito deben adoptarse medidas efectivas como:",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 18 (3.1) Mantener los alimentos a temperaturas de refrigeración no mayores de 4°C +/-2ºC.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 18 (3.2) Mantener el alimento en estado congelado.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 18 (4) Los métodos de esterilización, irradiación, ozonización, cloración, pasteurización, ultra pasteurización, ultra alta temperatura, congelación, refrigeración, control de pH, y de actividad acuosa (Aw) entre otros, que se utilizan para destruir y evitar el crecimiento de microorganismos indeseables, deben ser suficientes y validados bajo las condiciones de fabricación, procesamiento, manipulación, distribución y comercialización, para evitar la alteración y deterioro de los alimentos.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 19 (1) El envasado y embalado debe hacerse en condiciones que impidan la contaminación del alimento o materias primas y debe realizarse en un área exclusiva para este fin.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 19 (2) Identificación de lotes. Cada envase y embalaje debe llevar marcado o grabado la identificación de la fábrica productora y el lote de fabricación, la cual se debe hacer en clave o en lenguaje claro, de forma visible, legible e indeleble (Números, alfanumérico, ranuras, barras, perforaciones, fecha de producción, fecha de fabricación, fecha de vencimiento), teniendo en cuenta lo establecido en la resolución 5109 de 2005 o la norma que la modifique, adicione o sustituya. A partir del lote, fecha de vencimiento o fabricación se debe garantizar la trazabilidad hacia adelante y hacia atrás de los productos elaborados, así como de las materias primas utilizadas en su fabricación. No se aceptará el uso de adhesivos para declarar esta información.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 19 (4) Todo producto al momento de salir de una planta de proceso, independiente de su destino debe encontrarse debidamente rotulado, de conformidad con lo establecido en la reglamentación sanitaria vigente.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 20 (1) Durante las operaciones de fabricación, procesamiento, envasado y almacenamiento se tomarán medidas eficaces para evitar la contaminación de los alimentos por contacto directo o indirecto con materias primas que se encuentren en las fases iníciales del proceso.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 20 (6) Cuando sea requerido, se deben implementar filtros sanitarios (lava bota, pediluvios o instalaciones para limpieza y desinfección de calzado, lava manos de accionamiento no manual y toallas desechables o secador de manos, aspiradoras de polvo y contaminación, etc.), debidamente dotados y provistos de sustancias desinfectantes en cantidad suficiente para impedir el paso de contaminación de unas zonas a otras. En cualquier caso, se debe garantizar la limpieza y desinfección de manos de los operarios al ingreso de la sala de proceso o de manipulación de los productos.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 21 Control de la calidad e inocuidad. Todas las operaciones de fabricación, procesamiento, envase, embalado, almacenamiento, distribución, comercialización y expendio de los alimentos deben estar sujetas a los controles de calidad e inocuidad apropiados. Los procedimientos de control de calidad e inocuidad deben prevenir los defectos evitables y reducir los defectos naturales o inevitables a niveles tales que no representen riesgo para la salud. Estos controles variarán según el tipo de alimento y las necesidades del establecimiento y deben rechazar todo alimento que represente riesgo para la salud del consumidor.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 22 Sistema de control. Todas las fábricas de alimentos deben contar con un sistema de control y aseguramiento de calidad, el cual debe ser esencialmente preventivo y cubrir todas las etapas de procesamiento del alimento, desde la obtención de materias primas e insumos, hasta la distribución de productos terminados, el cual debe contar como mínimo, con los siguientes aspectos:",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 22 (1) Especificaciones sobre las materias primas y productos terminados. Las especificaciones definen completamente la calidad de todos los productos y de todas las materias primas con los cuales son elaborados y deben incluir criterios claros para su aceptación, liberación, retención o rechazo.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 22 (2) Documentación sobre planta, equipos y proceso. Se debe disponer de manuales de instrucciones, guías y regulaciones donde se describen los detalles esenciales de equipos, procesos y procedimientos requeridos para fabricar o procesar productos. Estos documentos deben cubrir todos los factores que puedan afectar la calidad, manejo de los alimentos, del equipo de procesamiento, el control de calidad, almacenamiento, distribución, métodos y procedimientos de laboratorio.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 22 (3) Los planes de muestreo, los procedimientos de laboratorio, especificaciones y métodos de ensayo deben garantizar que los resultados sean confiables y representativos del lote analizado.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 22 (4) El control y el aseguramiento de la calidad no se limitan a las operaciones de laboratorio, sino que debe estar presente en todas las decisiones vinculadas con la calidad del producto.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 23 Laboratorios. Todas las fábricas de alimentos que procesen, elaboren o envasen alimentos deben tener acceso a un laboratorio de pruebas y ensayos, propio o externo. Estos laboratorios deberán cumplir con lo dispuesto en la Resolución 16078 de 1985, o la norma que la modifique, adicione o sustituya.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 24. Obligatoriedad de profesional o personal técnico. Los establecimientos que fabriquen procesen, elaboren o envasen alimentos de alto riesgo en salud pública, deben contar con los servicios de tiempo completo de personal técnico idóneo en las áreas de producción y control de calidad de alimentos, quien debe tener a cargo el programa de capacitación del personal manipulador de alimentos.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 25. Garantía de la confiabilidad de las mediciones. Toda persona natural o jurídica propietaria del establecimiento de que trata esta resolución deben garantizar la confiabilidad de las mediciones que se realizan para el control de puntos o variables críticas del proceso, para lo cual deben tener implementado un programa de calibración de los equipos e instrumentos de medición, que se encuentren relacionados con la inocuidad del producto procesado.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 26. Plan de saneamiento. Toda persona natural o jurídica propietaria del establecimiento que fabrique, procese, envase, embale, almacene y expenda alimentos y sus materias primas debe implantar y desarrollar un Plan de Saneamiento con objetivos claramente definidos y con los procedimientos requeridos para disminuir los riesgos de contaminación de los alimentos. Este plan debe estar escrito y a disposición de la autoridad sanitaria competente; este debe incluir como mínimo los procedimientos, cronogramas, registros, listas de chequeo y responsables de los siguientes programas:",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 26 (1) Limpieza y desinfección. Los procedimientos de limpieza y desinfección deben satisfacer las necesidades particulares del proceso y del producto de que se trate. Cada establecimiento debe tener por escrito todos los procedimientos, incluyendo los agentes y sustancias utilizadas, así como las concentraciones o formas de uso, tiempos de contacto y los equipos e implementos requeridos para efectuar las operaciones y periodicidad de limpieza y desinfección.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 26 (2) Desechos sólidos. Debe contarse con la infraestructura, elementos, áreas, recursos y procedimientos que garanticen una eficiente labor de recolección, conducción, manejo, almacenamiento interno, clasificación, transporte y disposición final de los desechos sólidos, lo cual tendrá que hacerse observando las normas de higiene y salud ocupacional establecidas con el propósito de evitar la contaminación de los alimentos, áreas, dependencias y equipos, y el deterioro del medio ambiente.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 26 (3) Control de plagas. Las plagas deben ser objeto de un programa de control específico, el cual debe involucrar el concepto de control integral, apelando a la aplicación armónica de las diferentes medidas de control conocidas, con especial énfasis en las radicales y de orden preventivo.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 26 (4) Abastecimiento o suministro de agua potable. Todos los establecimientos de que trata la presente resolución deben tener documentado el proceso de abastecimiento de agua que incluye claramente: fuente de captación o suministro, tratamientos realizados, manejo, diseño y capacidad del tanque de almacenamiento, distribución; mantenimiento, limpieza y desinfección de redes y tanque de almacenamiento; controles realizados para garantizar el cumplimiento de los requisitos fisicoquímicos y microbiológicos establecidos en la normatividad vigente, así como los registros que soporten el cumplimiento de los mismos.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 27 Condiciones generales. Las operaciones y condiciones de almacenamiento, distribución, transporte y comercialización deben evitar: a) La contaminación y alteración; b) La proliferación de microorganismos indeseables; c) El deterioro o daño del envase o embalaje.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 28 (1) Debe llevarse un control de primeras entradas y primeras salidas con el fin de garantizar la rotación de los productos. Es necesario que la empresa periódicamente dé salida a productos y materiales inútiles, en desuso, obsoletos o fuera de especificaciones para facilitar la limpieza de las instalaciones y eliminar posibles focos de contaminación.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 28 (2) El almacenamiento de productos que requieren refrigeración o congelación se realizará teniendo en cuenta las condiciones de temperatura, humedad y circulación del aire que requiera el alimento, materia prima o insumo. Estas instalaciones se mantendrán limpias y en buenas condiciones higiénicas, además, se llevará a cabo un control de temperatura y humedad que asegure la conservación del producto. Los dispositivos de registro de la temperatura y humedad deben inspeccionarse a intervalos regulares y se debe comprobar su exactitud. La temperatura de congelación debe ser de -18ºC o menor.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 28 (3) El almacenamiento de los insumos, materias primas y productos terminados se realizará de manera que se minimice su deterioro y se eviten aquellas condiciones que puedan afectar la inocuidad, funcionalidad e integridad de los mismos. Además, se deben identificar claramente y llevar registros para conocer su uso, procedencia, calidad y tiempo de vida.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 28 (4) El almacenamiento de los insumos, materias primas o productos terminados se realizará ordenadamente en pilas o estibas con separación mínima de 60 centímetros con respecto a las paredes perimetrales, y disponerse sobre palés o tarimas limpias y en buen estado, elevadas del piso por lo menos 15 centímetros de manera que se permita la inspección, limpieza y fumigación, si es el caso.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 28 (5) En los sitios o lugares destinados al almacenamiento de materias primas, insumos y productos terminados no podrán realizarse actividades diferentes a estas.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 28 (6) El almacenamiento de los alimentos y materias primas devueltos a la empresa o que se encuentren dentro de sus instalaciones con fecha de vencimiento caducada, debe realizarse en un área o depósito exclusivo para tal fin; este lugar debe identificarse claramente, se llevará un libro de registro en el cual se consigne la fecha y la cantidad de producto, las salidas parciales o totales y su destino final. Estos productos en ningún caso pueden destinarse al reproceso para elaboración de alimentos para consumo humano. Estos registros estarán a disposición de la autoridad sanitaria competente.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 29 El transporte de alimentos y sus materias primas se realizará cumpliendo con las siguientes condiciones:",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 29 (1) En condiciones que impidan la contaminación y la proliferación de microorganismos y eviten su alteración, así como los daños en el envase o embalaje según sea el caso.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 29 (2) Los alimentos y materias primas que por su naturaleza requieran mantenerse refrigerados o congelados deben ser transportados y distribuidos bajo condiciones que aseguren y garanticen el mantenimiento de las condiciones de refrigeración o congelación hasta su destino final, que podrá verificarse mediante plantillas de registro de la temperatura del vehículo durante el transporte del alimento, o al producto durante el cargue y descargue.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 29 (3) Los medios de transporte que posean sistema de refrigeración o congelación deben contar con un adecuado funcionamiento que garantice el mantenimiento de las temperaturas requeridas para la conservación de los alimentos o sus materias primas, contando con indicadores y sistemas de registro.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 29 (4) Revisar los medios de transporte antes de cargar los alimentos o materias primas, con el fin de asegurar que se encuentren en adecuadas condiciones sanitarias.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 29 (5) Los medios de transporte y los recipientes en los cuales se transportan los alimentos o materias primas deben estar fabricados con materiales tales que permitan una correcta limpieza y desinfección.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 29 (6) Se permite transportar conjuntamente en un mismo vehículo, alimentos con diferente riesgo en salud pública siempre y cuando se encuentren debidamente envasados, protegidos y se evite la contaminación cruzada.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 29 (7) Se prohíbe disponer los alimentos directamente sobre el piso de los medios de transporte. Para este fin se utilizarán los recipientes, canastillas, o implementos de material adecuado, de manera que aíslen el producto de toda posibilidad de contaminación.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 29 (8) Se prohíbe transportar conjuntamente en un mismo vehículo alimentos o materias primas con sustancias peligrosas y otras sustancias que por su naturaleza representen riesgo de contaminación del alimento o la materia prima.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 29 (9) Los vehículos transportadores de alimentos deben llevar en su exterior en forma claramente visible la leyenda: Transporte de Alimentos.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Artículo 29 (10) Los vehículos destinados al transporte de alimentos y materias primas deben cumplir dentro del territorio colombiano con los requisitos sanitarios que garanticen la adecuada protección y conservación de los mismos, para lo cual las autoridades sanitarias realizarán las actividades de inspección, vigilancia y control necesarias para velar por su cumplimiento. Parágrafo Las autoridades sanitarias practicarán la inspección en el vehículo y/o medio de transporte y, por acta harán constar las condiciones sanitarias del mismo.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },    
+    {
+      "id": 68,
+      "type": "multi-question",
+      "order": 1,
+      "label": "Parágrafo Las autoridades sanitarias practicarán la inspección en el vehículo y/o medio de transporte y, por acta harán constar las condiciones sanitarias del mismo.",
+      "innerQuestions": [
+        {
+          "label": "Respuesta",
+          "answer": ""
+        }
+      ],
+      "options": [
+        "C",
+        "N.C",
+        "NO",
+        "NA"
+      ]
+    },
+    {
+      "id": 88,
+      "type": "text",
+      "order": 1,
+      "label": "Registre la fecha de diligenciamiento del Perfil Higiénico Sanitario: ",
+      "options": [],
+      "answer": ""
+    }, 
+    {
+      "id": 12,
+      "type": "label",
+      "order": 1,
+      "label": "Utilice el cuadro de Notas de Apoyo para ampliar o justificar calificaciones como N.A – N.O u otras variables encontradas durante el periodo evaluado de Supervisión que ameriten claridad."
+    },
+    {
+      "id": 87,
+      "type": "textarea",
+      "order": 1,
+      "label": "Notas de Apoyo",
+      "options": [],
+      "answer": ""
+    },
+    {
+      "id": 88,
+      "type": "label",
+      "order": 1,
+      "label": "Socializacion"
+    },
+    {
+      "id": 90,
+      "type": "text",
+      "order": 1,
+      "label": "Nombre del Supervisor",
+      "options": [],
+      "answer": ""
+    },
+    {
+      "id": 91,
+      "type": "signature",
+      "order": 1,
+      "label": "Firma interventor",
+      "options": [],
+      "answer": ""
+    },
+    {
+      "id": 92,
+      "type": "text",
+      "order": 1,
+      "label": "Cedula",
+      "options": [],
+      "answer": ""
+    },
+    {
+      "id": 93,
+      "type": "text",
+      "order": 1,
+      "label": "Nombre de Quien Recibe la Socializacion",
+      "options": [],
+      "answer": ""
+    },
+    {
+      "id": 94,
+      "type": "signature",
+      "order": 1,
+      "label": "Firma de Quien Recibe la Socializacion",
+      "options": [],
+      "answer": ""
+    },
+    {
+      "id": 95,
+      "type": "text",
+      "order": 1,
+      "label": "Cedula de Quien Recibe la Socializacion",
+      "options": [],
       "answer": ""
     }
+    
+    
+    
   ]
 }
