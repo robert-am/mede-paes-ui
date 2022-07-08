@@ -17,7 +17,11 @@ export default {
 }
 </script>
 <style>
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
 .container{
   margin-left: 60px;
 }
+
 </style>
