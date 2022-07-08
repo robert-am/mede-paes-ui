@@ -12,6 +12,7 @@
     "core-js": "^3.8.3",
     "moment": "^2.29.1",
     "node-env-file": "^0.1.8",
+    "swal": "^0.1.0",
     "vue": "^2.6.14",
     "vue-router": "^3.5.1",
     "vue-signature-pad": "^2.0.4",

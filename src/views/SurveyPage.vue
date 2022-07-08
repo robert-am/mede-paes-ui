@@ -1,14 +1,14 @@
 <template>
   <div class="flex-grow-0">
     <h2 class="pa-4">Encuestas Disponibles</h2>
-    <SurveyList></SurveyList>
+    <SurveySelector></SurveySelector>
   </div>
 </template>
 <script>
-import SurveyList from "@/components/surveys/components/SurveyList";
+import SurveySelector from "@/components/surveys/components/SurveySelector";
 export default {
   name: "SurveyPage",
-  components: {SurveyList},
+  components: {SurveySelector},
   methods: {
 
   }

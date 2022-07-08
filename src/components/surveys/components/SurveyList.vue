@@ -1,83 +1,35 @@
 <template>
-  <div>
-    <v-row dense>
-      <v-col v-for="(survey, idx) in surveys" :key="idx">
-        <v-card class="mx-auto" color="#26c6da">
-          <v-card-title>
-            <v-icon>mdi-document</v-icon>
-            {{ survey.title }}
-          </v-card-title>
-          <v-card-subtitle>
-            {{
-              survey.name | truncate
-            }}
-          </v-card-subtitle>
-          <v-card-actions>
-            <v-spacer></v-spacer>
-            <v-btn @click="showListOfSurveys">Ver Actas</v-btn>
-            <v-btn @click="newSurvey(survey.file)">Nueva Acta</v-btn>
-          </v-card-actions>
-        </v-card>
-      </v-col>
-    </v-row>
-    <v-dialog
-        v-model="dialog"
-        fullscreen
-        scrollable
-        transition="dialog-bottom-transition"
-    >
-      <SurveyEdit :survey-name=surveyType></SurveyEdit>
-    </v-dialog>
-  </div>
+  <v-card>
+    <v-toolbar>
+      <v-toolbar-title>
+        {{ title }}
+      </v-toolbar-title>
+    </v-toolbar>
+    <v-card-text>
+      <v-data-table
+          dense
+          headers=""
+          items=""
+      ></v-data-table>
+    </v-card-text>
+  </v-card>
 </template>
 <script>
-import SurveyEdit from "@/components/surveys/components/SurveyEdit";
-
 export default {
   name: "SurveyList",
-  components: {SurveyEdit},
-  filters: {
-    truncate: function (value) {
-      return value.substr(0, 60) + "..."
-    }
+  components: {},
+  props: {
+    title: String,
+    surveys: []
   },
-  data() {
-    return {
-      dialog: false,
-      surveyType: '',
-      surveys: [
-        {
-          title: "Acta de Visita Supervisión General",
-          code: "",
-          name: "FO-GESR Acta de Visita de Supervisión General en Establecimiento Educativo – Seguridad Alimentaria",
-          description: "",
-          file: "survey-vsgenee.json"
-        },
-        {
-          title: "Acta de Visita Supervisión General",
-          code: "",
-          name: "FO-GESR Acta de Visita de Supervisión en Planta O Bodega - Seguridad Alimentaria",
-          description: "",
-          file: "survey-avsplanta.json"
-        },
-        {
-          code: "",
-          name: "",
-          description: "",
-          file: "survey-avsplanta.json"
-        }
-      ]
-    }
-  },
-  methods: {
-    showListOfSurveys() {
-      this.dialog = true
-    },
-
-    newSurvey(survey) {
-      this.dialog = true
-      this.surveyType = survey
-    }
-  }
+  data: () => ({
+    items: this.surveys.items,
+    headers: [
+      {
+        text:"",
+        value:"",
+      }
+    ]
+  })
 }
 </script>
