@@ -2,14 +2,14 @@
   <div>
     <v-row dense>
       <v-col v-for="(survey, idx) in surveys" :key="idx">
-        <v-card class="mx-auto" color="#26c6da">
+        <v-card color="#26c6da">
           <v-card-title>
             <v-icon>mdi-document</v-icon>
-            {{ survey.title }}
+            {{survey.code}} {{survey.title}}
           </v-card-title>
           <v-card-subtitle>
             {{
-              survey.name | truncate
+              survey.description
             }}
           </v-card-subtitle>
           <v-card-actions>
@@ -50,23 +50,21 @@ export default {
       questions:[],
       surveys: [
         {
-          title: "Acta de Visita Supervisión General",
-          code: "",
-          name: "FO-GESR Acta de Visita de Supervisión General en Establecimiento Educativo – Seguridad Alimentaria",
-          description: "",
+          title: "Acta de Visita de Supervisión General en Establecimiento Educativo",
+          code: "1653",
+          description: "FO-GESR Acta de Visita de Supervisión General en Establecimiento Educativo – Seguridad Alimentaria",
           file: "survey-vsgenee.json"
         },
         {
-          title: "Acta de Visita Supervisión General",
-          code: "",
-          name: "FO-GESR Acta de Visita de Supervisión en Planta O Bodega - Seguridad Alimentaria",
-          description: "",
+          title: "Acta de Visita de Supervisión en Planta O Bodega",
+          code: "1654",
+          description: "FO-GESR Acta de Visita de Supervisión en Planta O Bodega - Seguridad Alimentaria",
           file: "survey-avsplanta.json"
         },
         {
-          code: "",
-          name: "",
-          description: "",
+          title: "Acta de Visita de Supervisión General en Establecimiento Educativo",
+          code: "1655",
+          description: "FO-GESR Acta de Visita de Supervisión General en Establecimiento Educativo – Seguridad Alimentaria (Mantenimiento)",
           file: "survey-avsplanta.json"
         }
       ]
