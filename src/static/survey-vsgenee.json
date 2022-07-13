@@ -577,7 +577,7 @@
             "id": 64,
             "type": "label",
             "order": 1,
-            "label": "LISTA DE CHEQUEO Responda a cada una de los Títulos de Preguntas Orientadoras en los siguientes términos: Cumple con la letra (C), No cumple (N.C), No observado (NO) o No Aplica (NA). Debe respetar la casilla descrita para cada modalidad de atención: Complemento jornada AM/PM (AM/PM),  Complemento tipo almuerzo (CTA), Ración Industrializada (RI), Vaso de Leche (VL) y ración de contingencia (RC)"
+            "label": "LISTA DE CHEQUEO Responda a cada una de los Títulos de Preguntas Orientadoras en los siguientes términos: Cumple con la letra (C), No cumple (NC), No observado (NO) o No Aplica (NA). Debe respetar la casilla descrita para cada modalidad de atención: Complemento jornada AM/PM (AM/PM),  Complemento tipo almuerzo (CTA), Ración Industrializada (RI), Vaso de Leche (VL) y ración de contingencia (RC)"
           },
           {
             "id": 68,
@@ -608,7 +608,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -642,7 +642,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -676,7 +676,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -710,7 +710,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -744,7 +744,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -784,7 +784,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -818,7 +818,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -852,7 +852,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -886,7 +886,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -920,7 +920,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -954,7 +954,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -988,7 +988,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -1022,7 +1022,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -1056,7 +1056,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -1096,7 +1096,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -1130,7 +1130,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -1164,7 +1164,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -1194,7 +1194,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -1228,7 +1228,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -1262,7 +1262,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -1284,7 +1284,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -1306,7 +1306,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -1328,7 +1328,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -1362,7 +1362,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -1402,7 +1402,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -1436,7 +1436,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -1470,7 +1470,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -1500,7 +1500,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -1522,7 +1522,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -1544,7 +1544,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -1578,7 +1578,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -1612,7 +1612,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -1646,7 +1646,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -1686,7 +1686,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -1720,7 +1720,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -1754,7 +1754,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -1794,7 +1794,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -1828,7 +1828,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -1862,7 +1862,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -1896,7 +1896,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -1930,7 +1930,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -1964,7 +1964,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -1998,7 +1998,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -2028,7 +2028,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -2062,7 +2062,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -2096,7 +2096,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -2130,7 +2130,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -2164,7 +2164,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -2186,7 +2186,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -2220,7 +2220,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -2254,7 +2254,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -2294,7 +2294,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -2328,7 +2328,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -2362,7 +2362,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -2402,7 +2402,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -2436,7 +2436,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -2470,7 +2470,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -2504,7 +2504,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -2544,7 +2544,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -2578,7 +2578,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -2612,7 +2612,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -2646,7 +2646,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -2680,7 +2680,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -2714,7 +2714,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -2748,7 +2748,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -2788,7 +2788,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -2810,7 +2810,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -2842,7 +2842,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -2872,7 +2872,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -2898,7 +2898,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -2916,7 +2916,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -2946,7 +2946,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -2976,7 +2976,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -2994,7 +2994,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -3034,7 +3034,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -3068,7 +3068,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -3102,7 +3102,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -3136,7 +3136,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -3170,7 +3170,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -3204,7 +3204,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -3238,7 +3238,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -3272,7 +3272,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -5839,7 +5839,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -5873,7 +5873,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -5907,7 +5907,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -5941,7 +5941,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -5975,7 +5975,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -6009,7 +6009,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -6043,7 +6043,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -6077,7 +6077,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -6111,7 +6111,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -6145,7 +6145,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -6179,7 +6179,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -6213,7 +6213,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -6247,7 +6247,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -6281,7 +6281,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -6315,7 +6315,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -6349,7 +6349,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -6383,7 +6383,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -6417,7 +6417,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -6435,7 +6435,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -6469,7 +6469,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -6503,7 +6503,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -6537,7 +6537,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -6571,7 +6571,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -6605,7 +6605,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -6639,7 +6639,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -6673,7 +6673,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -6707,7 +6707,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -6741,7 +6741,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -6775,7 +6775,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -6809,7 +6809,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -6843,7 +6843,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -6877,7 +6877,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -6911,7 +6911,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
@@ -6945,7 +6945,7 @@
             ],
             "options": [
               "C",
-              "N.C",
+              "NC",
               "NO",
               "NA"
             ]
