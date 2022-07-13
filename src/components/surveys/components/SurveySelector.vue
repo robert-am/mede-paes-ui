@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-row dense>
-      <v-col v-for="(survey, idx) in surveys" :key="idx">
+      <v-col v-for="(survey, idx) in surveys" :key="idx" md="4" >
         <v-card color="#26c6da">
           <v-card-title>
             <v-icon>mdi-document</v-icon>
@@ -80,8 +80,8 @@ export default {
         this.survey = surveyResult;
         this.questions = surveyResult.questions
         this.surveyName = survey.name
+        this.dialog = true
       })
-      this.dialog = true
     },
     closeSurvey(){
       this.dialog=false
