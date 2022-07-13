@@ -8,10 +8,12 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@vue/composition-api": "^1.7.0",
     "axios": "^0.21.1",
     "core-js": "^3.8.3",
     "moment": "^2.29.1",
     "node-env-file": "^0.1.8",
+    "pinia": "^2.0.16",
     "swal": "^0.1.0",
     "vue": "^2.6.14",
     "vue-router": "^3.5.1",

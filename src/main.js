@@ -1,16 +1,16 @@
-import Vue from 'vue'
 import App from './App.vue'
+import Vue from 'vue'
 import vuetify from './plugins/vuetify'
 import router from './router'
 import VueSwal from 'vue-swal'
+import VueSignaturePad from 'vue-signature-pad';
 
 Vue.config.productionTip = false
-import VueSignaturePad from 'vue-signature-pad';
 Vue.use(VueSignaturePad);
-Vue.use(VueSwal),
+Vue.use(VueSwal)
+Vue.use(router)
 
 new Vue({
-  router,
-  vuetify,
-  render: h => h(App)
+    vuetify,
+    render: h => h(App)
 }).$mount('#app')

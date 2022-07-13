@@ -13,13 +13,16 @@
                   name="usuario"
                   label="Usuario"
                   type="text"
+                  v-model="username"
               ></v-text-field>
               <v-text-field
                   id="password"
                   prepend-icon="mdi-lock"
                   name="passwors"
                   type="password"
-                  label="Password"></v-text-field>
+                  label="Password"
+                  v-model="password"
+              ></v-text-field>
               <router-link to="/reset">¿Olvidaste tu contraseña?</router-link>
             </v-form>
           </v-card-text>
@@ -33,12 +36,21 @@
   </v-container>
 </template>
 <script>
+
 export default {
   name: "LoginPage",
   components: {},
+  data: () =>({
+    username: "",
+    password:""
+  }),
+  computed: {
+
+  },
   methods: {
     login(){
-      console.log("Todo: Implement Service Login")
+      localStorage.setItem("user", JSON.stringify( {"name":this.username , "password": this.password, "status": true}) )
+      this.$router.push("/")
     }
   }
 }

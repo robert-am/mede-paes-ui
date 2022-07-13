@@ -43,10 +43,19 @@
                             md="4"
                             v-for="(field, idx) in qFields" :key="idx"
                         >
+                          <v-checkbox
+                              v-model="$data['editedItem'][field.name]"
+                              :label="field.label"
+                              hide-details
+                          >
+
+                          </v-checkbox>
+                          <!--
                           <v-text-field
                               :label="field.label"
                               v-model="$data['editedItem'][field.name]"
                           ></v-text-field>
+                          -->
                         </v-col>
                       </v-row>
                   </v-card-text>
