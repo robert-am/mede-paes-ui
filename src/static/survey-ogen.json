@@ -7,7 +7,8 @@
       "order": 1,
       "label": "Contratista",
       "options": [],
-      "answer": ""
+      "answer": "",
+      "name": "q1"
     },
     {
       "id": 2,
@@ -16,7 +17,9 @@
       "label": "Fecha",
       "options": [],
       "answer": "",
-      "isEnable": "false"
+      "isEnable": "false",
+      "dateFormatted": "",
+      "name": "q2"
     },
     {
       "id": 3,
@@ -24,7 +27,8 @@
       "order": 1,
       "label": "Sede",
       "options": [],
-      "answer": ""
+      "answer": "",
+      "name": "q3"
     },
     {
       "id": 4,
@@ -32,15 +36,17 @@
       "order": 1,
       "label": "Complemento",
       "options": [],
-      "answer": ""
+      "answer": "",
+      "name": "q4"
     },
     {
       "id": 5,
       "type": "text",
       "order": 1,
-      "label": "Licitación Pública",
+      "label": "Licitaci\u00f3n P\u00fablica",
       "options": [],
-      "answer": ""
+      "answer": "",
+      "name": "q5"
     },
     {
       "id": 6,
@@ -48,7 +54,8 @@
       "order": 1,
       "label": "Dependencia",
       "options": [],
-      "answer": ""
+      "answer": "",
+      "name": "q6"
     },
     {
       "id": 7,
@@ -56,274 +63,261 @@
       "order": 1,
       "label": "Observaciones Generales",
       "options": [],
-      "answer": ""
+      "answer": "",
+      "name": "q7"
     },
     {
       "id": 8,
       "type": "label",
       "order": 1,
-      "label": "Inventario físico de dotación"
+      "label": "Inventario f\u00edsico de dotaci\u00f3n"
     },
     {
-      "id": 7,
+      "id": 9,
       "type": "option",
       "order": 1,
-      "label": "1.1 ¿El contratista codifica los equipos, teniendo en cuenta la utilización de material resistente a la humedad que permita su visualización en todo momento?",
+      "label": "1.1 \u00bfEl contratista codifica los equipos, teniendo en cuenta la utilizaci\u00f3n de material resistente a la humedad que permita su visualizaci\u00f3n en todo momento?",
       "options": [
         "Cumple (C)",
         "No Cumple (NC)",
         "No Observado (NO)",
         "No Aplica (NA)"
       ],
-      "answer": ""
+      "answer": "",
+      "name": "q9"
     },
     {
-      "id": 7,
+      "id": 10,
       "type": "multi-question",
       "order": 1,
-      "label": "1.1 ¿El contratista codifica los equipos, teniendo en cuenta la utilización de material resistente a la humedad que permita su visualización en todo momento?",
+      "label": "1.1 \u00bfEl contratista codifica los equipos, teniendo en cuenta la utilizaci\u00f3n de material resistente a la humedad que permita su visualizaci\u00f3n en todo momento?",
       "innerQuestions": [
-        {
-          "label": "CT",
-          "answer": ""
-        },
-        {
-          "label": "RI",
-          "answer": ""
-        },
-        {
-          "label": "VL",
-          "answer": ""
-        },
-        {
-          "label": "RC",
-          "answer": ""
-        }
+        { "label": "CT", "answer": "" },
+        { "label": "RI", "answer": "" },
+        { "label": "VL", "answer": "" },
+        { "label": "RC", "answer": "" }
       ],
-      "options": [
-        "C",
-        "NC",
-        "NO",
-        "NA"
-      ]
+      "options": ["C", "NC", "NO", "NA"],
+      "name": "q10"
     },
     {
-      "id": 8,
+      "id": 11,
       "type": "option",
       "order": 1,
-      "label": "1.2 ¿El contratista cuenta con el inventario de equipos debidamente diligenciado y actualizado?",
+      "label": "1.2 \u00bfEl contratista cuenta con el inventario de equipos debidamente diligenciado y actualizado?",
       "options": [
         "Cumple (C)",
         "No Cumple (NC)",
         "No Observado (NO)",
         "No Aplica (NA)"
       ],
-      "answer": ""
+      "answer": "",
+      "name": "q11"
     },
     {
-      "id": 7,
+      "id": 12,
       "type": "multi-question",
       "order": 1,
-      "label": "1.1 ¿El contratista codifica los equipos, teniendo en cuenta la utilización de material resistente a la humedad que permita su visualización en todo momento?",
+      "label": "1.1 \u00bfEl contratista codifica los equipos, teniendo en cuenta la utilizaci\u00f3n de material resistente a la humedad que permita su visualizaci\u00f3n en todo momento?",
       "innerQuestions": [
-        {
-          "label": "CT",
-          "answer": ""
-        },
-        {
-          "label": "RI",
-          "answer": ""
-        },
-        {
-          "label": "VL",
-          "answer": ""
-        },
-        {
-          "label": "RC",
-          "answer": ""
-        }
+        { "label": "CT", "answer": "" },
+        { "label": "RI", "answer": "" },
+        { "label": "VL", "answer": "" },
+        { "label": "RC", "answer": "" }
       ],
-      "options": [
-        "C",
-        "NC",
-        "NO",
-        "NA"
-      ]
+      "options": ["C", "NC", "NO", "NA"],
+      "name": "q12"
     },
     {
-      "id": 8,
+      "id": 13,
       "type": "option",
       "order": 1,
-      "label": "1.2 ¿El contratista cuenta con el inventario de equipos debidamente diligenciado y actualizado?",
+      "label": "1.2 \u00bfEl contratista cuenta con el inventario de equipos debidamente diligenciado y actualizado?",
       "options": [
         "Cumple (C)",
         "No Cumple (NC)",
         "No Observado (NO)",
         "No Aplica (NA)"
       ],
-      "answer": ""
+      "answer": "",
+      "name": "q13"
     },
     {
-      "id": 8,
+      "id": 14,
       "type": "option",
       "order": 1,
-      "label": "1.2 ¿El contratista cuenta con el inventario de equipos debidamente diligenciado y actualizado?",
+      "label": "1.2 \u00bfEl contratista cuenta con el inventario de equipos debidamente diligenciado y actualizado?",
       "options": [
         "Cumple (C)",
         "No Cumple (NC)",
         "No Observado (NO)",
         "No Aplica (NA)"
       ],
-      "answer": ""
+      "answer": "",
+      "name": "q14"
     },
     {
-      "id": 8,
+      "id": 15,
       "type": "option",
       "order": 1,
-      "label": "1.2 ¿El contratista cuenta con el inventario de equipos debidamente diligenciado y actualizado?",
+      "label": "1.2 \u00bfEl contratista cuenta con el inventario de equipos debidamente diligenciado y actualizado?",
       "options": [
         "Cumple (C)",
         "No Cumple (NC)",
         "No Observado (NO)",
         "No Aplica (NA)"
       ],
-      "answer": ""
+      "answer": "",
+      "name": "q15"
     },
     {
-      "id": 8,
+      "id": 16,
       "type": "option",
       "order": 1,
-      "label": "1.2 ¿El contratista cuenta con el inventario de equipos debidamente diligenciado y actualizado?",
+      "label": "1.2 \u00bfEl contratista cuenta con el inventario de equipos debidamente diligenciado y actualizado?",
       "options": [
         "Cumple (C)",
         "No Cumple (NC)",
         "No Observado (NO)",
         "No Aplica (NA)"
       ],
-      "answer": ""
+      "answer": "",
+      "name": "q16"
     },
     {
-      "id": 8,
+      "id": 17,
       "type": "option",
       "order": 1,
-      "label": "1.2 ¿El contratista cuenta con el inventario de equipos debidamente diligenciado y actualizado?",
+      "label": "1.2 \u00bfEl contratista cuenta con el inventario de equipos debidamente diligenciado y actualizado?",
       "options": [
         "Cumple (C)",
         "No Cumple (NC)",
         "No Observado (NO)",
         "No Aplica (NA)"
       ],
-      "answer": ""
+      "answer": "",
+      "name": "q17"
     },
     {
-      "id": 8,
+      "id": 18,
       "type": "option",
       "order": 1,
-      "label": "1.2 ¿El contratista cuenta con el inventario de equipos debidamente diligenciado y actualizado?",
+      "label": "1.2 \u00bfEl contratista cuenta con el inventario de equipos debidamente diligenciado y actualizado?",
       "options": [
         "Cumple (C)",
         "No Cumple (NC)",
         "No Observado (NO)",
         "No Aplica (NA)"
       ],
-      "answer": ""
+      "answer": "",
+      "name": "q18"
     },
     {
-      "id": 8,
+      "id": 19,
       "type": "option",
       "order": 1,
-      "label": "1.2 ¿El contratista cuenta con el inventario de equipos debidamente diligenciado y actualizado?",
+      "label": "1.2 \u00bfEl contratista cuenta con el inventario de equipos debidamente diligenciado y actualizado?",
       "options": [
         "Cumple (C)",
         "No Cumple (NC)",
         "No Observado (NO)",
         "No Aplica (NA)"
       ],
-      "answer": ""
+      "answer": "",
+      "name": "q19"
     },
     {
-      "id": 8,
+      "id": 20,
       "type": "option",
       "order": 1,
-      "label": "1.2 ¿El contratista cuenta con el inventario de equipos debidamente diligenciado y actualizado?",
+      "label": "1.2 \u00bfEl contratista cuenta con el inventario de equipos debidamente diligenciado y actualizado?",
       "options": [
         "Cumple (C)",
         "No Cumple (NC)",
         "No Observado (NO)",
         "No Aplica (NA)"
       ],
-      "answer": ""
+      "answer": "",
+      "name": "q20"
     },
     {
-      "id": 8,
+      "id": 21,
       "type": "option",
       "order": 1,
-      "label": "1.2 ¿El contratista cuenta con el inventario de equipos debidamente diligenciado y actualizado?",
+      "label": "1.2 \u00bfEl contratista cuenta con el inventario de equipos debidamente diligenciado y actualizado?",
       "options": [
         "Cumple (C)",
         "No Cumple (NC)",
         "No Observado (NO)",
         "No Aplica (NA)"
       ],
-      "answer": ""
+      "answer": "",
+      "name": "q21"
     },
     {
-      "id": 8,
+      "id": 22,
       "type": "option",
       "order": 1,
-      "label": "1.2 ¿El contratista cuenta con el inventario de equipos debidamente diligenciado y actualizado?",
+      "label": "1.2 \u00bfEl contratista cuenta con el inventario de equipos debidamente diligenciado y actualizado?",
       "options": [
         "Cumple (C)",
         "No Cumple (NC)",
         "No Observado (NO)",
         "No Aplica (NA)"
       ],
-      "answer": ""
+      "answer": "",
+      "name": "q22"
     },
     {
-      "id": 8,
+      "id": 23,
       "type": "check",
       "order": 1,
-      "label": "1.2 ¿El contratista cuenta con el inventario de equipos debidamente diligenciado y actualizado?",
+      "label": "1.2 \u00bfEl contratista cuenta con el inventario de equipos debidamente diligenciado y actualizado?",
       "options": [
         "Cumple (C)",
         "No Cumple (NC)",
         "No Observado (NO)",
         "No Aplica (NA)"
       ],
-      "answer": ""
+      "answer": "",
+      "name": "q23"
     },
     {
-      "id": 8,
+      "id": 24,
       "type": "text",
       "order": 1,
       "label": "Profesional",
       "options": [],
-      "answer": ""
+      "answer": "",
+      "name": "q24"
     },
     {
-      "id": 9,
+      "id": 25,
       "type": "signature",
       "order": 1,
       "label": "Firma Profesional",
       "options": [],
-      "answer": ""
+      "answer": "",
+      "name": "q25"
     },
     {
-      "id": 10,
+      "id": 26,
       "type": "text",
       "order": 1,
-      "label": "Persona que recibe la socialización",
+      "label": "Persona que recibe la socializaci\u00f3n",
       "options": [],
-      "answer": ""
+      "answer": "",
+      "name": "q26"
     },
     {
-      "id": 11,
+      "id": 27,
       "type": "signature",
       "order": 1,
-      "label": "Firma Persona que recibe la socialización",
+      "label": "Firma Persona que recibe la socializaci\u00f3n",
       "options": [],
-      "answer": ""
+      "answer": "",
+      "name": "q27"
     }
   ]
+  
 }

@@ -64,8 +64,8 @@ export default {
         {
           title: "Acta de Visita de Supervisión General en Establecimiento Educativo",
           code: "1655",
-          description: "FO-GESR Acta de Visita de Supervisión General en Establecimiento Educativo – Seguridad Alimentaria (Mantenimiento)",
-          file: "survey-vsgenee1.json"
+          description: "FO-GESR Acta de Visita de Mantenimiento",
+          file: "survey-avsplanta.json"
         }
       ]
     }
