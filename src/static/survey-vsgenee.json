@@ -4,6 +4,12 @@
     "version": "1",
     "internalCode": "",
     "questions": [
+    {
+        "id": 3,
+        "type": "label",
+        "order": 1,
+        "label": "vsgenee"
+    },
       {
           "id": 1,
           "type": "text",
@@ -157,16 +163,6 @@
           "name": "q14"
       },
       {
-          "id": 15,
-          "type": "text",
-          "order": 1,
-          "label": "U.T PAE 2022",
-          "options": [],
-          "answer": "",
-          "isEnabled": "false",
-          "name": "q15"
-      },
-      {
           "id": 16,
           "type": "label",
           "order": 1,
@@ -234,19 +230,31 @@
           "name": "q23"
       },
       {
-          "id": 24,
-          "type": "label",
-          "order": 1,
-          "label": "Complemento(s)"
-      },
-      {
           "id": 25,
-          "type": "option",
+          "type": "check",
           "order": 1,
-          "label": "Complemento tipo Almuerzo",
+          "label": "Complemento(s)",
           "options": [
-              "SI",
-              "NO"
+            {
+                "label": "COMPLEMENTO TIPO ALMUERZO",
+                "value": "cta"
+            },
+            {
+                "label": "COMPLEMENTO TIPO AM/PM",
+                "value": "ampm"
+            },
+            {
+                "label": "RACION INDISTRIALIZADA",
+                "value": "ri"
+            },
+            {
+                "label": "VASO DE LECHE",
+                "value": "vl"
+            },
+            {
+                "label": "RACION DE CONTINGENCIA",
+                "value": "rc"
+            }
           ],
           "answer": "",
           "isEnabled": "false",
@@ -7297,7 +7305,22 @@
           "name": "q414"
       },
       {
-          "id": 415,
+        "id": 415,
+          "type": "option",
+          "order": 1,
+          "label": "Nro. Visita",
+          "options": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+          ],
+          "answer": "",
+          "name": "q416"
+      },
+      {
+          "id": 416,
           "type": "option",
           "order": 1,
           "label": "Modalidad",
@@ -7309,20 +7332,20 @@
               " R.C (Racion Contingente)"
           ],
           "answer": "",
-          "name": "q415"
+          "name": "q416"
       },
       {
-          "id": 416,
+          "id": 417,
           "type": "text",
           "order": 1,
           "label": "Nombre del Interventor",
           "options": [],
           "answer": "",
-          "name": "q416"
+          "name": "q417"
       },
       {
-          "id": 417,
-          "name": "q417",
+          "id": 418,
+          "name": "q418",
           "type": "signature",
           "order": 1,
           "label": "Firma interventor",
@@ -7330,26 +7353,26 @@
           "answer": ""
       },
       {
-          "id": 418,
-          "type": "text",
-          "order": 1,
-          "label": "Cedula",
-          "options": [],
-          "answer": "",
-          "name": "q418"
-      },
-      {
           "id": 419,
           "type": "text",
           "order": 1,
-          "label": "Nombre de Quien Recibe la Socializacion",
+          "label": "Cedula",
           "options": [],
           "answer": "",
           "name": "q419"
       },
       {
           "id": 420,
-          "name": "q420",
+          "type": "text",
+          "order": 1,
+          "label": "Nombre de Quien Recibe la Socializacion",
+          "options": [],
+          "answer": "",
+          "name": "q420"
+      },
+      {
+          "id": 421,
+          "name": "q421",
           "type": "signature",
           "order": 1,
           "label": "Firma de Quien Recibe la Socializacion",
@@ -7357,13 +7380,13 @@
           "answer": ""
       },
       {
-          "id": 421,
+          "id": 422,
           "type": "text",
           "order": 1,
           "label": "Cedula de Quien Recibe la Socializacion",
           "options": [],
           "answer": "",
-          "name": "q421"
+          "name": "q422"
       }
   ]
 }

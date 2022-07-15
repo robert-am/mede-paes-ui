@@ -5,6 +5,12 @@
   "internalCode": "",
   "questions": [
     {
+      "id": 0,
+      "type": "label",
+      "order": 1,
+      "label": "vsgenee1"
+    },
+    {
       "id": 1,
       "type": "text",
       "order": 1,

@@ -5,6 +5,12 @@
   "internalCode": "",
   "questions": [
     {
+      "id": 3,
+      "type": "label",
+      "order": 1,
+      "label": "AVSPLANTA"
+    },
+    {
       "id": 1,
       "type": "text",
       "order": 1,
@@ -51,18 +57,35 @@
     },
     {
       "id": 6,
-      "type": "multi-question",
+      "type": "check",
       "order": 1,
-      "label": "Modalidad de Atencion",
-      "innerQuestions": [
-        { "label": "Complemento Tipo Almuerzo", "answer": "" },
-        { "label": "Racion Industrializada", "answer": "" },
-        { "label": "Racion de Contingencia", "answer": "" },
-        { "label": "Vaso de Leche", "answer": "" }
+      "label": "Complemento(s)",
+      "options": [
+        {
+            "label": "COMPLEMENTO TIPO ALMUERZO",
+            "value": "cta"
+        },
+        {
+            "label": "COMPLEMENTO TIPO AM/PM",
+            "value": "ampm"
+        },
+        {
+            "label": "RACION INDISTRIALIZADA",
+            "value": "ri"
+        },
+        {
+            "label": "VASO DE LECHE",
+            "value": "vl"
+        },
+        {
+            "label": "RACION DE CONTINGENCIA",
+            "value": "rc"
+        }
       ],
-      "options": ["SI", "NO"],
+      "answer": "",
+      "isEnabled": "false",
       "name": "q6"
-    },
+  },
     {
       "id": 7,
       "type": "option",
