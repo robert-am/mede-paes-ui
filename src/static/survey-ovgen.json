@@ -2,6 +2,12 @@
   "name": "FO-GESR Observaciones Generales - Seguridad Alimentaria",
   "questions": [
     {
+      "id": 3,
+      "type": "label",
+      "order": 1,
+      "label": "Seguridad Alimentaria"
+  },
+    {
       "id": 1,
       "type": "text",
       "order": 1,
