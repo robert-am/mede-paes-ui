@@ -110,7 +110,9 @@
                   <span>{{ innerQuestion.label }}</span>
                   <v-radio-group v-model="innerQuestion.answer">
                     <v-radio v-for="(option, idx2) in question.options" :label="option" :value="option"
-                             :key="idx2"></v-radio>
+                             :key="idx2"
+                             @change="checkInnerQuestionAnswer"
+                    ></v-radio>
                   </v-radio-group>
                 </v-col>
               </v-row>
@@ -143,9 +145,45 @@
         </div>
       </v-card-text>
     </v-card>
-    <v-dialog>
+    <v-dialog
+        v-model="dialogHallazgos"
+        scrollable
+        transition="dialog-bottom-transition"
+    >
+      <v-card>
+        <v-toolbar
+            dark
+            color="primary"
+        >
+          <v-toolbar-title>Hallazgos</v-toolbar-title>
+        </v-toolbar>
+        <v-card-text>
+          <v-textarea></v-textarea>
+        </v-card-text>
+        <v-card-actions>
+          <v-btn @click="dialogHallazgos =false">Cerrar</v-btn>
+        </v-card-actions>
+      </v-card>
     </v-dialog>
-    <v-dialog>
+    <v-dialog
+        v-model="dialogNotas"
+        scrollable
+        transition="dialog-bottom-transition"
+    >
+      <v-card>
+        <v-toolbar
+            dark
+            color="primary"
+        >
+          <v-toolbar-title>Notas de Apoyo</v-toolbar-title>
+        </v-toolbar>
+        <v-card-text>
+          <v-textarea></v-textarea>
+        </v-card-text>
+        <v-card-actions>
+          <v-btn @click="dialogNotas =false">Cerrar</v-btn>
+        </v-card-actions>
+      </v-card>
     </v-dialog>
   </v-form>
 </template>
@@ -158,12 +196,16 @@ import moment from 'moment'
 export default {
   name: "SurveyEdit",
   props: {
+
     surveyName: String,
     survey: {},
     questions: [],
   },
   components: {QTable, QLabel},
-  data: () => ({}),
+  data: () => ({
+    dialogNotas: false,
+    dialogHallazgos: false,
+  }),
 
   mounted() {
     console.log('mounted')
@@ -175,6 +217,10 @@ export default {
     parseDate (date) {
       if(!date) return null
       return moment(date).format('DD-MM-YY')
+    },
+
+    checkInnerQuestionAnswer(e){
+      console.log(e)
     },
 
     clearSignature(controlName){
