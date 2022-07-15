@@ -94,8 +94,9 @@
             <span>{{ question.label }}</span>
             <div v-for="(option, idx) in question.options " :key="idx">
               <v-checkbox
-                  v-model="option.answer"
-                  :label="option"
+                  v-model="question.answer"
+                  :label="option.label"
+                  :value="option.value"
                   hide-details
               ></v-checkbox>
             </div>
@@ -108,10 +109,9 @@
                 </v-col>
                 <v-col v-for="(innerQuestion, idx) in question.innerQuestions" :key="idx">
                   <span>{{ innerQuestion.label }}</span>
-                  <v-radio-group v-model="innerQuestion.answer">
+                  <v-radio-group v-model="innerQuestion.answer" @change="checkInnerQuestionAnswer(innerQuestion.answer)">
                     <v-radio v-for="(option, idx2) in question.options" :label="option" :value="option"
                              :key="idx2"
-                             @change="checkInnerQuestionAnswer"
                     ></v-radio>
                   </v-radio-group>
                 </v-col>
@@ -196,7 +196,6 @@ import moment from 'moment'
 export default {
   name: "SurveyEdit",
   props: {
-
     surveyName: String,
     survey: {},
     questions: [],
@@ -214,12 +213,29 @@ export default {
 
   methods: {
 
+    disableQuestions(items){
+      console.log(items)
+    },
+
+    disableOptions(items){
+      console.log(items)
+    },
+
     parseDate (date) {
       if(!date) return null
       return moment(date).format('DD-MM-YY')
     },
 
     checkInnerQuestionAnswer(e){
+      switch (e){
+        case 'NC':
+          this.dialogHallazgos= true
+          break
+        case 'NO':
+        case 'NA':
+          this.dialogNotas = true
+          break
+      }
       console.log(e)
     },
 
