@@ -40,6 +40,7 @@
             <q-label :value=question.label></q-label>
           </div>
           <div v-if="question.type == 'text'">
+<!--            <qtext :label="question.label"  v-model:="question.answer"></QText>-->
             <v-text-field :label="question.label" v-model="question.answer"></v-text-field>
           </div>
           <div v-if="question.type == 'select'">
@@ -78,7 +79,12 @@
           </div>
           <div v-if="question.type == 'signature'">
             <span>{{ question.label }}</span>
-            <vue-signature-pad width="400px" height="200px" :v-model="question.answer"></vue-signature-pad>
+            <vue-signature-pad :ref="question.name" width="600px" height="200px" :v-model="question.answer" class="sign"></vue-signature-pad>
+            <v-btn
+                class="ma-2"
+                depressed
+                color="secundary"
+                @click="clearSignature(question.name)">Limpiar firma</v-btn>
           </div>
           <div v-if="question.type == 'check'">
             <span>{{ question.label }}</span>
@@ -155,6 +161,10 @@ export default {
   },
 
   methods: {
+    clearSignature(controlName){
+      console.log(controlName)
+      this.$refs[controlName][0].clearSignature()
+    },
     close() {
       this.$emit("close-survey")
     },
@@ -174,8 +184,8 @@ export default {
 }
 </script>
 <style>
-.signature {
-  border: 1px solid black;
+.sign {
+  border: 1px solid gray;
 }
 
 </style>

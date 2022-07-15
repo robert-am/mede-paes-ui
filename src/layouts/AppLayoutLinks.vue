@@ -6,7 +6,7 @@
           <v-img alt="PAES Logo"
                  class="shrink mr-2"
                  contain
-                 src="@/assets/logo.png"
+                 src="@/assets/logo.svg"
                  transition="scale-transition"
                  width="40"
           ></v-img>
@@ -21,9 +21,9 @@
     >
       <v-list-item class="px-2">
         <v-list-item-avatar>
-          <v-img src="https://randomuser.me/api/portraits/men/85.jpg"></v-img>
+          <v-icon>mdi-account-circle</v-icon>
         </v-list-item-avatar>
-        <v-list-item-title>John Leider</v-list-item-title>
+        <v-list-item-title>{{username}}</v-list-item-title>
         <v-btn
             icon
             @click.stop="mini = !mini"
@@ -57,11 +57,12 @@ export default {
   name: "AppLayoutLinks",
   data() {
     return {
+      username:'',
       drawer: true,
       mini: true,
       items: [
         {title: 'Home', icon: 'mdi-home-city' , path:"/"},
-        {title: 'Diseñador de Encuestas', icon: 'mdi-file-document-edit-outline', path:"/survey/designer"},
+      //  {title: 'Diseñador de Encuestas', icon: 'mdi-file-document-edit-outline', path:"/survey/designer"},
         {title: 'Encuestas', icon: 'mdi-text-box-check-outline', path:"/survey/surveys"},
         {title: 'Usuarios', icon: 'mdi-account', path:"/survey/users"},
       ],
