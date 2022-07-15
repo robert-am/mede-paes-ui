@@ -577,7 +577,7 @@
       "id": 65,
       "type": "label",
       "order": 1,
-      "label": "Lista de Chequeo: Responda a cada una de los Títulos de Preguntas Orientadoras en los siguientes términos: Cumple con la letra (C), No cumple (N.C), No observado (NO) o No Aplica (NA). Debe respetar la"
+      "label": "Lista de Chequeo: Responda a cada una de los Títulos de Preguntas Orientadoras en los siguientes términos: Cumple con la letra (C), No cumple (NC), No observado (NO) o No Aplica (NA). Debe respetar la"
     },
     {
       "id": 66,
@@ -620,7 +620,7 @@
       ],
       "options": [
         "C",
-        "N.C",
+        "NC",
         "NO",
         "NA"
       ]
@@ -654,7 +654,7 @@
       ],
       "options": [
         "C",
-        "N.C",
+        "NC",
         "NO",
         "NA"
       ]
@@ -694,7 +694,7 @@
       ],
       "options": [
         "C",
-        "N.C",
+        "NC",
         "NO",
         "NA"
       ]
@@ -728,7 +728,7 @@
       ],
       "options": [
         "C",
-        "N.C",
+        "NC",
         "NO",
         "NA"
       ]
@@ -762,7 +762,7 @@
       ],
       "options": [
         "C",
-        "N.C",
+        "NC",
         "NO",
         "NA"
       ]
@@ -802,7 +802,7 @@
       ],
       "options": [
         "C",
-        "N.C",
+        "NC",
         "NO",
         "NA"
       ]
@@ -836,7 +836,7 @@
       ],
       "options": [
         "C",
-        "N.C",
+        "NC",
         "NO",
         "NA"
       ]
@@ -870,7 +870,7 @@
       ],
       "options": [
         "C",
-        "N.C",
+        "NC",
         "NO",
         "NA"
       ]
@@ -904,7 +904,7 @@
       ],
       "options": [
         "C",
-        "N.C",
+        "NC",
         "NO",
         "NA"
       ]
@@ -944,7 +944,7 @@
       ],
       "options": [
         "C",
-        "N.C",
+        "NC",
         "NO",
         "NA"
       ]
@@ -978,7 +978,7 @@
       ],
       "options": [
         "C",
-        "N.C",
+        "NC",
         "NO",
         "NA"
       ]
@@ -1012,7 +1012,7 @@
       ],
       "options": [
         "C",
-        "N.C",
+        "NC",
         "NO",
         "NA"
       ]
@@ -1046,7 +1046,7 @@
       ],
       "options": [
         "C",
-        "N.C",
+        "NC",
         "NO",
         "NA"
       ]
@@ -1080,7 +1080,7 @@
       ],
       "options": [
         "C",
-        "N.C",
+        "NC",
         "NO",
         "NA"
       ]
@@ -1114,7 +1114,7 @@
       ],
       "options": [
         "C",
-        "N.C",
+        "NC",
         "NO",
         "NA"
       ]
@@ -1154,7 +1154,7 @@
       ],
       "options": [
         "C",
-        "N.C",
+        "NC",
         "NO",
         "NA"
       ]
