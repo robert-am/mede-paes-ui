@@ -40,7 +40,6 @@
             <q-label :value=question.label></q-label>
           </div>
           <div v-if="question.type == 'text'">
-<!--            <qtext :label="question.label"  v-model:="question.answer"></QText>-->
             <v-text-field :label="question.label" v-model="question.answer"></v-text-field>
           </div>
           <div v-if="question.type == 'select'">
@@ -61,16 +60,21 @@
             >
               <template v-slot:activator="{ on, attrs }">
                 <v-text-field
-                    v-model="question.answer"
+                    v-model="question.dateFormatted"
                     :label="question.label"
                     readonly
                     v-bind="attrs"
                     v-on="on"
+                    hint="DD-MM-YY"
+                    persistent-hint
+                    prepend-icon="mdi-calendar"
                 ></v-text-field>
               </template>
               <v-date-picker
+                  no-title
                   v-model="question.answer"
                   @input="question.isEnable = false"
+                  @change="question.dateFormatted = parseDate(question.answer)"
               ></v-date-picker>
             </v-menu>
           </div>
@@ -79,7 +83,7 @@
           </div>
           <div v-if="question.type == 'signature'">
             <span>{{ question.label }}</span>
-            <vue-signature-pad :ref="question.name" width="600px" height="200px" :v-model="question.answer" class="sign"></vue-signature-pad>
+            <vue-signature-pad :ref="question.name" width="600px" height="200px" :v-model="question.answer"></vue-signature-pad>
             <v-btn
                 class="ma-2"
                 depressed
@@ -139,12 +143,17 @@
         </div>
       </v-card-text>
     </v-card>
+    <v-dialog>
+    </v-dialog>
+    <v-dialog>
+    </v-dialog>
   </v-form>
 </template>
 <script>
 
 import QLabel from "@/components/question/QLabel";
 import QTable from "@/components/question/QTable";
+import moment from 'moment'
 
 export default {
   name: "SurveyEdit",
@@ -160,7 +169,14 @@ export default {
     console.log('mounted')
   },
 
+
   methods: {
+
+    parseDate (date) {
+      if(!date) return null
+      return moment(date).format('DD-MM-YY')
+    },
+
     clearSignature(controlName){
       console.log(controlName)
       this.$refs[controlName][0].clearSignature()
@@ -184,8 +200,6 @@ export default {
 }
 </script>
 <style>
-.sign {
-  border: 1px solid gray;
-}
+
 
 </style>

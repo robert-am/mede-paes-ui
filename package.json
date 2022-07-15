@@ -11,7 +11,7 @@
     "@vue/composition-api": "^1.7.0",
     "axios": "^0.21.1",
     "core-js": "^3.8.3",
-    "moment": "^2.29.1",
+    "moment": "^2.29.4",
     "node-env-file": "^0.1.8",
     "pinia": "^2.0.16",
     "swal": "^0.1.0",
