@@ -6982,6 +6982,7 @@
           },
           {
             "id": 91,
+            "name": "firmaInterventor",
             "type": "signature",
             "order": 1,
             "label": "Firma interventor",
@@ -7006,6 +7007,7 @@
           },
           {
             "id": 94,
+            "name": "firmaQuienRecibe",
             "type": "signature",
             "order": 1,
             "label": "Firma de Quien Recibe la Socializacion",
