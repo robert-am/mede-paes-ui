@@ -161,7 +161,7 @@ export default {
     submit(){
       this.$swal({
         title: "Encusta",
-        text: `El Acta ha sido creada satisfactoriamente`,
+        text: `La encuesta ha sido guardada satisfactoriamente`,
         icon: "success",
         buttons: false
       }).then(() => {
