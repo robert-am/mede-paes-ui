@@ -24,6 +24,7 @@
         v-model="dialog"
         fullscreen
         scrollable
+        persistent
         transition="dialog-bottom-transition"
     >
       <SurveyEdit :survey="survey" :questions="questions" :survey-name="surveyName" v-on:close-survey="closeSurvey"></SurveyEdit>
@@ -65,7 +66,7 @@ export default {
           title: "Acta de Visita de Supervisión General en Establecimiento Educativo",
           code: "1655",
           description: "FO-GESR Acta de Visita de Mantenimiento",
-          file: "survey-avsplanta.json"
+          file: "survey-vsgenee1.json"
         }
       ]
     }
