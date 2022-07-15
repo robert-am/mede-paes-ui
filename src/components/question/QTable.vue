@@ -19,6 +19,7 @@
                   v-model="dialog"
                   max-width="800px"
               >
+                <!--
                 <template v-slot:activator="{ on, attrs }">
                   <v-btn
                       color="primary"
@@ -30,6 +31,7 @@
                     Nuevo Item
                   </v-btn>
                 </template>
+                 -->
                 <v-card>
                   <v-card-title>
                     <span class="text-h5">{{title}}</span>
@@ -88,12 +90,14 @@
             >
               mdi-pencil
             </v-icon>
+            <!--
             <v-icon
                 small
                 @click="deleteItem(item)"
             >
               mdi-delete
             </v-icon>
+            -->
           </template>
         </v-data-table>
       </v-col>
@@ -138,6 +142,11 @@ export default {
         this.editedItem = Object.assign({}, this.defaultItem)
         this.editedIndex = -1
       })
+    },
+    editItem(item){
+      this.editedIndex = this.qItems.indexOf(item)
+      this.editedItem = Object.assign({}, item)
+      this.dialog = true
     },
     save () {
       if (this.editedIndex > -1) {

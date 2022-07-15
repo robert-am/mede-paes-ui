@@ -237,28 +237,29 @@
           "options": [
             {
                 "label": "COMPLEMENTO TIPO ALMUERZO",
-                "value": "cta"
+                "value": "CTA"
             },
             {
                 "label": "COMPLEMENTO TIPO AM/PM",
-                "value": "ampm"
+                "value": "AM\/PM"
             },
             {
                 "label": "RACION INDISTRIALIZADA",
-                "value": "ri"
+                "value": "RI"
             },
             {
                 "label": "VASO DE LECHE",
-                "value": "vl"
+                "value": "VL"
             },
             {
                 "label": "RACION DE CONTINGENCIA",
-                "value": "rc"
+                "value": "RC"
             }
           ],
           "answer": "",
           "isEnabled": "false",
-          "name": "q25"
+          "name": "q25",
+          "disableMultiOptions": true
       },
       {
           "id": 26,

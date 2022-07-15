@@ -83,20 +83,26 @@
           </div>
           <div v-if="question.type == 'signature'">
             <span>{{ question.label }}</span>
-            <vue-signature-pad :ref="question.name" width="600px" height="200px" :v-model="question.answer"></vue-signature-pad>
+            <vue-signature-pad :ref="question.name" width="600px" height="200px" :v-model="question.answer"
+                               class="sign"></vue-signature-pad>
             <v-btn
                 class="ma-2"
                 depressed
                 color="secundary"
-                @click="clearSignature(question.name)">Limpiar firma</v-btn>
+                @click="clearSignature(question.name)">Limpiar firma
+            </v-btn>
           </div>
           <div v-if="question.type == 'check'">
             <span>{{ question.label }}</span>
-            <div v-for="(option, idx) in question.options " :key="idx">
+            <div>
               <v-checkbox
-                  v-model="option.answer"
-                  :label="option"
+                  v-for="(option, idx) in question.options" :key="idx"
+                  v-model="question.answer"
+                  :label="option.label"
+                  :value="option.value"
                   hide-details
+                  multiple
+                  @change="disableOptions"
               ></v-checkbox>
             </div>
           </div>
@@ -107,11 +113,15 @@
                   <span>{{ question.label }}</span>
                 </v-col>
                 <v-col v-for="(innerQuestion, idx) in question.innerQuestions" :key="idx">
-                  <span>{{ innerQuestion.label }}</span>
-                  <v-radio-group v-model="innerQuestion.answer">
-                    <v-radio v-for="(option, idx2) in question.options" :label="option" :value="option"
-                             :key="idx2"></v-radio>
-                  </v-radio-group>
+                  <div v-if="innerQuestion.enable">
+                    <span>{{ innerQuestion.label }}</span>
+                    <v-radio-group v-model="innerQuestion.answer"
+                                   @change="checkInnerQuestionAnswer(innerQuestion.answer)">
+                      <v-radio v-for="(option, idx2) in question.options" :label="option" :value="option"
+                               :key="idx2"
+                      ></v-radio>
+                    </v-radio-group>
+                  </div>
                 </v-col>
               </v-row>
             </div>
@@ -143,9 +153,47 @@
         </div>
       </v-card-text>
     </v-card>
-    <v-dialog>
+    <v-dialog
+        v-model="dialogHallazgos"
+        scrollable
+        persistent
+        transition="dialog-bottom-transition"
+    >
+      <v-card>
+        <v-toolbar
+            dark
+            color="primary"
+        >
+          <v-toolbar-title>Hallazgos</v-toolbar-title>
+        </v-toolbar>
+        <v-card-text>
+          <v-textarea></v-textarea>
+        </v-card-text>
+        <v-card-actions>
+          <v-btn @click="dialogHallazgos =false">Cerrar</v-btn>
+        </v-card-actions>
+      </v-card>
     </v-dialog>
-    <v-dialog>
+    <v-dialog
+        v-model="dialogNotas"
+        scrollable
+        persistent
+        transition="dialog-bottom-transition"
+    >
+      <v-card>
+        <v-toolbar
+            dark
+            color="primary"
+        >
+          <v-toolbar-title>Notas de Apoyo</v-toolbar-title>
+        </v-toolbar>
+        <v-card-text>
+          <v-textarea></v-textarea>
+        </v-card-text>
+        <v-card-actions>
+          <v-btn @click="dialogNotas =false">Cerrar</v-btn>
+        </v-card-actions>
+      </v-card>
     </v-dialog>
   </v-form>
 </template>
@@ -163,7 +211,10 @@ export default {
     questions: [],
   },
   components: {QTable, QLabel},
-  data: () => ({}),
+  data: () => ({
+    dialogNotas: false,
+    dialogHallazgos: false,
+  }),
 
   mounted() {
     console.log('mounted')
@@ -172,34 +223,70 @@ export default {
 
   methods: {
 
-    parseDate (date) {
-      if(!date) return null
-      return moment(date).format('DD-MM-YY')
+    disableQuestions(items) {
+      console.log(items)
+
     },
 
-    clearSignature(controlName){
-      console.log(controlName)
-      this.$refs[controlName][0].clearSignature()
-    },
-    close() {
-      this.$emit("close-survey")
-    },
-    submit(){
-      this.$swal({
-        title: "Encusta",
-        text: `La encuesta ha sido guardada satisfactoriamente`,
-        icon: "success",
-        buttons: false
-      }).then(() => {
-        this.close()
+    disableOptions(items) {
+      console.log(items)
+      this.questions.forEach((question) => {
+        if (question.type === 'multi-question') {
+          console.log(question)
+          question.innerQuestions.forEach((iq) => {
+            if (items.includes(iq.label)) {
+              iq.enable = true
+            }else {
+              iq.enable = false
+            }
+          })
+        }
       })
-      //console.log(this.survey)
-      //console.log(this.questions)
+    },
+
+  parseDate(date) {
+    if (!date) return null
+    return moment(date).format('DD-MM-YY')
+  },
+
+  checkInnerQuestionAnswer(e) {
+    switch (e) {
+      case 'NC':
+        this.dialogHallazgos = true
+        break
+      case 'NO':
+      case 'NA':
+        this.dialogNotas = true
+        break
     }
+    console.log(e)
+  },
+
+  clearSignature(controlName) {
+    console.log(controlName)
+    this.$refs[controlName][0].clearSignature()
+  },
+  close() {
+    this.$emit("close-survey")
+  },
+  submit() {
+    this.$swal({
+      title: "Encusta",
+      text: `La encuesta ha sido guardada satisfactoriamente`,
+      icon: "success",
+      buttons: false
+    }).then(() => {
+      this.close()
+    })
+    //console.log(this.survey)
+    //console.log(this.questions)
   }
+}
 }
 </script>
 <style>
-
+.sign {
+  border: 1px solid gray;
+}
 
 </style>
