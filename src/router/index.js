@@ -63,7 +63,30 @@ const router = new Router({
                 layout: 'AppLayoutHome'
             }
         },
-
+        {
+            path: "/survey/userView",
+            name: "userView",
+            component: () => import('@/components/user/UserView'),
+            meta: {
+                layout: 'AppLayoutHome'
+            }
+        },
+        {
+            path: "/survey/usersList",
+            name: "usersList",
+            component: () => import('@/components/user/UsersList'),
+            meta: {
+                layout: 'AppLayoutHome'
+            }
+        },
+        {
+            path: "/survey/userEdit",
+            name: "userEdit",
+            component: () => import('@/components/user/UserEdit'),
+            meta: {
+                layout: 'AppLayoutHome'
+            }
+        },
         {
             path: "/:catchAll(.*)",
             component: () => import ('@/common/components/NotFoundComponent'),
