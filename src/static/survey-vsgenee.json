@@ -193,7 +193,7 @@
             "order": 1,
             "label": "Visita"
         },
-        
+
         {
             "id": 17,
             "type": "label",
@@ -264,23 +264,23 @@
             "options": [
                 {
                     "label": "COMPLEMENTO TIPO ALMUERZO",
-                    "value": "cta"
+                    "value": "CTA"
                 },
                 {
                     "label": "COMPLEMENTO TIPO AM/PM",
-                    "value": "ampm"
+                    "value": "AM\/PM"
                 },
                 {
                     "label": "RACION INDISTRIALIZADA",
-                    "value": "ri"
+                    "value": "RI"
                 },
                 {
                     "label": "VASO DE LECHE",
-                    "value": "vl"
+                    "value": "VL"
                 },
                 {
                     "label": "RACION DE CONTINGENCIA",
-                    "value": "rc"
+                    "value": "RC"
                 }
             ],
             "answer": "",
@@ -4077,7 +4077,7 @@
                     "type": "text",
                     "order": 1,
                     "label": "Preparacion",
-                    "answer": "" 
+                    "answer": ""
                 },
                 {
                     "id": 1,
@@ -4085,7 +4085,7 @@
                     "type": "text",
                     "order": 1,
                     "label": "Alimentos",
-                    "answer": "" 
+                    "answer": ""
                 },
                 {
                     "id": 1,
@@ -4093,7 +4093,7 @@
                     "type": "text",
                     "order": 1,
                     "label": "Grupo de Edad",
-                    "answer": "" 
+                    "answer": ""
                 },
                 {
                     "id": 1,
@@ -4101,7 +4101,7 @@
                     "type": "text",
                     "order": 1,
                     "label": "Ref",
-                    "answer": "" 
+                    "answer": ""
                 },
                 {
                     "id": 1,
@@ -4109,7 +4109,7 @@
                     "type": "text",
                     "order": 1,
                     "label": "Real",
-                    "answer": "" 
+                    "answer": ""
                 },
                 {
                     "id": 1,
@@ -4117,7 +4117,7 @@
                     "type": "text",
                     "order": 1,
                     "label": "C/NC/NA",
-                    "answer": "weightOption" 
+                    "answer": "weightOption"
                 },
                 {
                     "id": 1,
@@ -4125,7 +4125,7 @@
                     "type": "text",
                     "order": 1,
                     "label": "C/NC/NA",
-                    "answer": "" 
+                    "answer": ""
                 },
                 {
                     "id": 1,
@@ -4133,19 +4133,26 @@
                     "type": "text",
                     "order": 1,
                     "label": "Modalidad",
-                    "answer": "" 
+                    "answer": ""
                 }
             ],
             "answers": [
-                {},
-                {},
-                {},
-                {},
-                {}
+                {"preparation": "Bebida 1"},
+                {"preparation": "Bebida 2"},
+                {"preparation":"Proteico"},
+                {"preparation":"Acompañante 1"},
+                {"preparation":"Acompañante 2"},
+                {"preparation":"Acompañante 3"},
+                {"preparation":"Acompañante 4"},
+                {"preparation":"Ensalada"},
+                {"preparation":"Fruta 1"},
+                {"preparation":"Fruta 2"},
+                {"preparation":"Acompañante VL"},
+                {"preparation":"Bebida VL"}
             ]
 
         },
-        
+
         {
             "id": 373,
             "type": "title",
@@ -4317,9 +4324,12 @@
                 }
             ],
             "answers": [
-                {
-                    "ProductosVL": "Bebida 1"
-                },
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
                 {},
                 {},
                 {},
@@ -4329,9 +4339,15 @@
         },
         {
             "id": 375,
+            "type": "subtitle",
+            "order": 1,
+            "label":"INVENTARIO DE ALIMENTOS" 
+        },
+        {
+            "id": 375,
             "type": "label",
             "order": 1,
-            "label": "INVENTARIO DE ALIMENTOS Registre los productos del complemento V.L y/o R.I, La Marca, El Lote, Fecha de vencimiento, registre con la letra C (Cumple), NC (No Cumple) o NA (No aplica) en las variables que lo indican de Condiciones De Empaque, Condiciones De Rotulado, Cantidad, Condiciones de transporte y Temperatura recepci\u00f3n y exprese las cantidades de alimentos evaluados en unidades de medida. "
+            "label": "Registre los productos del complemento V.L y/o R.I, La Marca, El Lote, Fecha de vencimiento, registre con la letra C (Cumple), NC (No Cumple) o NA (No aplica) en las variables que lo indican de Condiciones De Empaque, Condiciones De Rotulado, Cantidad, Condiciones de transporte y Temperatura recepci\u00f3n y exprese las cantidades de alimentos evaluados en unidades de medida. "
         },
         {
             "id": 376,
@@ -4492,9 +4508,7 @@
                 }
             ],
             "answers": [
-                {
-                    "ProductosVL": "Bebida 1"
-                },
+                {},
                 {},
                 {},
                 {},
@@ -4503,10 +4517,16 @@
             "name": "q376"
         },
         {
+            "id": 373,
+            "type": "title",
+            "order": 1,
+            "label": "INVENTARIO DE ALIMENTOS"
+        },
+        {
             "id": 377,
             "type": "label",
             "order": 1,
-            "label": "INVENTARIO DE ALIMENTOS Registre los productos del complemento R.C., La Marca, El Lote, Fecha de vencimiento, registre con la letra C (Cumple), NC (No Cumple) o NA (No aplica) en las variables que lo indican de Condiciones De Empaque, Condiciones De Rotulado, Cantidad, Condiciones de transporte y Temperatura recepci\u00f3n y exprese las cantidades de alimentos evaluados en unidades de medida.  "
+            "label": "Registre los productos del complemento R.C., La Marca, El Lote, Fecha de vencimiento, registre con la letra C (Cumple), NC (No Cumple) o NA (No aplica) en las variables que lo indican de Condiciones De Empaque, Condiciones De Rotulado, Cantidad, Condiciones de transporte y Temperatura recepci\u00f3n y exprese las cantidades de alimentos evaluados en unidades de medida.  "
         },
         {
             "id": 378,
@@ -4678,10 +4698,16 @@
             "name": "q378"
         },
         {
+            "id": 373,
+            "type": "title",
+            "order": 1,
+            "label": "SEGUIMIENTO A LAS CONDICIONES HIGI\u00c9NICO SANITARIAS"
+        },
+        {
             "id": 379,
             "type": "label",
             "order": 1,
-            "label": "SEGUIMIENTO A LAS CONDICIONES HIGI\u00c9NICO SANITARIAS, Eval\u00fae cada una de las Condiciones Higi\u00e9nico Sanitarias con los siguientes t\u00e9rminos: Cumple (C), No cumple (NC), No Observado (NO) o No aplica (NA); Complemento tipo Almuerzo (CTA), Raci\u00f3n Industrializada (RI), Vaso de Leche (VL) y raci\u00f3n de Contingencia (RC)."
+            "label": "Eval\u00fae cada una de las Condiciones Higi\u00e9nico Sanitarias con los siguientes t\u00e9rminos: Cumple (C), No cumple (NC), No Observado (NO) o No aplica (NA); Complemento tipo Almuerzo (CTA), Raci\u00f3n Industrializada (RI), Vaso de Leche (VL) y raci\u00f3n de Contingencia (RC)."
         },
         {
             "id": 380,
@@ -5858,6 +5884,12 @@
             "name": "q413"
         },
         {
+            "id":1,
+            "type": "label",
+            "order": 1,
+            "label": "Utilice el cuadro de Notas de Apoyo para ampliar o justificar calificaciones como N.A – N.O u otras variables encontradas durante de la visita de Supervisión que ameriten claridad."
+        },
+        {
             "id": 414,
             "type": "textarea",
             "order": 1,
@@ -5882,19 +5914,35 @@
             "name": "q416"
         },
         {
-            "id": 416,
-            "type": "option",
+            "id": 25,
+            "type": "check",
             "order": 1,
-            "label": "Modalidad",
+            "label": "COMPLEMENTOS(S)",
             "options": [
-                "AM\/PM",
-                " C.T.A (Complemento tipo almuerzo)",
-                " R.I (Raci\u00f3n Industrializada)",
-                " V.L (Vaso de Leche)",
-                " R.C (Racion Contingente)"
+                {
+                    "label": "COMPLEMENTO TIPO ALMUERZO",
+                    "value": "CTA"
+                },
+                {
+                    "label": "COMPLEMENTO TIPO AM/PM",
+                    "value": "AM\/PM"
+                },
+                {
+                    "label": "RACION INDISTRIALIZADA",
+                    "value": "RI"
+                },
+                {
+                    "label": "VASO DE LECHE",
+                    "value": "VL"
+                },
+                {
+                    "label": "RACION DE CONTINGENCIA",
+                    "value": "RC"
+                }
             ],
             "answer": "",
-            "name": "q416"
+            "isEnabled": "false",
+            "name": "q25"
         },
         {
             "id": 417,
@@ -5949,6 +5997,12 @@
             "options": [],
             "answer": "",
             "name": "q422"
+        },
+        {
+            "id":1,
+            "type": "subtitle",
+            "order": 1,
+            "label": "Nota: Las preguntas orientadoras serán establecidas según las especificaciones técnicas de la licitación pública vigente y la evaluación del perfil higiénico-sanitario será adecuado a las condiciones de cada espacio intervenido (teniendo como base los artículos 1, 2, 6, 12, 13, 14, 16, 17, 18, 22, 28 y 29 del título II de la resolución 2674-2013)."
         }
     ]
 }

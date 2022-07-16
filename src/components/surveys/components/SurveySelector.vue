@@ -24,6 +24,7 @@
         v-model="dialog"
         fullscreen
         scrollable
+        persistent
         transition="dialog-bottom-transition"
     >
       <SurveyEdit :survey="survey" :questions="questions" :survey-name="surveyName" v-on:close-survey="closeSurvey"></SurveyEdit>
