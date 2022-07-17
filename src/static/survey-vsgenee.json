@@ -217,22 +217,23 @@
     },
     {
       "id": 20,
-      "type": "text",
+      "type": "time",
       "order": 1,
       "label": "HORA INICIO DE LA VISITA",
       "answer": "",
-      "isEnabled": "false",
-      "name": "q20"
+      "isEnabled": "",
+      "name": "q20",
+      "format": "24hr"
     },
     {
       "id": 21,
-      "type": "text",
+      "type": "time",
       "order": 1,
       "label": "HORA FINALIZACION DE LA VISITA",
-      "options": [],
       "answer": "",
-      "isEnabled": "false",
-      "name": "q21"
+      "isEnabled": "",
+      "name": "q21",
+      "format": "24hr"
     },
     {
       "id": 22,
@@ -286,13 +287,14 @@
     },
     {
       "id": 25,
-      "type": "text",
+      "type": "numeric",
       "order": 1,
       "label": "Transicion",
       "options": [],
       "answer": "",
       "isEnabled": "false",
-      "name": "q25"
+      "name": "q25",
+      "precision": "2"
     },
     {
       "id": 26,
