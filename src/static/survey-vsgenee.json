@@ -23,10 +23,9 @@
       "order": 1,
       "label": "CONTRATISTA",
       "options": [
-        "contratista 1",
-        "contratista 2",
-        "contratista 3"
-      ],
+        "GR LOGÍSTICA INTEGRAL", 
+        "ALIRIO GÓMEZ G. SERVICIOS DE ALIMENTACIÓN S.A.S",
+        "CONSORCIO PAE MEDELLÍN"],
       "answer": "",
       "isEnabled": "false",
       "name": "q3"
@@ -4184,7 +4183,8 @@
           "type": "text",
           "order": 1,
           "label": "Preparacion",
-          "answer": ""
+          "answer": "",
+          "readonly":true
         },
         {
           "id": 1,
@@ -4231,15 +4231,16 @@
           "order": 1,
           "label": "PESOS(G)/ VOLUMEN(cc) REF",
           "answer": "",
-          "precision": "0"
+          "precision": "2"
         },
         {
           "id": 1,
           "name": "real",
-          "type": "text",
+          "type": "numeric",
           "order": 1,
           "label": "PESOS(G)/ VOLUMEN(cc) REAL",
-          "answer": ""
+          "answer": "",
+          "precision": "2"
         },
         {
           "id": 1,
@@ -4417,10 +4418,12 @@
         {
           "id": 4,
           "name": "fechaVencimiento",
-          "type": "text",
+          "type": "date",
           "order": 1,
           "label": "FECHA DE VENCIMIENTO",
-          "answer": ""
+          "dateFormatted": "",
+          "answer": "",
+          "isEnable": "true"
         },
         {
           "id": 5,
