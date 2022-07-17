@@ -51,6 +51,17 @@
                 :items="question.options"
             ></v-select>
           </div>
+          <div v-if="question.type == 'selectObject'">
+            <v-select
+                v-model="question.answer"
+                :label="question.label"
+                :items="question.options"
+                :item-text="question.itemText"
+                :item-value="question.itemValue"
+                return-object
+                @change="autoFill"
+            ></v-select>
+          </div>
           <div v-if="question.type=='date'">
             <v-menu
                 v-model="question.isEnable"
@@ -272,8 +283,13 @@ export default {
       console.log(items)
     },
 
-    autoFill(data, field){
-      console.log(data, field)
+    autoFill(data){
+      console.log(data)
+      this.questions.forEach((question) =>{
+        if(question.name == data.fillQuestion ){
+          question.answer = data.itemValue
+        }
+      })
     },
 
     disableOptions(items) {
