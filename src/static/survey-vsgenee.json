@@ -4586,7 +4586,7 @@
         },
         {
           "text": "C/NC/NA",
-          "value": "C/NCV.L"
+          "value": "C/NCVL"
         },
         {
           "text": "Condiciones de Transporte",
@@ -4689,7 +4689,7 @@
         },
         {
           "id": 11,
-          "name": "C/NCV.L",
+          "name": "C/NCVL",
           "type": "text",
           "order": 1,
           "label": "C/NC/NA",
