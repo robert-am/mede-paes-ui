@@ -45,19 +45,74 @@
                             md="4"
                             v-for="(field, idx) in qFields" :key="idx"
                         >
-                          <v-checkbox
-                              v-model="$data['editedItem'][field.name]"
-                              :label="field.label"
-                              hide-details
-                          >
-
-                          </v-checkbox>
-                          <!--
-                          <v-text-field
-                              :label="field.label"
-                              v-model="$data['editedItem'][field.name]"
-                          ></v-text-field>
-                          -->
+                          <div v-if="field.type == 'text'">
+                            <v-text-field :label="field.label" v-model="$data['editedItem'][field.name]"></v-text-field>
+                          </div>
+                          <div v-if="field.type == 'select'">
+                            <v-select
+                                v-model="question.answer"
+                                :label="question.label"
+                                :items="question.options"
+                            ></v-select>
+                          </div>
+                          <div v-if="field.type=='date'">
+                            <v-menu
+                                v-model="question.isEnable"
+                                :close-on-content-click="false"
+                                :nudge-right="40"
+                                transition="scale-transition"
+                                offset-y
+                                min-width="auto"
+                            >
+                              <template v-slot:activator="{ on, attrs }">
+                                <v-text-field
+                                    v-model="question.dateFormatted"
+                                    :label="question.label"
+                                    readonly
+                                    v-bind="attrs"
+                                    v-on="on"
+                                    hint="DD-MM-YY"
+                                    persistent-hint
+                                    prepend-icon="mdi-calendar"
+                                ></v-text-field>
+                              </template>
+                              <v-date-picker
+                                  no-title
+                                  v-model="question.answer"
+                                  @input="question.isEnable = false"
+                                  @change="question.dateFormatted = parseDate(question.answer)"
+                              ></v-date-picker>
+                            </v-menu>
+                          </div>
+                          <div v-if="field.type == 'check'">
+                            <span>{{ field.label }}</span>
+                            <div>
+                              <v-checkbox
+                                  v-for="(option, idx) in field.options" :key="idx"
+                                  v-model="$data['editedItem'][field.name]"
+                                  :label="option.label"
+                                  :value="option.value"
+                                  hide-details
+                                  multiple
+                              ></v-checkbox>
+                              <br/>
+                            </div>
+                          </div>
+                          <div v-if="field.type == 'option'">
+                            <div>
+                              <v-row>
+                                <v-col md="10">
+                                  <span>{{ field.label }}</span>
+                                </v-col>
+                                <v-col>
+                                  <v-radio-group v-model="$data['editedItem'][field.name]">
+                                    <v-radio v-for="(option, idx2) in field.options" :label="option" :value="option"
+                                             :key="idx2"></v-radio>
+                                  </v-radio-group>
+                                </v-col>
+                              </v-row>
+                            </div>
+                          </div>
                         </v-col>
                       </v-row>
                   </v-card-text>
@@ -105,6 +160,8 @@
   </div>
 </template>
 <script>
+import moment from "moment";
+
 export default {
   props: {
     title: String,
@@ -136,6 +193,12 @@ export default {
         this.defaultItem[field.name] = ""
       })
     },
+
+    parseDate(date) {
+      if (!date) return null
+      return moment(date).format('DD-MM-YY')
+    },
+
     close () {
       this.dialog = false
       this.$nextTick(() => {

@@ -6,9 +6,9 @@
           <v-img alt="PAES Logo"
                  class="shrink mr-2"
                  contain
-                 src="@/assets/logo.svg"
+                 src="@/assets/logo.png"
                  transition="scale-transition"
-                 width="40"
+                 width="90"
           ></v-img>
         </router-link>
       </div>
