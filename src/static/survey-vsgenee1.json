@@ -5,41 +5,24 @@
   "internalCode": "",
   "questions": [
     {
-      "id": 0,
-      "type": "label",
-      "order": 1,
-      "label": "vsgenee1"
-    },
-    {
       "id": 1,
-      "type": "text",
+      "type": "subtitle",
       "order": 1,
-      "label": "Contratista",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false"
+      "label": "INFORMACI\u00d3N GENERAL",
+      "name": "q1"
     },
     {
       "id": 2,
-      "type": "text",
-      "order": 1,
-      "label": "Codigo",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false"
-    },
-    {
-      "id": 3,
       "type": "label",
       "order": 1,
-      "label": "Espacio Intervenido"
+      "label": "Registre la fecha de diligenciamiento del Instrumento utilizando dos dígitos para día- mes y año, Seleccione el Operador evaluado, Diligencie el Tipo de Complemento o complementos a evaluar y registre el nombre del Supervisor encargado de realizar el acta, esta información está sujeta a cambios de acuerdo a los pliegos de cada licitación del programa de Alimentación PAE"
     },
     {
       "id": 4,
-      "type": "text",
+      "type": "select",
       "order": 1,
-      "label": "Establecimiento Educativo",
-      "options": [],
+      "label": "ESTABLECIMIENTO EDUCATIVO",
+      "options": ["1", "2", "3", "4"],
       "answer": "",
       "isEnabled": "false"
     },
@@ -53,525 +36,83 @@
       "isEnabled": "false"
     },
     {
-      "id": 6,
-      "type": "option",
+      "id": 3,
+      "type": "select",
       "order": 1,
-      "label": "Concepto de Secretaria de Salud - R.P.S.",
+      "label": "CONTRATISTA",
       "options": [
-        "No Tiene",
-        "Favorable",
-        "Condicionado"
-      ],
-      "answer": ""
-    },
-    {
-      "id": 7,
-      "type": "date",
-      "order": 1,
-      "label": "Fecha de la visita - R.P.S.",
-      "options": [],
+        "GR LOGÍSTICA INTEGRAL", 
+        "ALIRIO GÓMEZ G. SERVICIOS DE ALIMENTACIÓN S.A.S",
+        "CONSORCIO PAE MEDELLÍN"],
       "answer": "",
-      "isEnable": "false"
-    },
-    {
-      "id": 8,
-      "type": "option",
-      "order": 1,
-      "label": "Concepto de Secretaria de Salud - R.C.",
-      "options": [
-        "No Tiene",
-        "Favorable",
-        "Condicionado"
-      ],
-      "answer": ""
-    },
-    {
-      "id": 9,
-      "type": "date",
-      "order": 1,
-      "label": "Fecha de la visita - R.C.",
-      "options": [],
-      "answer": "",
-      "isEnable": "false"
-    },
-    {
-      "id": 10,
-      "type": "option",
-      "order": 1,
-      "label": "Concepto de Secretaria de Salud - R.I.",
-      "options": [
-        "No Tiene",
-        "Favorable",
-        "Condicionado"
-      ],
-      "answer": ""
-    },
-    {
-      "id": 11,
-      "type": "date",
-      "order": 1,
-      "label": "Fecha de la visita - R.I.",
-      "options": [],
-      "answer": "",
-      "isEnable": "false"
-    },
-    {
-      "id": 12,
-      "type": "option",
-      "order": 1,
-      "label": "Concepto de Secretaria de Salud - V.I.",
-      "options": [
-        "No Tiene",
-        "Favorable",
-        "Condicionado"
-      ],
-      "answer": ""
-    },
-    {
-      "id": 13,
-      "type": "date",
-      "order": 1,
-      "label": "Fecha de la visita",
-      "options": [],
-      "answer": "",
-      "isEnable": "false"
-    },
-    {
-      "id": 14,
-      "type": "text",
-      "order": 1,
-      "label": "Operador(es):",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false"
+      "isEnabled": "false",
+      "name": "q3"
     },
     {
       "id": 15,
-      "type": "text",
+      "type": "check",
       "order": 1,
-      "label": "U.T PAE 2022",
+      "label": "OPERADORES(es):",
+      "options": [
+        { "label": "GR LOG\u00cdSTICA INTEGRAL ", "value": "grlogistic" },
+        {
+          "label": "ALIRIO G\u00d3MEZ G. SERVICIOS DE ALIMENTACI\u00d3N S.A.S ",
+          "value": "aliriogomez"
+        },
+        { "label": "CONSORCIO PAE MEDELL\u00cdN ", "value": "consorcio" }
+      ],
+      "answer": "",
+      "isEnabled": "false",
+      "name": "q15"
+    },
+    {
+      "id": 14,
+      "type": "date",
+      "order": 1,
+      "label": "FECHA",
       "options": [],
       "answer": "",
-      "isEnabled": "false"
+      "isEnable": "false",
+      "dateFormatted": "",
+      "name": "q14"
+    },
+    {
+      "id": 23,
+      "type": "check",
+      "order": 1,
+      "label": "COMPLEMENTOS(S)",
+      "options": [
+        { "label": "COMPLEMENTO TIPO ALMUERZO", "value": "CTA" },
+        { "label": "COMPLEMENTO TIPO AM/PM", "value": "AM/PM" },
+        { "label": "RACION INDISTRIALIZADA", "value": "RI" },
+        { "label": "VASO DE LECHE", "value": "VL" },
+        { "label": "RACION DE CONTINGENCIA", "value": "RC" }
+      ],
+      "answer": "",
+      "isEnabled": "false",
+      "name": "q23"
+    },
+    {
+      "id": 6,
+      "type": "text",
+      "order": 1,
+      "label": "NOMBRE DEL SUPERVISOR",
+      "options": [],
+      "answer": "",
+      "disabled": "false",
+      "name": "q6"
     },
     {
       "id": 16,
-      "type": "label",
+      "type": "subtitle",
       "order": 1,
-      "label": "Visita"
+      "label": "LISTA DE CHEQUEO"
     },
     {
       "id": 17,
       "type": "label",
       "order": 1,
-      "label": " Registre la fecha según directriz previa, seleccione con 'SI' sí la visita es Efectiva. Registre hora de inicio y finalización de la visita. Diligencie con un 'SI' el Tipo de Complemento o complementos a evaluar en el E.E y "
-    },
-    {
-      "id": 18,
-      "type": "label",
-      "order": 1,
-      "label": " registre según las modalidades de atención el Número de titulares de derecho programados según grupo poblacional (grados escolares: Transición, 1 a 3; 4 a 5, 6 a 9, 10 a 11), informe que Semana y Menú se ejecuta el día "
-    },
-    {
-      "id": 19,
-      "type": "label",
-      "order": 1,
-      "label": " de la visita para cada Complemento. Esta información está sujeta a cambios de acuerdo a los pliegos de cada licitación del programa de Alimentación PAE"
-    },
-    {
-      "id": 20,
-      "type": "date",
-      "order": 1,
-      "label": "Fecha de la visita",
-      "options": [],
-      "answer": "",
-      "isEnable": "false"
-    },
-    {
-      "id": 21,
-      "type": "text",
-      "order": 1,
-      "label": "Hora Inicio de la Visita",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false"
-    },
-    {
-      "id": 22,
-      "type": "text",
-      "order": 1,
-      "label": "Hora Finalizacion de la Visita",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false"
-    },
-    {
-      "id": 23,
-      "type": "option",
-      "order": 1,
-      "label": "Visita Efectiva",
-      "options": [
-        "SI",
-        "NO"
-      ],
-      "answer": ""
-    },
-    {
-      "id": 24,
-      "type": "label",
-      "order": 1,
-      "label": "Complemento(s)"
-    },
-    {
-      "id": 25,
-      "type": "option",
-      "order": 1,
-      "label": "Complemento tipo Almuerzo",
-      "options": [
-        "SI",
-        "NO"
-      ],
-      "answer": "",
-      "isEnabled": "false"
-    },
-    {
-      "id": 26,
-      "type": "label",
-      "order": 1,
-      "label": "Numero de Beneficiarios por Complemento"
-    },
-    {
-      "id": 27,
-      "type": "text",
-      "order": 1,
-      "label": "Transicion",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false"
-    },
-    {
-      "id": 28,
-      "type": "text",
-      "order": 1,
-      "label": "Primero a Tercero (1ero a 3ro)",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false"
-    },
-    {
-      "id": 29,
-      "type": "text",
-      "order": 1,
-      "label": "Cuato a Quinto (4to a 5to)",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false"
-    },
-    {
-      "id": 30,
-      "type": "text",
-      "order": 1,
-      "label": "Sexto a Noveno (6to a 9no)",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false"
-    },
-    {
-      "id": 31,
-      "type": "text",
-      "order": 1,
-      "label": "Decimo a Once (10mo a 11) ",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false"
-    },
-    {
-      "id": 32,
-      "type": "text",
-      "order": 1,
-      "label": "Semana del dia de la visita",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false"
-    },
-    {
-      "id": 33,
-      "type": "text",
-      "order": 1,
-      "label": "Menú del dia de la visita",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false"
-    },
-    {
-      "id": 34,
-      "type": "label",
-      "order": 1,
-      "label": "Complemento"
-    },
-    {
-      "id": 35,
-      "type": "option",
-      "order": 1,
-      "label": "Racion Industrializada",
-      "options": [
-        "SI",
-        "NO"
-      ],
-      "answer": "",
-      "isEnabled": "false"
-    },
-    {
-      "id": 36,
-      "type": "label",
-      "order": 1,
-      "label": "Numero de Beneficiarios por Complemento"
-    },
-    {
-      "id": 37,
-      "type": "text",
-      "order": 1,
-      "label": "Transicion",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false"
-    },
-    {
-      "id": 38,
-      "type": "text",
-      "order": 1,
-      "label": "Primero a Tercero (1ero a 3ro)",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false"
-    },
-    {
-      "id": 39,
-      "type": "text",
-      "order": 1,
-      "label": "Cuato a Quinto (4to a 5to)",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false"
-    },
-    {
-      "id": 40,
-      "type": "text",
-      "order": 1,
-      "label": "Sexto a Noveno (6to a 9no)",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false"
-    },
-    {
-      "id": 41,
-      "type": "text",
-      "order": 1,
-      "label": "Decimo a Once (10mo a 11) ",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false"
-    },
-    {
-      "id": 42,
-      "type": "text",
-      "order": 1,
-      "label": "Semana del dia de la visita",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false"
-    },
-    {
-      "id": 43,
-      "type": "text",
-      "order": 1,
-      "label": "Menú del dia de la visita",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false"
-    },
-    {
-      "id": 44,
-      "type": "label",
-      "order": 1,
-      "label": "Complemento"
-    },
-    {
-      "id": 45,
-      "type": "option",
-      "order": 1,
-      "label": "Vaso de Leche",
-      "options": [
-        "SI",
-        "NO"
-      ],
-      "answer": "",
-      "isEnabled": "false"
-    },
-    {
-      "id": 46,
-      "type": "label",
-      "order": 1,
-      "label": "Numero de Beneficiarios por Complemento"
-    },
-    {
-      "id": 47,
-      "type": "text",
-      "order": 1,
-      "label": "Transicion",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false"
-    },
-    {
-      "id": 48,
-      "type": "text",
-      "order": 1,
-      "label": "Primero a Tercero (1ero a 3ro)",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false"
-    },
-    {
-      "id": 49,
-      "type": "text",
-      "order": 1,
-      "label": "Cuato a Quinto (4to a 5to)",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false"
-    },
-    {
-      "id": 50,
-      "type": "text",
-      "order": 1,
-      "label": "Sexto a Noveno (6to a 9no)",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false"
-    },
-    {
-      "id": 51,
-      "type": "text",
-      "order": 1,
-      "label": "Decimo a Once (10mo a 11) ",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false"
-    },
-    {
-      "id": 52,
-      "type": "text",
-      "order": 1,
-      "label": "Semana del dia de la visita",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false"
-    },
-    {
-      "id": 53,
-      "type": "text",
-      "order": 1,
-      "label": "Menú del dia de la visita",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false"
-    },
-    {
-      "id": 54,
-      "type": "label",
-      "order": 1,
-      "label": "Complemento"
-    },
-    {
-      "id": 55,
-      "type": "option",
-      "order": 1,
-      "label": "Racion de Contingencia",
-      "options": [
-        "SI",
-        "NO"
-      ],
-      "answer": "",
-      "isEnabled": "false"
-    },
-    {
-      "id": 56,
-      "type": "label",
-      "order": 1,
-      "label": "Numero de Beneficiarios por Complemento"
-    },
-    {
-      "id": 57,
-      "type": "text",
-      "order": 1,
-      "label": "Transicion",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false"
-    },
-    {
-      "id": 58,
-      "type": "text",
-      "order": 1,
-      "label": "Primero a Tercero (1ero a 3ro)",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false"
-    },
-    {
-      "id": 59,
-      "type": "text",
-      "order": 1,
-      "label": "Cuato a Quinto (4to a 5to)",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false"
-    },
-    {
-      "id": 60,
-      "type": "text",
-      "order": 1,
-      "label": "Sexto a Noveno (6to a 9no)",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false"
-    },
-    {
-      "id": 61,
-      "type": "text",
-      "order": 1,
-      "label": "Decimo a Once (10mo a 11) ",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false"
-    },
-    {
-      "id": 62,
-      "type": "text",
-      "order": 1,
-      "label": "Semana del dia de la visita",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false"
-    },
-    {
-      "id": 63,
-      "type": "text",
-      "order": 1,
-      "label": "Menú del dia de la visita",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false"
-    },
-    {
-      "id": 63,
-      "type": "text",
-      "order": 1,
-      "label": "Nombre del Interventor",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false"
+      "label": "Responda a cada una de los Títulos de Preguntas Orientadoras en los siguientes términos: Cumple con la letra (C), No cumple (N.C), No observado (NO) o No Aplica (NA). Debe respetar la casilla descrita para cada modalidad de atención Complemento tipo almuerzo (CTA), Ración Industrializada (RI), Vaso de Leche (VL) y ración de contingencia (RC)"
     },
     {
       "id": 64,
@@ -580,22 +121,10 @@
       "label": "PREGUNTAS ORIENTADORAS MANTENIMIENTO"
     },
     {
-      "id": 65,
-      "type": "label",
-      "order": 1,
-      "label": "Lista de Chequeo: Responda a cada una de los Títulos de Preguntas Orientadoras en los siguientes términos: Cumple con la letra (C), No cumple (NC), No observado (NO) o No Aplica (NA). Debe respetar la"
-    },
-    {
-      "id": 66,
-      "type": "label",
-      "order": 1,
-      "label": "casilla descrita para cada modalidad de atención Complemento tipo almuerzo (CTA), Ración Industrializada (RI), Vaso de Leche (VL) y ración de contingencia (RC)"
-    },
-    {
       "id": 67,
-      "type": "label",
+      "type": "subtitle",
       "order": 1,
-      "label": "Inventario físico de dotación"
+      "label": "INVENTARIO FÍSICO DE DOTACIÓN"
     },
     {
       "id": 68,
@@ -667,9 +196,9 @@
     },
     {
       "id": 70,
-      "type": "label",
+      "type": "subtitle",
       "order": 1,
-      "label": "Mantenimiento de Equipos"
+      "label": "MANTENIMIENTO DE EQUIPOS"
     },
     {
       "id": 71,
@@ -777,7 +306,7 @@
       "id": 74,
       "type": "label",
       "order": 1,
-      "label": "Mantenimiento preventivo"
+      "label": "MANTENIMIENTO PREVENTIVO"
     },
     {
       "id": 75,
@@ -919,7 +448,7 @@
       "id": 79,
       "type": "label",
       "order": 1,
-      "label": "Mantenimiento Correctivo"
+      "label": "MANTENIMIENTO CORRECTIVO"
     },
     {
       "id": 80,
@@ -1129,7 +658,7 @@
       "id": 86,
       "type": "label",
       "order": 1,
-      "label": "Dotación de equipos de medición          "
+      "label": "DOTACIÓN DE EQUIPOS DE MEDICIÓN"
     },
     {
       "id": 7,
@@ -1166,6 +695,19 @@
       ]
     },
     {
+      "id": 1,
+      "type": "subtitle",
+      "order": 1,
+      "label": "Notas de apoyo:",
+      "name": "q1"
+    },
+    {
+      "id": 2,
+      "type": "label",
+      "order": 1,
+      "label": "Utilice el cuadro de Notas de Apoyo para ampliar o justificar calificaciones como N.A – N.O u otras variables encontradas durante de la visita de Supervisión que ameriten claridad, Esta información está sujeta a cambios de acuerdo a los pliegos de cada licitación del programa de Alimentación PAE "
+    },
+    {
       "id": 87,
       "type": "textarea",
       "order": 1,
@@ -1174,25 +716,29 @@
       "answer": ""
     },
     {
-      "id": 88,
-      "type": "text",
+      "id": 230,
+      "type": "select",
       "order": 1,
-      "label": "Visita N° ",
-      "options": [],
-      "answer": ""
+      "label": "Nro. Visita",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "",
+      "name": "q230"
     },
     {
-      "id": 89,
-      "type": "option",
+      "id": 23,
+      "type": "check",
       "order": 1,
-      "label": "Modalidad",
+      "label": "MODALIDAD:",
       "options": [
-        " C.T.A (Complemento tipo almuerzo)",
-        " R.I (Ración Industrializada)",
-        " V.L (Vaso de Leche)",
-        " R.C (Racion Contingente)"
+        { "label": "COMPLEMENTO TIPO ALMUERZO", "value": "CTA" },
+        { "label": "COMPLEMENTO TIPO AM/PM", "value": "AM/PM" },
+        { "label": "RACION INDISTRIALIZADA", "value": "RI" },
+        { "label": "VASO DE LECHE", "value": "VL" },
+        { "label": "RACION DE CONTINGENCIA", "value": "RC" }
       ],
-      "answer": ""
+      "answer": "",
+      "isEnabled": "false",
+      "name": "q23"
     },
     {
       "id": 90,
@@ -1214,7 +760,7 @@
       "id": 92,
       "type": "text",
       "order": 1,
-      "label": "Cedula",
+      "label": "Cedula interventor",
       "options": [],
       "answer": ""
     },
