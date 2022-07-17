@@ -16,10 +16,12 @@
     "pinia": "^2.0.16",
     "swal": "^0.1.0",
     "vue": "^2.6.14",
+    "vue-numeric-input": "^2.0.0",
     "vue-router": "^3.5.1",
     "vue-signature-pad": "^2.0.4",
     "vue-swal": "^1.0.0",
-    "vuetify": "^2.6.0"
+    "vuetify": "^2.6.0",
+    "vuetify-numeric": "^0.2.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",

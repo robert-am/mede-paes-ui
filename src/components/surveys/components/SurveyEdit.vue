@@ -156,6 +156,15 @@
             </q-table>
             <br/>
           </div>
+          <div v-if="question.type == 'numeric'">
+            <v-numeric
+                label="number with precison = 2"
+                outlined
+                text
+                locale="en-US"
+                precision="2"
+            ></v-numeric>
+          </div>
         </div>
       </v-card-text>
     </v-card>
@@ -208,6 +217,7 @@
 import QLabel from "@/components/question/QLabel";
 import QTable from "@/components/question/QTable";
 import moment from 'moment'
+import VNumeric from 'vuetify-numeric/vuetify-numeric.umd.min'
 
 export default {
   name: "SurveyEdit",
@@ -216,7 +226,7 @@ export default {
     survey: {},
     questions: [],
   },
-  components: {QTable, QLabel},
+  components: {QTable, QLabel, VNumeric},
   data: () => ({
     dialogNotas: false,
     dialogHallazgos: false,

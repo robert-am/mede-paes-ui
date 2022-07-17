@@ -17,7 +17,8 @@
               <v-spacer></v-spacer>
               <v-dialog
                   v-model="dialog"
-                  max-width="800px"
+                  fullscreen
+                  persistent
               >
                 <!--
                 <template v-slot:activator="{ on, attrs }">

@@ -2377,6 +2377,11 @@ core-js-compat@^3.21.0, core-js-compat@^3.22.1, core-js-compat@^3.8.3:
     browserslist "^4.21.0"
     semver "7.0.0"
 
+core-js@^3.18.1, core-js@^3.6.4:
+  version "3.23.4"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.23.4.tgz#92d640faa7f48b90bbd5da239986602cfc402aa6"
+  integrity sha512-vjsKqRc1RyAJC3Ye2kYqgfdThb3zYnx9CrqoCcjMOENMtQPC7ZViBvlDxwYU/2z2NI/IPuiXw5mT4hWhddqjzQ==
+
 core-js@^3.8.3:
   version "3.23.3"
   resolved "https://registry.npmjs.org/core-js/-/core-js-3.23.3.tgz"
@@ -5846,6 +5851,14 @@ vue-loader@^17.0.0:
     hash-sum "^2.0.0"
     loader-utils "^2.0.0"
 
+vue-numeric-input@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/vue-numeric-input/-/vue-numeric-input-2.0.0.tgz#08782cfdb098bf486e7d55dd9096a4c3445d0842"
+  integrity sha512-K/wCIvLW035aFfBW6Cq8Gd1PfHaVGeONoQ1Z98dxLZZeEXB+J0SXq57DI7sZ2CXaO3Il6OhOXTsjnMC0JhzHEg==
+  dependencies:
+    core-js "^3.18.1"
+    vue "^2.6.14"
+
 vue-router@^3.5.1:
   version "3.5.4"
   resolved "https://registry.npmjs.org/vue-router/-/vue-router-3.5.4.tgz"
@@ -5907,7 +5920,16 @@ vuetify-loader@^1.7.0:
     file-loader "^6.2.0"
     loader-utils "^2.0.0"
 
-vuetify@^2.6.0:
+vuetify-numeric@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/vuetify-numeric/-/vuetify-numeric-0.2.1.tgz#ce260c8a444979a1fcf11e517c02e309f6fd3c75"
+  integrity sha512-+DbdgRsC3V8pybuZOOR7IZF3rehjYSiFatScFnMI+L8zyPmMafKdGLoEb+omLNnOdtYiznlSOdvmeYzBcQzNEg==
+  dependencies:
+    core-js "^3.6.4"
+    vue "^2.6.14"
+    vuetify "^2.6.3"
+
+vuetify@^2.6.0, vuetify@^2.6.3:
   version "2.6.7"
   resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-2.6.7.tgz#9c6fb7d20e1c4b07417084cbe5996c2dadf099df"
   integrity sha512-1XxCv6mt1UsKaW7rqow0hF/jOw1ijT/fHH9euWLHgSVIcPAx8D2AY5ihTCBbMmV53Hj/YD0DUvzyk6cM/OGHvw==
