@@ -15,7 +15,7 @@
       "id": 2,
       "type": "label",
       "order": 1,
-      "label": "Registre el Nombre del Establecimiento Educativo (E.E)>, Se\u00f1ale con una X el Concepto Sanitario de Secretar\u00eda de Salud  y registre la fecha  de la visita utilizando dos d\u00edgitos para d\u00eda- mes y a\u00f1o, Seleccione con X  el o los operadores que ejecutan al interior del E.E"
+      "label": "Registre el Nombre del Establecimiento Educativo (E.E), Se\u00f1ale con una X el Concepto Sanitario de Secretar\u00eda de Salud  y registre la fecha  de la visita utilizando dos d\u00edgitos para d\u00eda- mes y a\u00f1o, Seleccione con X  el o los operadores que ejecutan al interior del E.E"
     },
     {
       "id": 3,
@@ -55,8 +55,9 @@
       "label": "DIRECCION",
       "options": [],
       "answer": "",
-      "disabled": "false",
-      "name": "q6"
+      "disabled": "true",
+      "name": "q6",
+      "readonly": true
     },
     {
       "id": 7,
@@ -286,6 +287,19 @@
       "name": "q24"
     },
     {
+        "id": 2,
+        "type": "label",
+        "order": 1,
+        "label": "Complete las secciones de acuerdo a los complementos indicados anteriormente"
+    },
+    {
+        "id": 24,
+        "type": "subtitle",
+        "order": 1,
+        "label": "COMPLEMENTO TIPO ALMUERZO",
+        "name": "q24"
+      },
+    {
       "id": 25,
       "type": "numeric",
       "order": 1,
@@ -294,57 +308,62 @@
       "answer": "",
       "isEnabled": "false",
       "name": "q25",
-      "precision": "2"
+      "precision": "0"
     },
     {
       "id": 26,
-      "type": "text",
+      "type": "numeric",
       "order": 1,
       "label": "Primero a Tercero (1ero a 3ro)",
       "options": [],
       "answer": "",
       "isEnabled": "false",
-      "name": "q26"
+      "name": "q26",
+      "precision": "0"
     },
     {
       "id": 27,
-      "type": "text",
+      "type": "numeric",
       "order": 1,
       "label": "Cuato a Quinto (4to a 5to)",
       "options": [],
       "answer": "",
       "isEnabled": "false",
-      "name": "q27"
+      "name": "q27",
+      "precision": "0"
     },
     {
       "id": 28,
-      "type": "text",
+      "type": "numeric",
       "order": 1,
       "label": "Sexto a Noveno (6to a 9no)",
       "options": [],
       "answer": "",
       "isEnabled": "false",
-      "name": "q28"
+      "name": "q28",
+      "precision": "0"
     },
     {
       "id": 29,
-      "type": "text",
+      "type": "numeric",
       "order": 1,
       "label": "Decimo a Once (10mo a 11) ",
       "options": [],
       "answer": "",
       "isEnabled": "false",
-      "name": "q29"
+      "name": "q29",
+      "precision": "0"
     },
     {
       "id": 30,
-      "type": "text",
+      "type": "numeric",
       "order": 1,
       "label": "Semana del dia de la visita",
       "options": [],
       "answer": "",
       "isEnabled": "false",
-      "name": "q30"
+      "name": "q30",
+      "precision": "0"
     },
     {
       "id": 31,
@@ -358,22 +377,9 @@
     },
     {
       "id": 32,
-      "type": "label",
+      "type": "subtitle",
       "order": 1,
-      "label": "Complemento"
-    },
-    {
-      "id": 33,
-      "type": "option",
-      "order": 1,
-      "label": "Racion Industrializada",
-      "options": [
-        "SI",
-        "NO"
-      ],
-      "answer": "",
-      "isEnabled": "false",
-      "name": "q33"
+      "label": "COMPLEMENTO TIPO AM/PM"
     },
     {
       "id": 34,
@@ -382,65 +388,71 @@
       "label": "Numero de Beneficiarios por Complemento"
     },
     {
-      "id": 35,
-      "type": "text",
-      "order": 1,
-      "label": "Transicion",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false",
-      "name": "q35"
-    },
-    {
-      "id": 36,
-      "type": "text",
-      "order": 1,
-      "label": "Primero a Tercero (1ero a 3ro)",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false",
-      "name": "q36"
-    },
-    {
-      "id": 37,
-      "type": "text",
-      "order": 1,
-      "label": "Cuato a Quinto (4to a 5to)",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false",
-      "name": "q37"
-    },
-    {
-      "id": 38,
-      "type": "text",
-      "order": 1,
-      "label": "Sexto a Noveno (6to a 9no)",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false",
-      "name": "q38"
-    },
-    {
-      "id": 39,
-      "type": "text",
-      "order": 1,
-      "label": "Decimo a Once (10mo a 11) ",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false",
-      "name": "q39"
-    },
-    {
-      "id": 40,
-      "type": "text",
-      "order": 1,
-      "label": "Semana del dia de la visita",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false",
-      "name": "q40"
-    },
+        "id": 25,
+        "type": "numeric",
+        "order": 1,
+        "label": "Transicion",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q25",
+        "precision": "0"
+      },
+      {
+        "id": 26,
+        "type": "numeric",
+        "order": 1,
+        "label": "Primero a Tercero (1ero a 3ro)",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q26",
+        "precision": "0"
+      },
+      {
+        "id": 27,
+        "type": "numeric",
+        "order": 1,
+        "label": "Cuato a Quinto (4to a 5to)",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q27",
+        "precision": "0"
+      },
+      {
+        "id": 28,
+        "type": "numeric",
+        "order": 1,
+        "label": "Sexto a Noveno (6to a 9no)",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q28",
+        "precision": "0"
+      },
+      {
+        "id": 29,
+        "type": "numeric",
+        "order": 1,
+        "label": "Decimo a Once (10mo a 11) ",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q29",
+        "precision": "0"
+      },
+      {
+        "id": 30,
+        "type": "numeric",
+        "order": 1,
+        "label": "Semana del dia de la visita",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q30",
+        "precision": "0"
+      },
     {
       "id": 41,
       "type": "text",
@@ -453,22 +465,9 @@
     },
     {
       "id": 42,
-      "type": "label",
+      "type": "subtitle",
       "order": 1,
-      "label": "Complemento"
-    },
-    {
-      "id": 43,
-      "type": "option",
-      "order": 1,
-      "label": "Vaso de Leche",
-      "options": [
-        "SI",
-        "NO"
-      ],
-      "answer": "",
-      "isEnabled": "false",
-      "name": "q43"
+      "label": "RACION INDISTRIALIZADA"
     },
     {
       "id": 44,
@@ -487,55 +486,71 @@
       "name": "q45"
     },
     {
-      "id": 46,
-      "type": "text",
-      "order": 1,
-      "label": "Primero a Tercero (1ero a 3ro)",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false",
-      "name": "q46"
-    },
-    {
-      "id": 47,
-      "type": "text",
-      "order": 1,
-      "label": "Cuato a Quinto (4to a 5to)",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false",
-      "name": "q47"
-    },
-    {
-      "id": 48,
-      "type": "text",
-      "order": 1,
-      "label": "Sexto a Noveno (6to a 9no)",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false",
-      "name": "q48"
-    },
-    {
-      "id": 49,
-      "type": "text",
-      "order": 1,
-      "label": "Decimo a Once (10mo a 11) ",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false",
-      "name": "q49"
-    },
-    {
-      "id": 50,
-      "type": "text",
-      "order": 1,
-      "label": "Semana del dia de la visita",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false",
-      "name": "q50"
-    },
+        "id": 25,
+        "type": "numeric",
+        "order": 1,
+        "label": "Transicion",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q25",
+        "precision": "0"
+      },
+      {
+        "id": 26,
+        "type": "numeric",
+        "order": 1,
+        "label": "Primero a Tercero (1ero a 3ro)",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q26",
+        "precision": "0"
+      },
+      {
+        "id": 27,
+        "type": "numeric",
+        "order": 1,
+        "label": "Cuato a Quinto (4to a 5to)",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q27",
+        "precision": "0"
+      },
+      {
+        "id": 28,
+        "type": "numeric",
+        "order": 1,
+        "label": "Sexto a Noveno (6to a 9no)",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q28",
+        "precision": "0"
+      },
+      {
+        "id": 29,
+        "type": "numeric",
+        "order": 1,
+        "label": "Decimo a Once (10mo a 11) ",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q29",
+        "precision": "0"
+      },
+      {
+        "id": 30,
+        "type": "numeric",
+        "order": 1,
+        "label": "Semana del dia de la visita",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q30",
+        "precision": "0"
+      },
     {
       "id": 51,
       "type": "text",
@@ -547,90 +562,171 @@
       "name": "q51"
     },
     {
-      "id": 52,
-      "type": "label",
-      "order": 1,
-      "label": "Complemento"
-    },
+        "id": 42,
+        "type": "subtitle",
+        "order": 1,
+        "label": "VASO DE LECHE"
+      },
+      {
+        "id": 44,
+        "type": "label",
+        "order": 1,
+        "label": "Numero de Beneficiarios por Complemento"
+      },
     {
-      "id": 53,
-      "type": "option",
-      "order": 1,
-      "label": "Racion de Contingencia",
-      "options": [
-        "SI",
-        "NO"
-      ],
-      "answer": "",
-      "isEnabled": "false",
-      "name": "q53"
-    },
+        "id": 25,
+        "type": "numeric",
+        "order": 1,
+        "label": "Transicion",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q25",
+        "precision": "0"
+      },
+      {
+        "id": 26,
+        "type": "numeric",
+        "order": 1,
+        "label": "Primero a Tercero (1ero a 3ro)",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q26",
+        "precision": "0"
+      },
+      {
+        "id": 27,
+        "type": "numeric",
+        "order": 1,
+        "label": "Cuato a Quinto (4to a 5to)",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q27",
+        "precision": "0"
+      },
+      {
+        "id": 28,
+        "type": "numeric",
+        "order": 1,
+        "label": "Sexto a Noveno (6to a 9no)",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q28",
+        "precision": "0"
+      },
+      {
+        "id": 29,
+        "type": "numeric",
+        "order": 1,
+        "label": "Decimo a Once (10mo a 11) ",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q29",
+        "precision": "0"
+      },
+      {
+        "id": 30,
+        "type": "numeric",
+        "order": 1,
+        "label": "Semana del dia de la visita",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q30",
+        "precision": "0"
+      },
     {
-      "id": 54,
-      "type": "label",
-      "order": 1,
-      "label": "Numero de Beneficiarios por Complemento"
-    },
-    {
-      "id": 55,
+      "id": 61,
       "type": "text",
       "order": 1,
-      "label": "Transicion",
+      "label": "Men\u00fa del dia de la visita",
       "options": [],
       "answer": "",
       "isEnabled": "false",
-      "name": "q55"
+      "name": "q61"
     },
     {
-      "id": 56,
-      "type": "text",
-      "order": 1,
-      "label": "Primero a Tercero (1ero a 3ro)",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false",
-      "name": "q56"
-    },
+        "id": 42,
+        "type": "subtitle",
+        "order": 1,
+        "label": "RACION DE CONTINGENCIA"
+      },
+      {
+        "id": 44,
+        "type": "label",
+        "order": 1,
+        "label": "Numero de Beneficiarios por Complemento"
+      },
     {
-      "id": 57,
-      "type": "text",
-      "order": 1,
-      "label": "Cuato a Quinto (4to a 5to)",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false",
-      "name": "q57"
-    },
-    {
-      "id": 58,
-      "type": "text",
-      "order": 1,
-      "label": "Sexto a Noveno (6to a 9no)",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false",
-      "name": "q58"
-    },
-    {
-      "id": 59,
-      "type": "text",
-      "order": 1,
-      "label": "Decimo a Once (10mo a 11) ",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false",
-      "name": "q59"
-    },
-    {
-      "id": 60,
-      "type": "text",
-      "order": 1,
-      "label": "Semana del dia de la visita",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false",
-      "name": "q60"
-    },
+        "id": 25,
+        "type": "numeric",
+        "order": 1,
+        "label": "Transicion",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q25",
+        "precision": "0"
+      },
+      {
+        "id": 26,
+        "type": "numeric",
+        "order": 1,
+        "label": "Primero a Tercero (1ero a 3ro)",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q26",
+        "precision": "0"
+      },
+      {
+        "id": 27,
+        "type": "numeric",
+        "order": 1,
+        "label": "Cuato a Quinto (4to a 5to)",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q27",
+        "precision": "0"
+      },
+      {
+        "id": 28,
+        "type": "numeric",
+        "order": 1,
+        "label": "Sexto a Noveno (6to a 9no)",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q28",
+        "precision": "0"
+      },
+      {
+        "id": 29,
+        "type": "numeric",
+        "order": 1,
+        "label": "Decimo a Once (10mo a 11) ",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q29",
+        "precision": "0"
+      },
+      {
+        "id": 30,
+        "type": "numeric",
+        "order": 1,
+        "label": "Semana del dia de la visita",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q30",
+        "precision": "0"
+      },
     {
       "id": 61,
       "type": "text",
@@ -4110,19 +4206,19 @@
               "value": "TRN"
             },
             {
-              "label": "1-3",
+              "label": "1°-3°",
               "value": "1-3"
             },
             {
-              "label": "4-5",
+              "label": "4°-5°",
               "value": "4-5"
             },
             {
-              "label": "6-9",
+              "label": "6°-9°",
               "value": "6-9"
             },
             {
-              "label": "10-11",
+              "label": "10°-11°",
               "value": "10-11"
             }
           ],
@@ -4131,10 +4227,11 @@
         {
           "id": 1,
           "name": "ref",
-          "type": "text",
+          "type": "numeric",
           "order": 1,
           "label": "PESOS(G)/ VOLUMEN(cc) REF",
-          "answer": ""
+          "answer": "",
+          "precision": "0"
         },
         {
           "id": 1,
