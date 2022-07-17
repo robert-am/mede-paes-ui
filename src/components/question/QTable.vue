@@ -47,7 +47,7 @@
                             v-for="(field, idx) in qFields" :key="idx"
                         >
                           <div v-if="field.type == 'text'">
-                            <v-text-field :label="field.label" v-model="$data['editedItem'][field.name]"></v-text-field>
+                            <v-text-field :label="field.label" v-model="$data['editedItem'][field.name]" :readonly="field.readonly"></v-text-field>
                           </div>
                           <div v-if="field.type == 'select'">
                             <v-select
