@@ -81,7 +81,7 @@
                                   no-title
                                   v-model="$data['editedItem'][field.name]"
                                   @input="field.isEnable = false"
-                                  @change="field.dateFormatted = parseDate($data['editedItem'][field.name])"
+                                  @change="$data['editedItem'][field.name] = field.dateFormatted = parseDate($data['editedItem'][field.name])"
                               ></v-date-picker>
                             </v-menu>
                           </div>
