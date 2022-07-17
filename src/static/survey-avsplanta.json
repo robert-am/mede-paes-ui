@@ -22,7 +22,12 @@
       "type": "select",
       "order": 1,
       "label": "CONTRATISTA",
-      "options": ["contratista 1","contratista 2","contratista 3","contratista 4"],
+      "options": [
+        "contratista 1",
+        "contratista 2",
+        "contratista 3",
+        "contratista 4"
+      ],
       "answer": "",
       "name": "q1"
     },
@@ -31,7 +36,10 @@
       "type": "select",
       "order": 1,
       "label": "OPERADOR(ES)",
-      "options": ["operador 1", "operador 2"],
+      "options": [
+        "operador 1",
+        "operador 2"
+      ],
       "answer": "",
       "name": "q2"
     },
@@ -40,32 +48,54 @@
       "type": "option",
       "order": 1,
       "label": "BODEGA",
-      "options": ["1", "2"],
+      "options": [
+        "1",
+        "2"
+      ],
       "answer": "",
       "name": "q4"
     },
     {
-          "id": 23,
-          "type": "check",
-          "order": 1,
-          "label": "COMPLEMENTOS(S)",
-          "options": [
-            { "label": "COMPLEMENTO TIPO ALMUERZO", "value": "CTA" },
-            { "label": "COMPLEMENTO TIPO AM/PM", "value": "AM/PM" },
-            { "label": "RACION INDISTRIALIZADA", "value": "RI" },
-            { "label": "VASO DE LECHE", "value": "VL" },
-            { "label": "RACION DE CONTINGENCIA", "value": "RC" }
-          ],
-          "answer": "",
-          "isEnabled": "false",
-          "name": "q23"
+      "id": 23,
+      "type": "check",
+      "order": 1,
+      "label": "COMPLEMENTOS(S)",
+      "options": [
+        {
+          "label": "COMPLEMENTO TIPO ALMUERZO",
+          "value": "CTA"
         },
+        {
+          "label": "COMPLEMENTO TIPO AM/PM",
+          "value": "AM/PM"
+        },
+        {
+          "label": "RACION INDISTRIALIZADA",
+          "value": "RI"
+        },
+        {
+          "label": "VASO DE LECHE",
+          "value": "VL"
+        },
+        {
+          "label": "RACION DE CONTINGENCIA",
+          "value": "RC"
+        }
+      ],
+      "answer": "",
+      "isEnabled": "false",
+      "name": "q23"
+    },
     {
       "id": 7,
       "type": "option",
       "order": 1,
       "label": "CONCEPTO DE SECRETARIA DE SALUD O INVIMA",
-      "options": ["NO TIENE", "FAVORABLE", "CONDICIONADO"],
+      "options": [
+        "NO TIENE",
+        "FAVORABLE",
+        "CONDICIONADO"
+      ],
       "answer": "",
       "name": "q7"
     },
@@ -116,7 +146,10 @@
       "order": "1",
       "label": "Procesos Realizados",
       "headers": [
-        { "text": "Fecha de Visita", "value": "FechaVisita" },
+        {
+          "text": "Fecha de Visita",
+          "value": "FechaVisita"
+        },
         {
           "text": "Verificacion de Materia Prima",
           "value": "VerificacionMateriaPrima"
@@ -129,17 +162,27 @@
           "text": "Socializaci\u00f3n de Allaszgos",
           "value": "Socializaci\u00f3nAllaszgos"
         },
-        { "text": "Control Metrologico", "value": "ControlMetrologico" },
+        {
+          "text": "Control Metrologico",
+          "value": "ControlMetrologico"
+        },
         {
           "text": "Seguimiento a Personal o Vehiculos",
           "value": "SeguimientoPersonalVehiculos"
         },
-        { "text": "Registro de la Bitacora", "value": "RegistroBitacora" },
+        {
+          "text": "Registro de la Bitacora",
+          "value": "RegistroBitacora"
+        },
         {
           "text": "Rastreo Fisico-Quimico o Microbilogico",
           "value": "RastreoFisicoQuimicoMicrobilogico"
         },
-        { "text": "Actions", "value": "actions", "sortable": false }
+        {
+          "text": "Actions",
+          "value": "actions",
+          "sortable": false
+        }
       ],
       "fields": [
         {
@@ -207,7 +250,18 @@
           "answer": ""
         }
       ],
-      "answers": [[], [], [], [], [], [], [], [], [], []],
+      "answers": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
       "name": "q11"
     },
     {
@@ -217,7 +271,12 @@
       "label": "LISTA DE CHEQUEO",
       "name": "q1"
     },
-    { "id": 12, "type": "label", "order": 1, "label": "Responda cada una de las Preguntas Orientadoras en los siguientes términos: Cumple con la letra (C), No cumple (N.C), No aplica (N.A), y No Observado (N.O)" },
+    {
+      "id": 12,
+      "type": "label",
+      "order": 1,
+      "label": "Responda cada una de las Preguntas Orientadoras en los siguientes términos: Cumple con la letra (C), No cumple (N.C), No aplica (N.A), y No Observado (N.O)"
+    },
     {
       "id": 1,
       "type": "title",
@@ -237,7 +296,12 @@
       "order": 1,
       "label": "1 \u00bfEl contratista cuenta con una o m\u00e1s bodegas ubicadas en el Valle de Aburr\u00e1 y/o Municipios de Antioquia, con un \u00e1rea m\u00ednima y de uso \u00fanico y exclusivo para el almacenamiento y distribuci\u00f3n de alimentos, a una distancia lineal no mayor a 30 kil\u00f3metros desde la plomada puente punto cero del Municipio de Medell\u00edn?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q14"
     },
     {
@@ -246,7 +310,12 @@
       "order": 1,
       "label": "2 \u00bfSi el contratista dispone de una bodega en donde concurren varias actividades, las cuales son afines al sector de alimentos de consumo humano, y discrimina e identifica cada uno de los programas o actividades que convergen en ella?      ",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q15"
     },
     {
@@ -255,7 +324,12 @@
       "order": 1,
       "label": "3 \u00bfEl contratista cuenta con los equipos (cava de refrigeraci\u00f3n y de congelaci\u00f3n, b\u00e1sculas, balanzas y term\u00f3metros) e implementos (canastillas, estibas y carretillas), que dan cumplimiento a las normas higi\u00e9nico-sanitarias requeridas por ley, a las especificaciones y cantidades m\u00ednimas establecidas y que garantizan el adecuado almacenamiento, transporte y distribuci\u00f3n de los alimentos? ",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q16"
     },
     {
@@ -264,7 +338,12 @@
       "order": 1,
       "label": "4 \u00bfLa bodega cuenta con concepto sanitario favorable; dicho concepto no es \u201cFavorable con observaciones\u201d o \u201cFavorable condicionado\u201d, es emitido por Secretar\u00eda de Salud del Municipio correspondiente o la autoridad competente y se mantiene durante todo el tiempo de ejecuci\u00f3n del contrato?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q17"
     },
     {
@@ -279,7 +358,12 @@
       "order": 1,
       "label": "5 \u00bfEl contratista cuenta con un plan de mantenimiento para equipos, el cual contempla actividades de mantenimiento preventivo y correctivo, tanto para la bodega como para los comedores escolares; y cumple con los requisitos exigidos en las especificaciones t\u00e9cnicas?      ",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q19"
     },
     {
@@ -288,17 +372,32 @@
       "order": 1,
       "label": "6 Se debe tener una carpeta con toda la documentaci\u00f3n: copia del plan de mantenimiento, inventario de equipos, ficha t\u00e9cnica, hoja de vida con la informaci\u00f3n de los mantenimientos preventivos y correctivos realizados a cada uno de los equipos y mantenerlas actualizadas incluyendo los resultados de los mantenimientos preventivos y correctivos que se hayan realizado durante su vida \u00fatil o ejecuci\u00f3n del contrato.      ",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q20"
     },
-    { "id": 21, "type": "subtitle", "order": 1, "label": "CICLOS DE MENÚ" },
+    {
+      "id": 21,
+      "type": "subtitle",
+      "order": 1,
+      "label": "CICLOS DE MENÚ"
+    },
     {
       "id": 22,
       "type": "option",
       "order": 1,
       "label": "7 \u00bfEl contratista cumple con los ciclos de men\u00fa establecidos por la Secretar\u00eda de Inclusi\u00f3n Social, Familia y Derechos Humanos, Anexo A- Ciclos de Men\u00fa, \u00bfgarantizando la entrega de las preparaciones y alimentos establecidos para cada uno de los ciclos?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q22"
     },
     {
@@ -307,7 +406,12 @@
       "order": 1,
       "label": "8 \u00bfLos men\u00fas cumplen con el gramaje establecido seg\u00fan los rangos de edad para las modalidades RC, RI, RPS?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q23"
     },
     {
@@ -316,7 +420,12 @@
       "order": 1,
       "label": "9 \u00bfSe realiza la reposici\u00f3n de alimentos oportunamente ante una situaci\u00f3n de alerta reportada por la supervisi\u00f3n, interventor\u00eda o personal del CIF?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q24"
     },
     {
@@ -325,7 +434,12 @@
       "order": 1,
       "label": "10 \u00bfNotifica por escrito los cambios de un componente del men\u00fa del VL por otro de la misma semana, cumpliendo con el mismo grupo de alimentos?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q25"
     },
     {
@@ -334,7 +448,12 @@
       "order": 1,
       "label": "11 El contratista garantiza la entrega de fruta entera y pulpa de fruta, donde solo podr\u00e1 repetir como m\u00e1ximo 3 veces durante el ciclo de 20 d\u00edas, utilizando todas las variedades presentadas en la relaci\u00f3n de frutas por grupo",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q26"
     },
     {
@@ -349,7 +468,12 @@
       "order": 1,
       "label": "12 \u00bfLos alimentos suministrados seg\u00fan los ciclos de men\u00fa son de primera calidad, cumplen con lo exigido en las caracter\u00edsticas generales de los alimentos, Anexo B Caracter\u00edsticas de Alimentos del pliego de condiciones?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q28"
     },
     {
@@ -358,7 +482,12 @@
       "order": 1,
       "label": "13 \u00bfEl empaque y rotulado de todos los alimentos a suministrar durante la ejecuci\u00f3n del contrato, deber\u00e1n cumplir con lo estipulado en la Resoluci\u00f3n 005109 de diciembre 29 de 2005, la Resoluci\u00f3n 1506 de mayo 6 de 2011 y la Resoluci\u00f3n 333 de febrero 10 de 2011 y las dem\u00e1s normas vigentes?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q29"
     },
     {
@@ -367,7 +496,12 @@
       "order": 1,
       "label": "14 \u00bfLos productos panificados que componen el ciclo de men\u00fa, de Raci\u00f3n industrializada, Raci\u00f3n de Contingencia y VL, son entregados garantizando como m\u00ednimo el 40% de su vida \u00fatil?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q30"
     },
     {
@@ -376,7 +510,12 @@
       "order": 1,
       "label": "15 Los alimentos que suministra el contratista cumplen con el registro, permiso o notificaci\u00f3n sanitaria, acorde con lo establecido en el t\u00edtulo III cap\u00edtulo I de la Resoluci\u00f3n 2674 de 2013 y las normas vigentes que lo modifiquen, excepto los que se eximen en dicho cap\u00edtulo.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q31"
     },
     {
@@ -385,7 +524,12 @@
       "order": 1,
       "label": "16 \u00bfEl contratista identifica como \u201cproducto no conforme\u201d los productos que no cumplen con las caracter\u00edsticas generales de los alimentos, estipuladas en el anexo B del presente pliego de condiciones e indica por escrito el      procedimiento para el manejo y disposici\u00f3n final de los mismos?      ",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q32"
     },
     {
@@ -394,7 +538,12 @@
       "order": 1,
       "label": "17 \u00bfCumple con el uso de las marcas de alimentos actualizado, autorizadas y relacionadas en el Anexo D?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q33"
     },
     {
@@ -403,7 +552,12 @@
       "order": 1,
       "label": "18 \u00bfEl contratista realiza el re empaque de alimentos cumpliendo con los requisitos exigidos por las especificaciones t\u00e9cnicas y la normatividad vigente?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q34"
     },
     {
@@ -412,7 +566,12 @@
       "order": 1,
       "label": "19 \u00bfPara la modalidad Raci\u00f3n Industrializada (RI) el contratista hace entrega de los alimentos funcionales a partir de productos de panader\u00eda con adici\u00f3n de 40 mg de \u00e1cidos grasos omega 3 EPA o DHA microencapsulado por cada 100 gr de producto, dos veces por semana de acuerdo a lo establecido en el Anexo A del pliego de condiciones?   ",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q35"
     },
     {
@@ -421,7 +580,12 @@
       "order": 1,
       "label": "20 \u00bfEn el ciclo de men\u00fa se incluye la entrega de Alimentos Funcionales a partir de leches fermentadas como yogures con mezcla de cultivos probi\u00f3ticos y fibra prebi\u00f3tica, de acuerdo con lo definido en el Anexo A - Ciclos de Men\u00fa del pliego de condiciones y seg\u00fan los par\u00e1metros establecidos? ",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q36"
     },
     {
@@ -436,7 +600,12 @@
       "order": 1,
       "label": "21 El contratista garantiza la implementaci\u00f3n de acciones correctivas cuando se presenta alg\u00fan grado de alteraci\u00f3n en los resultados obtenidos de los an\u00e1lisis f\u00edsico- qu\u00edmicos y/o microbiol\u00f3gicos, en un periodo de tiempo m\u00e1ximo de 15 d\u00edas calendario?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q38"
     },
     {
@@ -445,7 +614,12 @@
       "order": 1,
       "label": "22 \u00bfEl contratista retira de forma inmediata tanto en la bodega como en comedores escolares el lote correspondiente a los productos que presenten resultados de an\u00e1lisis microbiol\u00f3gicos con presencia de microorganismos pat\u00f3genos e inicia de inmediato las gestiones necesarias?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q39"
     },
     {
@@ -460,7 +634,12 @@
       "order": 1,
       "label": "23 \u00bfLa planta o bodega del contratista cumple con las condiciones higi\u00e9nico-sanitarias seg\u00fan la resoluci\u00f3n 2674 de 2013?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q41"
     },
     {
@@ -469,7 +648,12 @@
       "order": 1,
       "label": "24 \u00bfPara el complemento vaso de leche, raci\u00f3n industrializada y raci\u00f3n de contingencia el contratista guarda diariamente en refrigeraci\u00f3n una muestra completa del men\u00fa ofrecido por d\u00eda y por n\u00famero de lote a los que haya lugar, por un tiempo m\u00ednimo de 72 horas o 96 horas en fines de semana con festivo? \u00bfEsta muestra es rotulada como m\u00ednimo con fecha de distribuci\u00f3n, hora de despacho e ingredientes del men\u00fa?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q42"
     },
     {
@@ -478,7 +662,12 @@
       "order": 1,
       "label": "25 \u00bfEn caso de presentarse producto vencido, deteriorado o contaminado (animales, insectos o roedores o sustancias qu\u00edmicas), signos y/o s\u00edntomas caracter\u00edsticos de presunta enfermedad o brote alimentario en uno o m\u00e1s titulares de derecho, el contratista reporta de manera inmediata a la Secretar\u00eda de Salud del Municipio, a la interventor\u00eda o Supervisi\u00f3n y al Equipo de Seguridad Alimentaria, con el fin de realizar el procedimiento t\u00e9cnico      y administrativo correspondiente?      ",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q43"
     },
     {
@@ -493,7 +682,12 @@
       "order": 1,
       "label": "26 \u00bfEl contratista dise\u00f1a un plan de saneamiento b\u00e1sico (PSB) que incluya la planta o bodega y es implementado seg\u00fan lo establecido en las especificaciones t\u00e9cnicas?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q45"
     },
     {
@@ -502,7 +696,12 @@
       "order": 1,
       "label": "27 \u00bfEl Plan de Saneamiento B\u00e1sico (PSB) cuenta con las fichas t\u00e9cnicas y hojas de seguridad de los insumos qu\u00edmicos empleados, y como evidencia de su implementaci\u00f3n cuenta con registros de verificaci\u00f3n, listas de chequeo      y dem\u00e1s soportes de las actividades realizadas?      ",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q46"
     },
     {
@@ -517,7 +716,12 @@
       "order": 1,
       "label": "28 \u00bfLos procedimientos de limpieza y desinfecci\u00f3n satisfacen las necesidades particulares del proceso y cuenta con todos los Procedimientos Operativos Estandarizados de Saneamiento - POES, incluyendo los agentes y sustancias que se utilizan indicando las concentraciones o formas de uso, tiempos de contacto, los equipos e implementos requeridos para efectuar las operaciones y la periodicidad de las actividades desarrolladas en      planta?      ",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q48"
     },
     {
@@ -526,7 +730,12 @@
       "order": 1,
       "label": "29 \u00bfPara la desinfecci\u00f3n de equipos, utensilios, superficies, canastillas, estibas y canecas, el contratista utiliza soluci\u00f3n desinfectante con amonio cuaternario de quinta generaci\u00f3n?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q49"
     },
     {
@@ -535,7 +744,12 @@
       "order": 1,
       "label": "30 \u00bfEl contratista implementa el uso de la cintilla medidora para medir la concentraci\u00f3n de amonio cuaternario establecida? ",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q50"
     },
     {
@@ -544,7 +758,12 @@
       "order": 1,
       "label": "31 \u00bfSe mantiene en \u00f3ptimas condiciones de higiene y limpieza las zonas altas como techos, paredes y l\u00e1mparas de la planta o bodega?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q51"
     },
     {
@@ -559,7 +778,12 @@
       "order": 1,
       "label": "32 \u00bfEl contratista formula e implementa un programa de control de plagas, el cual incluya un mapa de riesgo y los formatos de registro de control de prevenci\u00f3n y presencia de plagas, ajustado a las condiciones de cada una de las instalaciones de la bodega y de cada espacio f\u00edsico en donde funcionen las diferentes modalidades, seg\u00fan especificaciones t\u00e9cnicas?      ",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q53"
     },
     {
@@ -568,7 +792,12 @@
       "order": 1,
       "label": "33 \u00bfEl contratista instala barreras f\u00edsicas para evitar el ingreso de plagas del exterior al interior de la planta y/o bodega y estas cumplen con las condiciones solicitadas en el pliego?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q54"
     },
     {
@@ -577,7 +806,12 @@
       "order": 1,
       "label": "34 \u00bfEl contratista realiza el control qu\u00edmico o biol\u00f3gico de manera oportuna si se evidencia infestaci\u00f3n de plagas, y deja registro de las actividades realizadas y del tipo de sustancias empleadas; as\u00ed como la copia de licencia      sanitaria de funcionamiento del proveedor de la aplicaci\u00f3n y certificado de la empresa MIRP?      ",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q55"
     },
     {
@@ -592,7 +826,12 @@
       "order": 1,
       "label": "35 \u00bfEl contratista elabora un programa de desechos s\u00f3lidos, teniendo en cuenta el Resoluci\u00f3n 879 de 2007 del \u00c1rea Metropolitana del Valle de Aburr\u00e1 y la normatividad vigente, y este es verificado para garantizar que el      plan sea eficiente?      ",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q57"
     },
     {
@@ -601,7 +840,12 @@
       "order": 1,
       "label": "36 \u00bfEl contratista garantiza un adecuado manejo de residuos s\u00f3lidos, para evitar que estos sean fuente de alimento y albergue de plagas, e implementa el uso de las bolsas entregadas en el kit de aseo establecido en el      pliego de condiciones?      ",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q58"
     },
     {
@@ -610,7 +854,12 @@
       "order": 1,
       "label": "37 \u00bfEl contratista elabora el procedimiento a implementar para dar cumplimiento a la recolecci\u00f3n y disposici\u00f3n final del aceite usado?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q59"
     },
     {
@@ -625,7 +874,12 @@
       "order": 1,
       "label": "38 \u00bfEl contratista documenta y aplica un programa de control de agua potable, para el proceso de almacenamiento, distribuci\u00f3n y producci\u00f3n; cumpliendo con lo establecido en la legislaci\u00f3n colombiana, el cual debe incluir las acciones a aplicar en caso de emergencia que impidan el normal suministro o abastecimiento de agua debido a da\u00f1os en redes de suministro, suspensi\u00f3n del servicio, \u00bfentre otras?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q61"
     },
     {
@@ -640,7 +894,12 @@
       "order": 1,
       "label": "39 \u00bfEl contratista garantiza los insumos e implementos necesarios para llevar a cabo de forma adecuada la limpieza y desinfecci\u00f3n, y adem\u00e1s garantiza la permanencia de los productos en cantidades suficientes y en perfecto      estado?      ",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q63"
     },
     {
@@ -649,17 +908,32 @@
       "order": 1,
       "label": "40 \u00bfEl contratista relaciona los productos de aseo en una remisi\u00f3n de entrega indicando los requisitos m\u00ednimos establecidos en la licitaci\u00f3n p\u00fablica?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q64"
     },
-    { "id": 65, "type": "subtitle", "order": 1, "label": "TEMPERATURAS Y EMPAQUE" },
+    {
+      "id": 65,
+      "type": "subtitle",
+      "order": 1,
+      "label": "TEMPERATURAS Y EMPAQUE"
+    },
     {
       "id": 66,
       "type": "option",
       "order": 1,
       "label": "41 \u00bfTodos los alimentos que componen el complemento de las diferentes modalidades cuentan con empaque primario, que cumple con el rotulado seg\u00fan la normatividad que aplique, excepto las frutas y verduras?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q66"
     },
     {
@@ -668,7 +942,12 @@
       "order": 1,
       "label": "42 \u00bfEl producto panificado es empacado en bolsa de polipropileno transparente y marcada con r\u00f3tulo de color rojo para el grupo de transici\u00f3n, amarillo para primero a tercero, verde para cuarto y quinto, blanco para sexto a noveno y negro para decimo, y con la siguiente leyenda: \u201cMunicipio de Medell\u00edn Secretar\u00eda de Inclusi\u00f3n Social, Familia y Derechos Humanos; prohibida su venta o comercializaci\u00f3n\u201d. Adem\u00e1s, contiene la imagen vigente de la Alcald\u00eda de Medell\u00edn acorde a los lineamientos impartidos por el \u00e1rea de comunicaciones de la Alcald\u00eda, nombre del contratista y tel\u00e9fono?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q67"
     },
     {
@@ -677,7 +956,12 @@
       "order": 1,
       "label": "43 \u00bfLas bebidas l\u00e1cteas: leche l\u00edquida, yogurt y yogurt griego o tipo griego, tienen impreso en su empaque la leyenda: \u201cMunicipio de Medell\u00edn Secretar\u00eda de Inclusi\u00f3n Social, Familia y Derechos Humanos; prohibida su venta o comercializaci\u00f3n\u201d? Adem\u00e1s, contiene la imagen vigente de la Alcald\u00eda de Medell\u00edn, \u00bfacorde a los lineamientos impartidos por el \u00e1rea de comunicaciones de la Alcald\u00eda?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q68"
     },
     {
@@ -686,7 +970,12 @@
       "order": 1,
       "label": "44 \u00bfEl queso de porci\u00f3n individual deber\u00e1 ser suministrado en bolsa pl\u00e1stica individual, transparente y sellada?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q69"
     },
     {
@@ -695,7 +984,12 @@
       "order": 1,
       "label": "45 \u00bfLa fruta y la bebida de todos los men\u00fas est\u00e1n empacados seg\u00fan las cantidades requeridas, teniendo en cuenta para las bebidas un m\u00e1ximo de 50 unidades por bolsa y para las frutas su transporte es en canastillas pl\u00e1sticas perforadas garantizando la conservaci\u00f3n adecuada del producto?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q70"
     },
     {
@@ -704,7 +998,12 @@
       "order": 1,
       "label": "46 \u00bfEl complemento se distribuye al EE con las condiciones de temperatura y empaque descritas en el pliego de condiciones, la fruta, \u00bfel dulce y el panificado solo se refrigera en el transporte?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q71"
     },
     {
@@ -713,7 +1012,12 @@
       "order": 1,
       "label": "47 \u00bfEl contratista dentro del Plan Integral de Gesti\u00f3n De Residuos S\u00f3lidos (PGIRS) se tiene contemplado actividades y/o estrategias para la reducci\u00f3n de residuos pl\u00e1sticos de un solo uso, dando as\u00ed respuesta a lo establecido en el acuerdo 020 de diciembre de 2020 del municipio de Medell\u00edn?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q72"
     },
     {
@@ -728,7 +1032,12 @@
       "order": 1,
       "label": "48 \u00bfEl contratista de acuerdo con los pedidos realizados por el equipo de Seguridad Alimentaria, entrega a los EE atendidos y reportados en el Anexo C - Consolidado de Cupos por IE, los insumos que componen la raci\u00f3n      seg\u00fan el ciclo de men\u00fa y los cupos asignados?      ",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q74"
     },
     {
@@ -737,7 +1046,12 @@
       "order": 1,
       "label": "49 \u00bfEl contratista para el transporte de los alimentos utiliza canastillas pl\u00e1sticas, costales de fibra o bolsas pl\u00e1sticas transparentes seg\u00fan el tipo de alimento; todos estos en adecuadas condiciones de limpieza, y respeta el margen m\u00ednimo de 5 cm entre el borde superior de la canastilla y el tendido del producto, \u00bfpara evitar el deterioro de los alimentos cuando las canastillas sean apiladas?      ",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q75"
     },
     {
@@ -746,7 +1060,12 @@
       "order": 1,
       "label": "50 \u00bfLas bolsas que contienen los productos se transportan en canastillas?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q76"
     },
     {
@@ -755,7 +1074,12 @@
       "order": 1,
       "label": "51 \u00bfEl contratista elabora y entrega diligenciado el formato establecido por el MEN (Rutas, periodicidad y d\u00edas de entrega de v\u00edveres, en EE) al Equipo de Seguridad Alimentaria y      cuando se presentan novedades en los EE atendidos (ingreso o retiro), estas son incluidas, oficializando dicho cambio a la Interventor\u00eda o Supervisi\u00f3n y al Equipo de Seguridad Alimentaria?      ",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q77"
     },
     {
@@ -764,7 +1088,12 @@
       "order": 1,
       "label": "52 \u00bfLa planilla de remisi\u00f3n de entrega de v\u00edveres, vaso de leche, raci\u00f3n contingencia y raci\u00f3n industrializada para cada establecimiento educativo, est\u00e1 acorde a la establecida por el MEN, as\u00ed mismo el formato establecido por el MEN para la reposici\u00f3n o entrega de faltantes (formato reposici\u00f3n faltantes \u2013 Raci\u00f3n Preparada en sitio)?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q78"
     },
     {
@@ -773,7 +1102,12 @@
       "order": 1,
       "label": "53 \u00bfEl contratista tiene disponible en la planta o bodega una porci\u00f3n completa de los alimentos que componen el complemento tipo Vaso de Leche, raci\u00f3n industrializada y raci\u00f3n de contingencia, con el fin de ser evaluada por parte de la Interventor\u00eda o Supervisi\u00f3n en el momento del despacho?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q79"
     },
     {
@@ -788,7 +1122,12 @@
       "order": 1,
       "label": "54 \u00bfLos alimentos son transportados en veh\u00edculos que garantizan las adecuadas condiciones higi\u00e9nico-sanitarias de estos, dando cumplimiento a lo establecido en la resoluci\u00f3n 2674 de 2013 del Ministerio de Salud y Protecci\u00f3n Social en su art\u00edculo 29 y 30 y en la resoluci\u00f3n 2505 de 2004 del Ministerio de Transporte y dem\u00e1s normas que las modifique?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q81"
     },
     {
@@ -797,7 +1136,12 @@
       "order": 1,
       "label": "55 \u00bfLos veh\u00edculos utilizados para la realizaci\u00f3n de esta actividad son suficientes para garantizar la entrega adecuada y oportuna de los alimentos teniendo en cuenta el tiempo establecido para ello en el presente pliego de condiciones?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q82"
     },
     {
@@ -806,7 +1150,12 @@
       "order": 1,
       "label": "56 \u00bfEl contratista cuenta con una carpeta en bodega, en donde se encuentra copia de la documentaci\u00f3n de cada veh\u00edculo, como lo indican las especificaciones t\u00e9cnicas?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q83"
     },
     {
@@ -815,7 +1164,12 @@
       "order": 1,
       "label": "57 \u00bfLos veh\u00edculos utilizados para esta actividad, conservan durante la ejecuci\u00f3n del contrato el concepto sanitario favorable; y en caso del cambio de este concepto, \u00bfel contratista aporta un veh\u00edculo que cumpla con todas las condiciones requeridas?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q84"
     },
     {
@@ -824,17 +1178,32 @@
       "order": 1,
       "label": "58 \u00bfLos veh\u00edculos empleados en la entrega de los alimentos e insumos para el programa, se encuentran identificados con lona, imantado u otro material, seg\u00fan los lineamientos emitidos por el \u00e1rea de Comunicaciones de la Alcald\u00eda de Medell\u00edn?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q85"
     },
-    { "id": 86, "type": "subtitle", "order": 1, "label": "PERSONAL REQUERIDO" },
+    {
+      "id": 86,
+      "type": "subtitle",
+      "order": 1,
+      "label": "PERSONAL REQUERIDO"
+    },
     {
       "id": 87,
       "type": "option",
       "order": 1,
       "label": "59 \u00bfEl contratista cuenta con una carpeta en la bodega por cada manipulador de alimentos contratado, que contiene la hoja de vida, copia del certificado de manipulaci\u00f3n y copia del certificado de aptitud laboral en las      condiciones solicitadas en las especificaciones t\u00e9cnicas?      ",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q87"
     },
     {
@@ -843,7 +1212,12 @@
       "order": 1,
       "label": "60 \u00bfEl contratista tiene en un lugar visible los horarios de trabajo del personal vinculado para la ejecuci\u00f3n del programa?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q88"
     },
     {
@@ -852,7 +1226,12 @@
       "order": 1,
       "label": "61 \u00bfEl contratista proporciona un ambiente laboral adecuado a todo el personal, donde cada uno de ellos se siente respetado y valorado como persona y como empleado, lo cual llevar\u00e1 a un gran compromiso en el      cumplimiento de sus obligaciones?      ",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q89"
     },
     {
@@ -861,7 +1240,12 @@
       "order": 1,
       "label": "62 \u00bfEl contratista formula e implementa un plan de capacitaci\u00f3n continua, no inferior a 10 horas anuales y este contiene metodolog\u00eda, duraci\u00f3n, profesional que dicte la actualizaci\u00f3n, cronograma y temas espec\u00edficos a      impartir?      ",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q90"
     },
     {
@@ -870,7 +1254,12 @@
       "order": 1,
       "label": "63 \u00bfEl contratista establece e implementa acorde al Decreto 1072 de 2015, la Resoluci\u00f3n 0312 de 2019 y la circular 20196000014 de 2019 un sistema de gesti\u00f3n de la seguridad y salud en el trabajo?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q91"
     },
     {
@@ -879,7 +1268,12 @@
       "order": 1,
       "label": "64 \u00bfLos conductores y auxiliares empleados en la ejecuci\u00f3n del Programa usan el uniforme cumpliendo con la imagen corporativa del Municipio de Medell\u00edn?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q92"
     },
     {
@@ -888,7 +1282,12 @@
       "order": 1,
       "label": "65 \u00bfLos conductores y auxiliares empleados en la ejecuci\u00f3n del programa cuentan con certificado de aptitud para manipular alimentos, lo portan de manera permanente?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q93"
     },
     {
@@ -897,7 +1296,12 @@
       "order": 1,
       "label": "66 \u00bfEl contratista cuenta con el personal m\u00ednimo requerido en bodega para la operaci\u00f3n del programa solicitado en las especificaciones t\u00e9cnicas?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q94"
     },
     {
@@ -906,7 +1310,12 @@
       "order": 1,
       "label": "67 \u00bfEl personal que labora en bodega y de transporte no presenta sintomatolog\u00eda que ponga en riesgo la inocuidad del complemento?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q95"
     },
     {
@@ -915,7 +1324,12 @@
       "order": 1,
       "label": "68 ¿El personal que labora en bodega y de transporte no presenta sintomatología que ponga en riesgo la inocuidad del complemento?",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q95"
     },
     {
@@ -943,7 +1357,12 @@
       "order": 1,
       "label": "Art\u00edculo 6 (1.1) La planta o bodega est\u00e1n ubicados en lugares aislados de cualquier foco de insalubridad que represente riesgos potenciales para la contaminaci\u00f3n del alimento.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q98"
     },
     {
@@ -952,7 +1371,12 @@
       "order": 1,
       "label": "Art\u00edculo 6 (1.2) Su funcionamiento no debe poner en riesgo la salud y el bienestar de la comunidad.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q99"
     },
     {
@@ -961,7 +1385,12 @@
       "order": 1,
       "label": "Art\u00edculo 6 (1.3) Sus accesos y alrededores se mantendr\u00e1n limpios, libres de acumulaci\u00f3n de basuras y deber\u00e1n tener superficies pavimentadas o recubiertas con materiales que faciliten el mantenimiento sanitario e impidan la generaci\u00f3n de polvo, el estancamiento de aguas o la presencia de otras fuentes de contaminaci\u00f3n para el alimento.      ",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q100"
     },
     {
@@ -970,7 +1399,12 @@
       "order": 1,
       "label": "Art\u00edculo 6 (2.1) La edificaci\u00f3n debe estar dise\u00f1ada y construida de manera que proteja los ambientes de producci\u00f3n e impida la entrada de polvo, lluvia, suciedades u otros contaminantes, as\u00ed como del ingreso y refugio de plagas y animales dom\u00e9sticos.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q101"
     },
     {
@@ -979,7 +1413,12 @@
       "order": 1,
       "label": "Art\u00edculo 6 (2.3) Los diversos ambientes de la edificaci\u00f3n deben tener el tama\u00f1o adecuado para la instalaci\u00f3n, operaci\u00f3n y mantenimiento de los equipos, as\u00ed como para la circulaci\u00f3n del personal y el traslado de materiales o productos. Estos ambientes deben estar ubicados seg\u00fan la secuencia l\u00f3gica del proceso, desde la recepci\u00f3n de los insumos hasta el despacho del producto terminado, de tal manera que se eviten retrasos indebidos y la contaminaci\u00f3n cruzada. De ser requerido, tales ambientes deben dotarse de las condiciones de temperatura, humedad u otras necesarias para la ejecuci\u00f3n higi\u00e9nica de las operaciones de producci\u00f3n y/o para la conservaci\u00f3n del alimento.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q102"
     },
     {
@@ -988,7 +1427,12 @@
       "order": 1,
       "label": "Art\u00edculo 6 (2.4) La edificaci\u00f3n y sus instalaciones deben estar construidas de manera que se faciliten las operaciones de limpieza, desinfecci\u00f3n y control de plagas seg\u00fan lo establecido en el plan de saneamiento del establecimiento.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q103"
     },
     {
@@ -997,7 +1441,12 @@
       "order": 1,
       "label": "Art\u00edculo 6 (2.6) Sus \u00e1reas deben ser independientes y separadas f\u00edsicamente de cualquier tipo de vivienda y no pueden ser utilizadas como dormitorio.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q104"
     },
     {
@@ -1006,7 +1455,12 @@
       "order": 1,
       "label": "Art\u00edculo 6 (2.9) En los establecimientos contemplados en el presente t\u00edtulo, no se permite el almacenamiento de elementos, productos qu\u00edmicos o peligrosos ajenos a las actividades propias realizadas en este.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q105"
     },
     {
@@ -1015,7 +1469,12 @@
       "order": 1,
       "label": "Art\u00edculo 6 (3.1) El agua que se utilice debe ser de calidad potable y cumplir con las normas vigentes establecidas por el Ministerio de Salud y Protecci\u00f3n Social.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q106"
     },
     {
@@ -1024,7 +1483,12 @@
       "order": 1,
       "label": "Art\u00edculo 6 (3.2) Se debe disponer de agua potable a la temperatura y presi\u00f3n requeridas en las diferentes actividades que se realizan en el establecimiento, as\u00ed como para una limpieza y desinfecci\u00f3n efectiva.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q107"
     },
     {
@@ -1033,7 +1497,12 @@
       "order": 1,
       "label": "Art\u00edculo 6 (3.4) El sistema de conducci\u00f3n o tuber\u00edas debe garantizar la protecci\u00f3n de la potabilidad del agua.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q108"
     },
     {
@@ -1042,7 +1511,12 @@
       "order": 1,
       "label": "Art\u00edculo 6 (3.5) El establecimiento debe disponer de un tanque de almacenamiento de agua con capacidad suficiente para un d\u00eda de trabajo, garantizando la potabilidad de la misma. La construcci\u00f3n y el material de dicho tanque se realizar\u00e1 conforme a lo establecido en las normas sanitarias vigentes y deber\u00e1 cumplir con los siguientes requisitos:",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q109"
     },
     {
@@ -1051,7 +1525,12 @@
       "order": 1,
       "label": "Art\u00edculo 6 (3.5.1) Los pisos, paredes y tapas deben estar construidos con materiales que no generen sustancias o contaminantes t\u00f3xicos, deben ser resistentes, no porosos, impermeables, no absorbentes y con acabados libres de grietas o defectos que dificulten la limpieza y desinfecci\u00f3n.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q110"
     },
     {
@@ -1060,7 +1539,12 @@
       "order": 1,
       "label": "Art\u00edculo 6 (3.5.2) Debe ser de f\u00e1cil acceso para limpieza y desinfecci\u00f3n peri\u00f3dica seg\u00fan lo establecido en el plan de saneamiento.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q111"
     },
     {
@@ -1069,7 +1553,12 @@
       "order": 1,
       "label": "Art\u00edculo 6 (3.5.3) Debe garantizar protecci\u00f3n total contra el acceso de animales, cuerpos extra\u00f1os o contaminaci\u00f3n por aguas lluvias.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q112"
     },
     {
@@ -1078,7 +1567,12 @@
       "order": 1,
       "label": "Art\u00edculo 6 (3.5.4) Deben estar debidamente identificado e indicada su capacidad.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q113"
     },
     {
@@ -1087,7 +1581,12 @@
       "order": 1,
       "label": "Art\u00edculo 6 (4.2) El manejo de residuos l\u00edquidos dentro del establecimiento debe realizarse de manera que impida la contaminaci\u00f3n del alimento o de las superficies de potencial contacto con este.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q114"
     },
     {
@@ -1096,7 +1595,12 @@
       "order": 1,
       "label": "Art\u00edculo 6 (5.1) Los residuos s\u00f3lidos que se generen deben ser ubicados de manera tal que no representen riesgo de contaminaci\u00f3n al alimento, a los ambientes o superficies de potencial contacto con este.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q115"
     },
     {
@@ -1105,7 +1609,12 @@
       "order": 1,
       "label": "Art\u00edculo 6 (5.2)Los residuos s\u00f3lidos deben ser removidos frecuentemente de las \u00e1reas de producci\u00f3n y disponerse de manera que se elimine la generaci\u00f3n de malos olores, el refugio y alimento de animales y plagas y que no contribuya de otra forma al deterioro ambiental.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q116"
     },
     {
@@ -1114,7 +1623,12 @@
       "order": 1,
       "label": "Art\u00edculo 6 (5.5) Aquellos establecimientos que generen residuos peligrosos deben cumplir con la reglamentaci\u00f3n sanitaria vigente.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q117"
     },
     {
@@ -1123,7 +1637,12 @@
       "order": 1,
       "label": "Art\u00edculo 6 (6.1) Deben disponer de instalaciones sanitarias en cantidad suficiente tales como servicios sanitarios y vestidores, independientes para hombres y mujeres, separados de las \u00e1reas de elaboraci\u00f3n. Para el caso de microempresas que tienen un reducido n\u00famero de operarios (no m\u00e1s de 6 operarios), se podr\u00e1 disponer de un ba\u00f1o para el servicio de hombres y mujeres.      ",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q118"
     },
     {
@@ -1132,7 +1651,12 @@
       "order": 1,
       "label": "Art\u00edculo 6 (6.2) Los servicios sanitarios deben mantenerse limpios y proveerse de los recursos requeridos para la higiene personal, tales como, pero sin limitarse a: papel higi\u00e9nico, dispensador de jab\u00f3n, desinfectante, implementos desechables o equipos autom\u00e1ticos para el secado de las manos y papeleras de accionamiento indirecto o no manual.      ",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q119"
     },
     {
@@ -1141,7 +1665,12 @@
       "order": 1,
       "label": "Art\u00edculo 6 (6.3) Se deben instalar lavamanos con grifos de accionamiento no manual dotados con dispensador de jab\u00f3n desinfectante, implementos desechables o equipos autom\u00e1ticos para el secado de manos, en las \u00e1reas de elaboraci\u00f3n o pr\u00f3ximos a estas para la higiene del personal que participe en la manipulaci\u00f3n de los alimentos y para facilitar la supervisi\u00f3n de estas pr\u00e1cticas. Estas \u00e1reas deben ser de uso exclusivo para este prop\u00f3sito.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q120"
     },
     {
@@ -1150,7 +1679,12 @@
       "order": 1,
       "label": "Art\u00edculo 6 (6.4) En las proximidades de los lavamanos se deben colocar avisos o advertencias al personal sobre la necesidad de lavarse las manos luego de usar los servicios sanitarios, despu\u00e9s de cualquier cambio de actividad y antes de iniciar las labores de producci\u00f3n.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q121"
     },
     {
@@ -1159,7 +1693,12 @@
       "order": 1,
       "label": "Art\u00edculo 7 (1.1) Los pisos deben estar construidos con materiales que no generen sustancias o contaminantes t\u00f3xicos, resistentes, no porosos, impermeables, no absorbentes, no deslizantes y con acabados libres de grietas o defectos que dificulten la limpieza, desinfecci\u00f3n y mantenimiento sanitario.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q122"
     },
     {
@@ -1168,7 +1707,12 @@
       "order": 1,
       "label": "Art\u00edculo 7 (1.3) Cuando el drenaje de las cavas o cuartos fr\u00edos de refrigeraci\u00f3n o congelaci\u00f3n se encuentren en el interior de los mismos, se debe disponer de un mecanismo que garantice el sellamiento total del drenaje, el cual puede ser removido para prop\u00f3sitos de limpieza y desinfecci\u00f3n.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q123"
     },
     {
@@ -1177,7 +1721,12 @@
       "order": 1,
       "label": "Art\u00edculo 7 (1.4) El sistema de tuber\u00edas y drenajes para la conducci\u00f3n y recolecci\u00f3n de las aguas residuales debe tener la capacidad y la pendiente requeridas para permitir una salida r\u00e1pida y efectiva de los vol\u00famenes m\u00e1ximos generados por el establecimiento. Los drenajes de piso deben tener la debida protecci\u00f3n con rejillas y si se requieren trampas adecuadas para grasas y/o s\u00f3lidos, deben estar dise\u00f1adas de forma que permitan su limpieza.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q124"
     },
     {
@@ -1186,7 +1735,12 @@
       "order": 1,
       "label": "Art\u00edculo 7 (2.2) Las uniones entre las paredes y entre \u00e9stas y los pisos, deben estar selladas y tener forma redondeada para impedir la acumulaci\u00f3n de suciedad y facilitar la limpieza y desinfecci\u00f3n.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q125"
     },
     {
@@ -1195,7 +1749,12 @@
       "order": 1,
       "label": "Art\u00edculo 7 (3.1) Los techos deben estar dise\u00f1ados y construidos de manera que se evite la acumulaci\u00f3n de suciedad, la condensaci\u00f3n, la formaci\u00f3n de hongos y levaduras, el desprendimiento superficial y adem\u00e1s facilitar la limpieza y el mantenimiento.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q126"
     },
     {
@@ -1204,7 +1763,12 @@
       "order": 1,
       "label": "Art\u00edculo 7 (3.2) En lo posible, no se debe permitir el uso de techos falsos o dobles techos, a menos que se construyan con materiales impermeables, resistentes, lisos, de f\u00e1cil limpieza y con accesibilidad a la c\u00e1mara superior para realizar la limpieza, desinfecci\u00f3n y desinfestaci\u00f3n.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q127"
     },
     {
@@ -1213,7 +1777,12 @@
       "order": 1,
       "label": "Art\u00edculo 7 (3.3) En el caso de los falsos techos, las l\u00e1minas utilizadas, deben fijarse de tal manera que se evite su f\u00e1cil remoci\u00f3n por acci\u00f3n de corrientes de aire u otro factor externo ajeno a las labores de limpieza, desinfecci\u00f3n y desinfestaci\u00f3n.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q128"
     },
     {
@@ -1222,7 +1791,12 @@
       "order": 1,
       "label": "Art\u00edculo 7 (4.1) Las ventanas y otras aberturas en las paredes deben construirse de manera tal que se evite la entrada y acumulaci\u00f3n de polvo, suciedades, al igual que el ingreso de plagas y facilitar la limpieza y desinfecci\u00f3n.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q129"
     },
     {
@@ -1231,7 +1805,12 @@
       "order": 1,
       "label": "Art\u00edculo 7 (4.2) Las ventanas que se comuniquen con el ambiente exterior deben estar dise\u00f1adas de tal manera que se evite el ingreso de plagas y otros contaminantes, y estar provistas con malla anti insecto de f\u00e1cil limpieza y buena conservaci\u00f3n que sean resistentes a la limpieza y la manipulaci\u00f3n. Los vidrios de las ventanas ubicadas en \u00e1reas de proceso deben tener protecci\u00f3n para evitar contaminaci\u00f3n en caso de ruptura.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q130"
     },
     {
@@ -1240,7 +1819,12 @@
       "order": 1,
       "label": "Art\u00edculo 7 (5.1) Las puertas deben tener superficie lisa, no absorbente, deben ser resistentes y de suficiente amplitud; donde se precise, tendr\u00e1n dispositivos de cierre autom\u00e1tico y ajuste herm\u00e9tico. Las aberturas entre las puertas exteriores y los pisos, y entre \u00e9stas y las paredes deben ser de tal manera que se evite el ingreso de plagas.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q131"
     },
     {
@@ -1249,7 +1833,12 @@
       "order": 1,
       "label": "Art\u00edculo 7 (6.2) Las estructuras elevadas y los accesorios deben aislarse en donde sea requerido, estar dise\u00f1adas y con un acabado para prevenir la acumulaci\u00f3n de suciedad, minimizar la condensaci\u00f3n, el desarrollo de hongos y el desprendimiento superficial.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q132"
     },
     {
@@ -1258,7 +1847,12 @@
       "order": 1,
       "label": "Art\u00edculo 7 (6.3) Las instalaciones el\u00e9ctricas, mec\u00e1nicas y de prevenci\u00f3n de incendios deben estar dise\u00f1adas y con un acabado de manera que impidan la acumulaci\u00f3n de suciedades y el albergue de plagas.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q133"
     },
     {
@@ -1267,7 +1861,12 @@
       "order": 1,
       "label": "Art\u00edculo 7 (7.1) Los establecimientos a que hace referencia el art\u00edculo 2\u00b0 de la presente resoluci\u00f3n tendr\u00e1n una adecuada y suficiente iluminaci\u00f3n natural o artificial, la cual se obtendr\u00e1 por medio de ventanas, claraboyas, y l\u00e1mparas convenientemente distribuidas.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q134"
     },
     {
@@ -1276,7 +1875,12 @@
       "order": 1,
       "label": "Art\u00edculo 7 (7.2) La iluminaci\u00f3n debe ser de la calidad e intensidad adecuada para la ejecuci\u00f3n higi\u00e9nica y efectiva de todas las actividades.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q135"
     },
     {
@@ -1285,7 +1889,12 @@
       "order": 1,
       "label": "Art\u00edculo 7 (7.3) Las l\u00e1mparas, accesorios y otros medios de iluminaci\u00f3n del establecimiento deben ser del tipo de seguridad y estar protegidos para evitar la contaminaci\u00f3n en caso de ruptura y, en general, contar con una iluminaci\u00f3n uniforme que no altere los colores naturales.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q136"
     },
     {
@@ -1294,7 +1903,12 @@
       "order": 1,
       "label": "Art\u00edculo 9 (1) Los equipos y utensilios empleados en el manejo de alimentos deben estar fabricados con materiales resistentes al uso y a la corrosi\u00f3n, as\u00ed como a la utilizaci\u00f3n frecuente de los agentes de limpieza y desinfecci\u00f3n.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q137"
     },
     {
@@ -1303,7 +1917,12 @@
       "order": 1,
       "label": "Art\u00edculo 9 (2) Todas las superficies de contacto con el alimento deben cumplir con las resoluciones 683, 4142 y 4143 de 2012 o las normas que las modifiquen, adicionen o sustituyan.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q138"
     },
     {
@@ -1312,7 +1931,12 @@
       "order": 1,
       "label": "Art\u00edculo 10 (3) Los equipos que se utilicen en operaciones cr\u00edticas para lograr la inocuidad del alimento deben estar dotados de los instrumentos y accesorios requeridos para la medici\u00f3n y registro de las variables del proceso. As\u00ed mismo, deben poseer dispositivos para permitir la toma de muestras del alimento y materias primas.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q139"
     },
     {
@@ -1321,7 +1945,12 @@
       "order": 1,
       "label": "Art\u00edculo 12 Educaci\u00f3n y capacitaci\u00f3n. Todas las personas que realizan actividades de manipulaci\u00f3n de alimentos deben tener formaci\u00f3n en educaci\u00f3n sanitaria, principios b\u00e1sicos de Buenas Pr\u00e1cticas de Manufactura y pr\u00e1cticas higi\u00e9nicas en manipulaci\u00f3n de alimentos. Igualmente, deben estar capacitados para llevar a cabo las tareas que se les asignen o desempe\u00f1en, con el fin de que se encuentren en capacidad de adoptar las precauciones y medidas preventivas necesarias para evitar la contaminaci\u00f3n o deterioro de los alimentos.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q140"
     },
     {
@@ -1330,7 +1959,12 @@
       "order": 1,
       "label": "Art\u00edculo 12\u00aa Las empresas deben tener un plan de capacitaci\u00f3n continuo y permanente para el personal manipulador de alimentos desde el momento de su contrataci\u00f3n y luego ser reforzado mediante charlas, cursos u otros medios efectivos de actualizaci\u00f3n. Dicho plan debe ser de por lo menos 10 horas anuales, sobre asuntos espec\u00edficos de que trata la presente resoluci\u00f3n. Esta capacitaci\u00f3n estar\u00e1 bajo la responsabilidad de la empresa y podr\u00e1 ser efectuada por esta, por personas naturales o jur\u00eddicas contratadas y por las autoridades sanitarias. Cuando el plan de capacitaci\u00f3n se realice a trav\u00e9s de personas naturales o jur\u00eddicas diferentes a la empresa, estas deben demostrar su idoneidad t\u00e9cnica y cient\u00edfica y su formaci\u00f3n y experiencia espec\u00edfica en las \u00e1reas de higiene de los alimentos, Buenas Pr\u00e1cticas de Manufactura y sistemas preventivos de aseguramiento de la inocuidad.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q141"
     },
     {
@@ -1339,7 +1973,12 @@
       "order": 1,
       "label": "Art\u00edculo 13 Plan de capacitaci\u00f3n. El plan de capacitaci\u00f3n debe contener, al menos, los siguientes aspectos: Metodolog\u00eda, duraci\u00f3n, docentes, cronograma y temas espec\u00edficos a impartir. El enfoque, contenido y alcance de la capacitaci\u00f3n impartida debe ser acorde con la empresa, el proceso tecnol\u00f3gico y tipo de establecimiento de que se trate. En todo caso, la empresa debe demostrar a trav\u00e9s del desempe\u00f1o de los operarios y la condici\u00f3n sanitaria del establecimiento la efectividad e impacto de la capacitaci\u00f3n impartida.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q142"
     },
     {
@@ -1348,7 +1987,12 @@
       "order": 1,
       "label": "Art\u00edculo 13 Par\u00e1grafo 1 Para reforzar el cumplimiento de las pr\u00e1cticas higi\u00e9nicas, se colocar\u00e1n en sitios estrat\u00e9gicos avisos alusivos a la obligatoriedad y necesidad de su observancia durante la manipulaci\u00f3n de alimentos.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q143"
     },
     {
@@ -1357,7 +2001,12 @@
       "order": 1,
       "label": "Art\u00edculo 13 Par\u00e1grafo 2 El manipulador de alimentos debe ser entrenado para comprender y manejar el control de los puntos del proceso que est\u00e1n bajo su responsabilidad y la importancia de su vigilancia o monitoreo; adem\u00e1s, debe conocer los l\u00edmites del punto del proceso y las acciones correctivas a tomar cuando existan desviaciones en dichos l\u00edmites. ",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q144"
     },
     {
@@ -1366,7 +2015,12 @@
       "order": 1,
       "label": "Art\u00edculo 14 (1) Mantener una estricta limpieza e higiene personal y aplicar buenas pr\u00e1cticas higi\u00e9nicas en sus labores, de manera que se evite la contaminaci\u00f3n del alimento y de las superficies de contacto con este.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q145"
     },
     {
@@ -1375,7 +2029,12 @@
       "order": 1,
       "label": "Art\u00edculo 14 (2) Usar vestimenta de trabajo que cumpla los siguientes requisitos: De color claro que permita visualizar f\u00e1cilmente su limpieza; con cierres o cremalleras y/o broches en lugar de botones u otros accesorios que puedan caer en el alimento; sin bolsillos ubicados por encima de la cintura; cuando se utiliza delantal, este debe permanecer atado al cuerpo en forma segura para evitar la contaminaci\u00f3n del alimento y accidentes de trabajo. La empresa ser\u00e1 responsable de una dotaci\u00f3n de vestimenta de trabajo en n\u00famero suficiente para el personal manipulador, con el prop\u00f3sito de facilitar el cambio de indumentaria el cual ser\u00e1 consistente con el tipo de trabajo que desarrolla. En ning\u00fan caso se podr\u00e1n aceptar colores grises o aquellos que impidan evidenciar su limpieza, en la dotaci\u00f3n de los manipuladores de alimentos.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q146"
     },
     {
@@ -1384,7 +2043,12 @@
       "order": 1,
       "label": "Art\u00edculo 14 (3) El manipulador de alimentos no podr\u00e1 salir e ingresar al establecimiento con la vestimenta de trabajo.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q147"
     },
     {
@@ -1393,7 +2057,12 @@
       "order": 1,
       "label": "Art\u00edculo 14 (4) Lavarse las manos con agua y jab\u00f3n desinfectante, antes de comenzar su trabajo, cada vez que salga y regrese al \u00e1rea asignada y despu\u00e9s de manipular cualquier material u objeto que pudiese representar un riesgo de contaminaci\u00f3n para el alimento. Ser\u00e1 obligatorio realizar la desinfecci\u00f3n de las manos cuando los riesgos asociados con la etapa del proceso as\u00ed lo justifiquen.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q148"
     },
     {
@@ -1402,7 +2071,12 @@
       "order": 1,
       "label": "Art\u00edculo 14 (5) Mantener el cabello recogido y cubierto totalmente mediante malla, gorro u otro medio efectivo y en caso de llevar barba, bigote o patillas se debe usar cubiertas para estas. No se permite el uso de maquillaje.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q149"
     },
     {
@@ -1411,7 +2085,12 @@
       "order": 1,
       "label": "Art\u00edculo 14 (6) Dependiendo del riesgo de contaminaci\u00f3n asociado con el proceso o preparaci\u00f3n, ser\u00e1 obligatorio el uso de tapabocas desechables cubriendo nariz y boca mientras se manipula el alimento. Es necesario evaluar sobre todo el riesgo asociado a un alimento de mayor y riesgo medio en salud p\u00fablica en las etapas finales de elaboraci\u00f3n o manipulaci\u00f3n del mismo, cuando este se encuentra listo para el consumo y puede estar expuesto a posible contaminaci\u00f3n.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q150"
     },
     {
@@ -1420,7 +2099,12 @@
       "order": 1,
       "label": "Art\u00edculo 14 (7) Mantener las u\u00f1as cortas, limpias y sin esmalte.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q151"
     },
     {
@@ -1429,7 +2113,12 @@
       "order": 1,
       "label": "Art\u00edculo 14 (8) No se permite utilizar reloj, anillos, aretes, joyas u otros accesorios mientras el personal realice sus labores. En caso de usar lentes, deben asegurarse a la cabeza mediante bandas, cadenas u otros medios ajustables.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q152"
     },
     {
@@ -1438,7 +2127,12 @@
       "order": 1,
       "label": "Art\u00edculo 14 (9) Usar calzado cerrado, de material resistente e impermeable y de tac\u00f3n bajo.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q153"
     },
     {
@@ -1447,7 +2141,12 @@
       "order": 1,
       "label": "Art\u00edculo 14 (10) De ser necesario el uso de guantes, estos deben mantenerse limpios, sin roturas o desperfectos y ser tratados con el mismo cuidado higi\u00e9nico de las manos sin protecci\u00f3n. El material de los guantes, debe ser apropiado para la operaci\u00f3n realizada y debe evitarse la acumulaci\u00f3n de humedad y contaminaci\u00f3n en su interior para prevenir posibles afecciones cut\u00e1neas de los operarios. El uso de guantes no exime al operario de la obligaci\u00f3n de lavarse las manos, seg\u00fan lo contempla el numeral 4 del presente art\u00edculo.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q154"
     },
     {
@@ -1456,7 +2155,12 @@
       "order": 1,
       "label": "Art\u00edculo 14 (11) No est\u00e1 permitido comer, beber o masticar cualquier objeto o producto, como tampoco fumar o escupir en las \u00e1reas donde se manipulen alimentos.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q155"
     },
     {
@@ -1465,7 +2169,12 @@
       "order": 1,
       "label": "Art\u00edculo 14 (12) El personal que presente afecciones de la piel o enfermedad infectocontagiosa debe ser excluido de toda actividad directa de manipulaci\u00f3n de alimentos.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q156"
     },
     {
@@ -1474,7 +2183,12 @@
       "order": 1,
       "label": "Art\u00edculo 14 (13) Los manipuladores no deben sentarse, acostarse, inclinarse o similares en el pasto, andenes o lugares donde la ropa de trabajo pueda contaminarse.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q157"
     },
     {
@@ -1483,7 +2197,12 @@
       "order": 1,
       "label": "Art\u00edculo 14 (14) Los visitantes a los establecimientos o plantas deben cumplir estrictamente todas las pr\u00e1cticas de higiene establecidas en esta resoluci\u00f3n y portar la vestimenta y dotaci\u00f3n adecuada, la cual debe ser suministrada por la empresa.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q158"
     },
     {
@@ -1492,7 +2211,12 @@
       "order": 1,
       "label": "Art\u00edculo 16 (1) La recepci\u00f3n de materias primas debe realizarse en condiciones que eviten su contaminaci\u00f3n, alteraci\u00f3n y da\u00f1os f\u00edsicos y deben estar debidamente identificadas de conformidad con la Resoluci\u00f3n 5109 de 2005 o las normas que la modifiquen, adicionen o sustituyan, y para el caso de los insumos, deben cumplir con las resoluciones 1506 de 2011 y/o la 683 de 2012, seg\u00fan corresponda, o las normas que las modifiquen, adicionen o sustituyan.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q159"
     },
     {
@@ -1501,7 +2225,12 @@
       "order": 1,
       "label": "Art\u00edculo 16 (2) Toda materia prima debe poseer una ficha t\u00e9cnica la cual debe estar a disposici\u00f3n de la autoridad sanitaria competente cuando esta lo requiera.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q160"
     },
     {
@@ -1510,7 +2239,12 @@
       "order": 1,
       "label": "Art\u00edculo 16 (7) Los dep\u00f3sitos de materias primas y productos terminados ocupar\u00e1n espacios independientes, salvo en aquellos casos en que a juicio de la autoridad sanitaria competente no se presenten peligros de contaminaci\u00f3n para los alimentos.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q161"
     },
     {
@@ -1519,7 +2253,12 @@
       "order": 1,
       "label": "Art\u00edculo 16 (8) Las zonas donde se reciban o almacenen materias primas estar\u00e1n separadas de las que se destinan a elaboraci\u00f3n o envasado del producto final. La autoridad sanitaria competente podr\u00e1 eximir del cumplimiento de este requisito a los establecimientos en los cuales no exista peligro de contaminaci\u00f3n para los alimentos.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q162"
     },
     {
@@ -1528,7 +2267,12 @@
       "order": 1,
       "label": "Art\u00edculo 17 (1) Los envases y embalajes deben estar fabricados con materiales tales que garanticen la inocuidad del alimento, de acuerdo a lo establecido en la reglamentaci\u00f3n expedida por el Ministerio de Salud y Protecci\u00f3n Social especialmente las resoluciones 683, 4142 y 4143 de 2012; 834 y 835 de 2013 o las normas que las modifiquen, adicionen o sustituyan al respecto.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q163"
     },
     {
@@ -1537,7 +2281,12 @@
       "order": 1,
       "label": "Art\u00edculo 17 (2) El material del envase y embalaje debe ser adecuado y conferir una protecci\u00f3n apropiada contra la contaminaci\u00f3n.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q164"
     },
     {
@@ -1546,7 +2295,12 @@
       "order": 1,
       "label": "Art\u00edculo 17 (3) No deben haber sido utilizados previamente para fines diferentes que puedan ocasionar la contaminaci\u00f3n del alimento a contener.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q165"
     },
     {
@@ -1555,7 +2309,12 @@
       "order": 1,
       "label": "Art\u00edculo 17 (5) Los envases y embalajes deben almacenarse en un sitio exclusivo para este fin en condiciones de limpieza y debidamente protegidos.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q166"
     },
     {
@@ -1564,7 +2323,12 @@
       "order": 1,
       "label": "Art\u00edculo 18 (1) Todo el proceso de fabricaci\u00f3n del alimento, incluyendo las operaciones de envasado y almacenamiento, deben realizarse en \u00f3ptimas condiciones sanitarias, de limpieza y conservaci\u00f3n y con los controles necesarios para reducir el crecimiento de microorganismos y evitar la contaminaci\u00f3n del alimento. Para cumplir con este requisito, se deben controlar factores, tales como tiempo, temperatura, humedad, actividad acuosa (Aw), pH, presi\u00f3n y velocidad de flujo. Adicionalmente, se debe vigilar las operaciones de fabricaci\u00f3n, tales como congelaci\u00f3n, deshidrataci\u00f3n, tratamiento t\u00e9rmico, acidificaci\u00f3n y refrigeraci\u00f3n, asegurando que los tiempos de espera, las fluctuaciones de temperatura y otros factores, no contribuyan a la alteraci\u00f3n o contaminaci\u00f3n del alimento.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q167"
     },
     {
@@ -1573,7 +2337,12 @@
       "order": 1,
       "label": "Art\u00edculo 18 (3) Los alimentos que por su naturaleza permiten un r\u00e1pido crecimiento de microorganismos indeseables, deben mantenerse en condiciones tales que se evite su proliferaci\u00f3n. Para el cumplimiento de este requisito deben adoptarse medidas efectivas como:",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q168"
     },
     {
@@ -1582,7 +2351,12 @@
       "order": 1,
       "label": "Art\u00edculo 18 (3.1) Mantener los alimentos a temperaturas de refrigeraci\u00f3n no mayores de 4\u00b0C +/-2\u00baC.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q169"
     },
     {
@@ -1591,7 +2365,12 @@
       "order": 1,
       "label": "Art\u00edculo 18 (3.2) Mantener el alimento en estado congelado.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q170"
     },
     {
@@ -1600,7 +2379,12 @@
       "order": 1,
       "label": "Art\u00edculo 18 (4) Los m\u00e9todos de esterilizaci\u00f3n, irradiaci\u00f3n, ozonizaci\u00f3n, cloraci\u00f3n, pasteurizaci\u00f3n, ultra pasteurizaci\u00f3n, ultra alta temperatura, congelaci\u00f3n, refrigeraci\u00f3n, control de pH, y de actividad acuosa (Aw) entre otros, que se utilizan para destruir y evitar el crecimiento de microorganismos indeseables, deben ser suficientes y validados bajo las condiciones de fabricaci\u00f3n, procesamiento, manipulaci\u00f3n, distribuci\u00f3n y comercializaci\u00f3n, para evitar la alteraci\u00f3n y deterioro de los alimentos.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q171"
     },
     {
@@ -1609,7 +2393,12 @@
       "order": 1,
       "label": "Art\u00edculo 19 (1) El envasado y embalado debe hacerse en condiciones que impidan la contaminaci\u00f3n del alimento o materias primas y debe realizarse en un \u00e1rea exclusiva para este fin.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q172"
     },
     {
@@ -1618,7 +2407,12 @@
       "order": 1,
       "label": "Art\u00edculo 19 (2) Identificaci\u00f3n de lotes. Cada envase y embalaje debe llevar marcado o grabado la identificaci\u00f3n de la f\u00e1brica productora y el lote de fabricaci\u00f3n, la cual se debe hacer en clave o en lenguaje claro, de forma visible, legible e indeleble (N\u00fameros, alfanum\u00e9rico, ranuras, barras, perforaciones, fecha de producci\u00f3n, fecha de fabricaci\u00f3n, fecha de vencimiento), teniendo en cuenta lo establecido en la resoluci\u00f3n 5109 de 2005 o la norma que la modifique, adicione o sustituya. A partir del lote, fecha de vencimiento o fabricaci\u00f3n se debe garantizar la trazabilidad hacia adelante y hacia atr\u00e1s de los productos elaborados, as\u00ed como de las materias primas utilizadas en su fabricaci\u00f3n. No se aceptar\u00e1 el uso de adhesivos para declarar esta informaci\u00f3n.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q173"
     },
     {
@@ -1627,7 +2421,12 @@
       "order": 1,
       "label": "Art\u00edculo 19 (4) Todo producto al momento de salir de una planta de proceso, independiente de su destino debe encontrarse debidamente rotulado, de conformidad con lo establecido en la reglamentaci\u00f3n sanitaria vigente.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q174"
     },
     {
@@ -1636,7 +2435,12 @@
       "order": 1,
       "label": "Art\u00edculo 20 (1) Durante las operaciones de fabricaci\u00f3n, procesamiento, envasado y almacenamiento se tomar\u00e1n medidas eficaces para evitar la contaminaci\u00f3n de los alimentos por contacto directo o indirecto con materias primas que se encuentren en las fases in\u00edciales del proceso.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q175"
     },
     {
@@ -1645,7 +2449,12 @@
       "order": 1,
       "label": "Art\u00edculo 20 (6) Cuando sea requerido, se deben implementar filtros sanitarios (lava bota, pediluvios o instalaciones para limpieza y desinfecci\u00f3n de calzado, lava manos de accionamiento no manual y toallas desechables o secador de manos, aspiradoras de polvo y contaminaci\u00f3n, etc.), debidamente dotados y provistos de sustancias desinfectantes en cantidad suficiente para impedir el paso de contaminaci\u00f3n de unas zonas a otras. En cualquier caso, se debe garantizar la limpieza y desinfecci\u00f3n de manos de los operarios al ingreso de la sala de proceso o de manipulaci\u00f3n de los productos.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q176"
     },
     {
@@ -1654,7 +2463,12 @@
       "order": 1,
       "label": "Art\u00edculo 21 Control de la calidad e inocuidad. Todas las operaciones de fabricaci\u00f3n, procesamiento, envase, embalado, almacenamiento, distribuci\u00f3n, comercializaci\u00f3n y expendio de los alimentos deben estar sujetas a los controles de calidad e inocuidad apropiados. Los procedimientos de control de calidad e inocuidad deben prevenir los defectos evitables y reducir los defectos naturales o inevitables a niveles tales que no representen riesgo para la salud. Estos controles variar\u00e1n seg\u00fan el tipo de alimento y las necesidades del establecimiento y deben rechazar todo alimento que represente riesgo para la salud del consumidor.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q177"
     },
     {
@@ -1663,7 +2477,12 @@
       "order": 1,
       "label": "Art\u00edculo 22 Sistema de control. Todas las f\u00e1bricas de alimentos deben contar con un sistema de control y aseguramiento de calidad, el cual debe ser esencialmente preventivo y cubrir todas las etapas de procesamiento del alimento, desde la obtenci\u00f3n de materias primas e insumos, hasta la distribuci\u00f3n de productos terminados, el cual debe contar como m\u00ednimo, con los siguientes aspectos:",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q178"
     },
     {
@@ -1672,7 +2491,12 @@
       "order": 1,
       "label": "Art\u00edculo 22 (1) Especificaciones sobre las materias primas y productos terminados. Las especificaciones definen completamente la calidad de todos los productos y de todas las materias primas con los cuales son elaborados y deben incluir criterios claros para su aceptaci\u00f3n, liberaci\u00f3n, retenci\u00f3n o rechazo.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q179"
     },
     {
@@ -1681,7 +2505,12 @@
       "order": 1,
       "label": "Art\u00edculo 22 (2) Documentaci\u00f3n sobre planta, equipos y proceso. Se debe disponer de manuales de instrucciones, gu\u00edas y regulaciones donde se describen los detalles esenciales de equipos, procesos y procedimientos requeridos para fabricar o procesar productos. Estos documentos deben cubrir todos los factores que puedan afectar la calidad, manejo de los alimentos, del equipo de procesamiento, el control de calidad, almacenamiento, distribuci\u00f3n, m\u00e9todos y procedimientos de laboratorio.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q180"
     },
     {
@@ -1690,7 +2519,12 @@
       "order": 1,
       "label": "Art\u00edculo 22 (3) Los planes de muestreo, los procedimientos de laboratorio, especificaciones y m\u00e9todos de ensayo deben garantizar que los resultados sean confiables y representativos del lote analizado.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q181"
     },
     {
@@ -1699,7 +2533,12 @@
       "order": 1,
       "label": "Art\u00edculo 22 (4) El control y el aseguramiento de la calidad no se limitan a las operaciones de laboratorio, sino que debe estar presente en todas las decisiones vinculadas con la calidad del producto.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q182"
     },
     {
@@ -1708,7 +2547,12 @@
       "order": 1,
       "label": "Art\u00edculo 23 Laboratorios. Todas las f\u00e1bricas de alimentos que procesen, elaboren o envasen alimentos deben tener acceso a un laboratorio de pruebas y ensayos, propio o externo. Estos laboratorios deber\u00e1n cumplir con lo dispuesto en la Resoluci\u00f3n 16078 de 1985, o la norma que la modifique, adicione o sustituya.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q183"
     },
     {
@@ -1717,7 +2561,12 @@
       "order": 1,
       "label": "Art\u00edculo 24. Obligatoriedad de profesional o personal t\u00e9cnico. Los establecimientos que fabriquen procesen, elaboren o envasen alimentos de alto riesgo en salud p\u00fablica, deben contar con los servicios de tiempo completo de personal t\u00e9cnico id\u00f3neo en las \u00e1reas de producci\u00f3n y control de calidad de alimentos, quien debe tener a cargo el programa de capacitaci\u00f3n del personal manipulador de alimentos.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q184"
     },
     {
@@ -1726,7 +2575,12 @@
       "order": 1,
       "label": "Art\u00edculo 25. Garant\u00eda de la confiabilidad de las mediciones. Toda persona natural o jur\u00eddica propietaria del establecimiento de que trata esta resoluci\u00f3n deben garantizar la confiabilidad de las mediciones que se realizan para el control de puntos o variables cr\u00edticas del proceso, para lo cual deben tener implementado un programa de calibraci\u00f3n de los equipos e instrumentos de medici\u00f3n, que se encuentren relacionados con la inocuidad del producto procesado.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q185"
     },
     {
@@ -1735,7 +2589,12 @@
       "order": 1,
       "label": "Art\u00edculo 26. Plan de saneamiento. Toda persona natural o jur\u00eddica propietaria del establecimiento que fabrique, procese, envase, embale, almacene y expenda alimentos y sus materias primas debe implantar y desarrollar un Plan de Saneamiento con objetivos claramente definidos y con los procedimientos requeridos para disminuir los riesgos de contaminaci\u00f3n de los alimentos. Este plan debe estar escrito y a disposici\u00f3n de la autoridad sanitaria competente; este debe incluir como m\u00ednimo los procedimientos, cronogramas, registros, listas de chequeo y responsables de los siguientes programas:",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q186"
     },
     {
@@ -1744,7 +2603,12 @@
       "order": 1,
       "label": "Art\u00edculo 26 (1) Limpieza y desinfecci\u00f3n. Los procedimientos de limpieza y desinfecci\u00f3n deben satisfacer las necesidades particulares del proceso y del producto de que se trate. Cada establecimiento debe tener por escrito todos los procedimientos, incluyendo los agentes y sustancias utilizadas, as\u00ed como las concentraciones o formas de uso, tiempos de contacto y los equipos e implementos requeridos para efectuar las operaciones y periodicidad de limpieza y desinfecci\u00f3n.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q187"
     },
     {
@@ -1753,7 +2617,12 @@
       "order": 1,
       "label": "Art\u00edculo 26 (2) Desechos s\u00f3lidos. Debe contarse con la infraestructura, elementos, \u00e1reas, recursos y procedimientos que garanticen una eficiente labor de recolecci\u00f3n, conducci\u00f3n, manejo, almacenamiento interno, clasificaci\u00f3n, transporte y disposici\u00f3n final de los desechos s\u00f3lidos, lo cual tendr\u00e1 que hacerse observando las normas de higiene y salud ocupacional establecidas con el prop\u00f3sito de evitar la contaminaci\u00f3n de los alimentos, \u00e1reas, dependencias y equipos, y el deterioro del medio ambiente.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q188"
     },
     {
@@ -1762,7 +2631,12 @@
       "order": 1,
       "label": "Art\u00edculo 26 (3) Control de plagas. Las plagas deben ser objeto de un programa de control espec\u00edfico, el cual debe involucrar el concepto de control integral, apelando a la aplicaci\u00f3n arm\u00f3nica de las diferentes medidas de control conocidas, con especial \u00e9nfasis en las radicales y de orden preventivo.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q189"
     },
     {
@@ -1771,7 +2645,12 @@
       "order": 1,
       "label": "Art\u00edculo 26 (4) Abastecimiento o suministro de agua potable. Todos los establecimientos de que trata la presente resoluci\u00f3n deben tener documentado el proceso de abastecimiento de agua que incluye claramente: fuente de captaci\u00f3n o suministro, tratamientos realizados, manejo, dise\u00f1o y capacidad del tanque de almacenamiento, distribuci\u00f3n; mantenimiento, limpieza y desinfecci\u00f3n de redes y tanque de almacenamiento; controles realizados para garantizar el cumplimiento de los requisitos fisicoqu\u00edmicos y microbiol\u00f3gicos establecidos en la normatividad vigente, as\u00ed como los registros que soporten el cumplimiento de los mismos.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q190"
     },
     {
@@ -1780,7 +2659,12 @@
       "order": 1,
       "label": "Art\u00edculo 27 Condiciones generales. Las operaciones y condiciones de almacenamiento, distribuci\u00f3n, transporte y comercializaci\u00f3n deben evitar: a) La contaminaci\u00f3n y alteraci\u00f3n; b) La proliferaci\u00f3n de microorganismos indeseables; c) El deterioro o da\u00f1o del envase o embalaje.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q191"
     },
     {
@@ -1789,7 +2673,12 @@
       "order": 1,
       "label": "Art\u00edculo 28 (1) Debe llevarse un control de primeras entradas y primeras salidas con el fin de garantizar la rotaci\u00f3n de los productos. Es necesario que la empresa peri\u00f3dicamente d\u00e9 salida a productos y materiales in\u00fatiles, en desuso, obsoletos o fuera de especificaciones para facilitar la limpieza de las instalaciones y eliminar posibles focos de contaminaci\u00f3n.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q192"
     },
     {
@@ -1798,7 +2687,12 @@
       "order": 1,
       "label": "Art\u00edculo 28 (2) El almacenamiento de productos que requieren refrigeraci\u00f3n o congelaci\u00f3n se realizar\u00e1 teniendo en cuenta las condiciones de temperatura, humedad y circulaci\u00f3n del aire que requiera el alimento, materia prima o insumo. Estas instalaciones se mantendr\u00e1n limpias y en buenas condiciones higi\u00e9nicas, adem\u00e1s, se llevar\u00e1 a cabo un control de temperatura y humedad que asegure la conservaci\u00f3n del producto. Los dispositivos de registro de la temperatura y humedad deben inspeccionarse a intervalos regulares y se debe comprobar su exactitud. La temperatura de congelaci\u00f3n debe ser de -18\u00baC o menor.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q193"
     },
     {
@@ -1807,7 +2701,12 @@
       "order": 1,
       "label": "Art\u00edculo 28 (3) El almacenamiento de los insumos, materias primas y productos terminados se realizar\u00e1 de manera que se minimice su deterioro y se eviten aquellas condiciones que puedan afectar la inocuidad, funcionalidad e integridad de los mismos. Adem\u00e1s, se deben identificar claramente y llevar registros para conocer su uso, procedencia, calidad y tiempo de vida.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q194"
     },
     {
@@ -1816,7 +2715,12 @@
       "order": 1,
       "label": "Art\u00edculo 28 (4) El almacenamiento de los insumos, materias primas o productos terminados se realizar\u00e1 ordenadamente en pilas o estibas con separaci\u00f3n m\u00ednima de 60 cent\u00edmetros con respecto a las paredes perimetrales, y disponerse sobre pal\u00e9s o tarimas limpias y en buen estado, elevadas del piso por lo menos 15 cent\u00edmetros de manera que se permita la inspecci\u00f3n, limpieza y fumigaci\u00f3n, si es el caso.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q195"
     },
     {
@@ -1825,7 +2729,12 @@
       "order": 1,
       "label": "Art\u00edculo 28 (5) En los sitios o lugares destinados al almacenamiento de materias primas, insumos y productos terminados no podr\u00e1n realizarse actividades diferentes a estas.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q196"
     },
     {
@@ -1834,7 +2743,12 @@
       "order": 1,
       "label": "Art\u00edculo 28 (6) El almacenamiento de los alimentos y materias primas devueltos a la empresa o que se encuentren dentro de sus instalaciones con fecha de vencimiento caducada, debe realizarse en un \u00e1rea o dep\u00f3sito exclusivo para tal fin; este lugar debe identificarse claramente, se llevar\u00e1 un libro de registro en el cual se consigne la fecha y la cantidad de producto, las salidas parciales o totales y su destino final. Estos productos en ning\u00fan caso pueden destinarse al reproceso para elaboraci\u00f3n de alimentos para consumo humano. Estos registros estar\u00e1n a disposici\u00f3n de la autoridad sanitaria competente.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q197"
     },
     {
@@ -1843,7 +2757,12 @@
       "order": 1,
       "label": "Art\u00edculo 29 El transporte de alimentos y sus materias primas se realizar\u00e1 cumpliendo con las siguientes condiciones:",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q198"
     },
     {
@@ -1852,7 +2771,12 @@
       "order": 1,
       "label": "Art\u00edculo 29 (1) En condiciones que impidan la contaminaci\u00f3n y la proliferaci\u00f3n de microorganismos y eviten su alteraci\u00f3n, as\u00ed como los da\u00f1os en el envase o embalaje seg\u00fan sea el caso.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q199"
     },
     {
@@ -1861,7 +2785,12 @@
       "order": 1,
       "label": "Art\u00edculo 29 (2) Los alimentos y materias primas que por su naturaleza requieran mantenerse refrigerados o congelados deben ser transportados y distribuidos bajo condiciones que aseguren y garanticen el mantenimiento de las condiciones de refrigeraci\u00f3n o congelaci\u00f3n hasta su destino final, que podr\u00e1 verificarse mediante plantillas de registro de la temperatura del veh\u00edculo durante el transporte del alimento, o al producto durante el cargue y descargue.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q200"
     },
     {
@@ -1870,7 +2799,12 @@
       "order": 1,
       "label": "Art\u00edculo 29 (3) Los medios de transporte que posean sistema de refrigeraci\u00f3n o congelaci\u00f3n deben contar con un adecuado funcionamiento que garantice el mantenimiento de las temperaturas requeridas para la conservaci\u00f3n de los alimentos o sus materias primas, contando con indicadores y sistemas de registro.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q201"
     },
     {
@@ -1879,7 +2813,12 @@
       "order": 1,
       "label": "Art\u00edculo 29 (4) Revisar los medios de transporte antes de cargar los alimentos o materias primas, con el fin de asegurar que se encuentren en adecuadas condiciones sanitarias.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q202"
     },
     {
@@ -1888,7 +2827,12 @@
       "order": 1,
       "label": "Art\u00edculo 29 (5) Los medios de transporte y los recipientes en los cuales se transportan los alimentos o materias primas deben estar fabricados con materiales tales que permitan una correcta limpieza y desinfecci\u00f3n.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q203"
     },
     {
@@ -1897,7 +2841,12 @@
       "order": 1,
       "label": "Art\u00edculo 29 (6) Se permite transportar conjuntamente en un mismo veh\u00edculo, alimentos con diferente riesgo en salud p\u00fablica siempre y cuando se encuentren debidamente envasados, protegidos y se evite la contaminaci\u00f3n cruzada.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q204"
     },
     {
@@ -1906,7 +2855,12 @@
       "order": 1,
       "label": "Art\u00edculo 29 (7) Se proh\u00edbe disponer los alimentos directamente sobre el piso de los medios de transporte. Para este fin se utilizar\u00e1n los recipientes, canastillas, o implementos de material adecuado, de manera que a\u00edslen el producto de toda posibilidad de contaminaci\u00f3n.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q205"
     },
     {
@@ -1915,7 +2869,12 @@
       "order": 1,
       "label": "Art\u00edculo 29 (8) Se proh\u00edbe transportar conjuntamente en un mismo veh\u00edculo alimentos o materias primas con sustancias peligrosas y otras sustancias que por su naturaleza representen riesgo de contaminaci\u00f3n del alimento o la materia prima.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q206"
     },
     {
@@ -1924,7 +2883,12 @@
       "order": 1,
       "label": "Art\u00edculo 29 (9) Los veh\u00edculos transportadores de alimentos deben llevar en su exterior en forma claramente visible la leyenda: Transporte de Alimentos.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q207"
     },
     {
@@ -1933,7 +2897,12 @@
       "order": 1,
       "label": "Art\u00edculo 29 (10) Los veh\u00edculos destinados al transporte de alimentos y materias primas deben cumplir dentro del territorio colombiano con los requisitos sanitarios que garanticen la adecuada protecci\u00f3n y conservaci\u00f3n de los mismos, para lo cual las autoridades sanitarias realizar\u00e1n las actividades de inspecci\u00f3n, vigilancia y control necesarias para velar por su cumplimiento. Par\u00e1grafo Las autoridades sanitarias practicar\u00e1n la inspecci\u00f3n en el veh\u00edculo y/o medio de transporte y, por acta har\u00e1n constar las condiciones sanitarias del mismo.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q208"
     },
     {
@@ -1942,7 +2911,12 @@
       "order": 1,
       "label": "Par\u00e1grafo Las autoridades sanitarias practicar\u00e1n la inspecci\u00f3n en el veh\u00edculo y/o medio de transporte y, por acta har\u00e1n constar las condiciones sanitarias del mismo.",
       "answer": "",
-      "options": ["C", "NC", "NO", "NA"],
+      "options": [
+        "C",
+        "NC",
+        "NO",
+        "NA"
+      ],
       "name": "q209"
     },
     {
@@ -1969,7 +2943,12 @@
       "answer": "",
       "name": "q212"
     },
-    { "id": 213, "type": "subtitle", "order": 1, "label": "Socializacion" },
+    {
+      "id": 213,
+      "type": "subtitle",
+      "order": 1,
+      "label": "Socializacion"
+    },
     {
       "id": 214,
       "type": "text",
@@ -2023,10 +3002,11 @@
       "answer": "",
       "name": "q219"
     },
-    { "id": 213,
-     "type": "label", 
-     "order": 1,
-     "label": "Las preguntas orientadoras serán establecidas según las especificaciones técnicas de la licitación pública vigente y la evaluación del perfil higiénico-sanitario será adecuado a las condiciones de cada espacio intervenido (teniendo como base los artículos 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28 y 29 del título II de la resolución 2674-2013)." 
+    {
+      "id": 213,
+      "type": "label",
+      "order": 1,
+      "label": "Las preguntas orientadoras serán establecidas según las especificaciones técnicas de la licitación pública vigente y la evaluación del perfil higiénico-sanitario será adecuado a las condiciones de cada espacio intervenido (teniendo como base los artículos 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28 y 29 del título II de la resolución 2674-2013)."
     }
   ]
 }

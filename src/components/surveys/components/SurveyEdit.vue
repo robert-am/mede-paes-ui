@@ -156,6 +156,45 @@
             </q-table>
             <br/>
           </div>
+          <div v-if="question.type == 'numeric'">
+            <v-numeric
+                text
+                locale="en-US"
+                :precision="question.precision"
+                :label="question.label"
+                v-model="question.answer"
+            ></v-numeric>
+          </div>
+          <div v-if="question.type=='time'">
+            <v-menu
+                :ref="question.name"
+                v-model="question.isEnabled"
+                :close-on-content-click="false"
+                :return-value.sync="question.answer"
+                transition="scale-transition"
+                offset-y
+                max-width="290px"
+                min-width="290px"
+            >
+              <template v-slot:activator="{ on, attrs }">
+                <v-text-field
+                    v-model="question.answer"
+                    :label="question.label"
+                    prepend-icon="mdi-clock-time-four-outline"
+                    readonly
+                    v-bind="attrs"
+                    v-on="on"
+                ></v-text-field>
+              </template>
+              <v-time-picker
+                  v-if="question.isEnabled"
+                  v-model="question.answer"
+                  full-width
+                  :format="question.format"
+                  @click:minute="$refs[question.name][0].save(question.answer)"
+              ></v-time-picker>
+            </v-menu>
+          </div>
         </div>
       </v-card-text>
     </v-card>
@@ -218,6 +257,7 @@ export default {
   },
   components: {QTable, QLabel},
   data: () => ({
+    menu2:null,
     dialogNotas: false,
     dialogHallazgos: false,
   }),
