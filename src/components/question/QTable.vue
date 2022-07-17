@@ -79,7 +79,7 @@
                               </template>
                               <v-date-picker
                                   no-title
-                                  v-model="field.answer"
+                                  v-model="$data['editedItem'][field.name]"
                                   @input="field.isEnable = false"
                                   @change="field.dateFormatted = parseDate(field.answer)"
                               ></v-date-picker>
