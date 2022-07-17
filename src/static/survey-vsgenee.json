@@ -4427,66 +4427,91 @@
         },
         {
           "id": 5,
-          "name": "CondicionesEmpaque",
-          "type": "text",
+          "name": "condicionesEmpaque",
+          "type": "option",
           "order": 1,
           "label": "CONDICIONES DE EMPAQUE - C/NC/NA",
-          "answer": ""
+          "answer": "",
+          "options": [
+            "C",
+            "NC",
+            "NA"
+          ]
         },
         {
           "id": 6,
-          "name": "CondicionesRotulado",
-          "type": "text",
+          "name": "condicionesRotulado",
+          "type": "option",
           "order": 1,
           "label": "CONDICIONES DE ROTULO - C/NC/NA",
+          "options": [
+            "C",
+            "NC",
+            "NA"
+          ],
           "answer": ""
         },
         {
           "id": 7,
-          "name": "CantEncontrada",
-          "type": "text",
+          "name": "cantEncontrada",
+          "type": "numeric",
           "order": 1,
           "label": "CANTIDAD - ENCONTRADA",
-          "answer": ""
+          "answer": "",
+          "precision": "0"
         },
         {
           "id": 8,
-          "name": "CantEsperada",
-          "type": "text",
+          "name": "cantEsperada",
+          "type": "numeric",
           "order": 1,
           "label": "CANTIDAD - ESPERADA",
-          "answer": ""
+          "answer": "",
+          "precision": "0"
         },
         {
           "id": 9,
-          "name": "CantExedenteEmpaque",
-          "type": "text",
+          "name": "cantExedenteEmpaque",
+          "type": "numeric",
           "order": 1,
           "label": "CANTIDAD - EXCEDENTE DE EMPAQUE",
-          "answer": ""
+          "answer": "",
+          "precision": "0"
         },
         {
           "id": 10,
-          "name": "CantDiferencia",
-          "type": "text",
+          "name": "cantDiferencia",
+          "type": "numeric",
           "order": 1,
           "label": "CANTIDAD - DIFERENCIA",
-          "answer": ""
+          "answer": "",
+          "precision": "0"
+
         },
         {
           "id": 11,
-          "name": "C/NC",
-          "type": "text",
+          "name": "cantOptions",
+          "type": "option",
           "order": 1,
           "label": "CANTIDAD C/NC/NA",
+          "options": [
+            "C",
+            "NC",
+            "NA"
+          ],
           "answer": ""
         },
         {
           "id": 12,
-          "name": "CoincideKardex",
-          "type": "text",
+          "name": "coincideKardex",
+          "type": "option",
           "order": 1,
           "label": "COINCIDE CON KARDEX - C/NC/NA",
+          "options": [
+            "C",
+            "NC",
+            "NA"
+          ],
           "answer": ""
         }
       ],
@@ -4525,51 +4550,51 @@
       "headers": [
         {
           "text": "Productos V.L - R.I",
-          "value": "ProductosV.L"
+          "value": "productosVL"
         },
         {
           "text": "Marca",
-          "value": "MarcaV.L"
+          "value": "marcaVL"
         },
         {
           "text": "Lote",
-          "value": "LoteV.L"
+          "value": "loteVL"
         },
         {
           "text": "Fecha de Vencimiento",
-          "value": "FechaVencimientoV.L"
+          "value": "fechaVencimientoVL"
         },
         {
-          "text": "Condiciones de Empaque - C/NC",
-          "value": "CondicionesEmpaqueV.L"
+          "text": "Condiciones de Empaque - C/NC/NA",
+          "value": "condicionesEmpaqueVL"
         },
         {
-          "text": "Condiciones de Rotulado - C/NC",
-          "value": "CondicionesRotuladoV.L"
+          "text": "Condiciones de Rotulado - C/NC/NA",
+          "value": "condicionesRotuladoVL"
         },
         {
           "text": "Cantidad Encontrada",
-          "value": "CantEncontradaV.L"
+          "value": "cantEncontradaVL"
         },
         {
           "text": "Cantidad Esperada",
-          "value": "CantEsperadaV.L"
+          "value": "cantEsperadaVL"
         },
         {
           "text": "Cantidad - Diferencia",
-          "value": "CantDiferenciaV.L"
+          "value": "cantDiferenciaVL"
         },
         {
-          "text": "C/NC",
+          "text": "C/NC/NA",
           "value": "C/NCV.L"
         },
         {
           "text": "Condiciones de Transporte",
-          "value": "CondiTransporte"
+          "value": "condiTransporte"
         },
         {
           "text": "Temperatura Recepcion",
-          "value": "TempRecepcion"
+          "value": "tempRecepcion"
         },
         {
           "text": "Actions",
@@ -4580,7 +4605,7 @@
       "fields": [
         {
           "id": 1,
-          "name": "ProductosVL",
+          "name": "productosVL",
           "type": "text",
           "order": 1,
           "label": "Productos V.L - RJ",
@@ -4588,7 +4613,7 @@
         },
         {
           "id": 2,
-          "name": "MarcaV.L",
+          "name": "marcaVL",
           "type": "text",
           "order": 1,
           "label": "Marca",
@@ -4596,34 +4621,46 @@
         },
         {
           "id": 3,
-          "name": "LoteV.L",
+          "name": "loteVL",
           "type": "text",
           "order": 1,
           "label": "Lote",
           "answer": ""
         },
         {
-          "id": 4,
-          "name": "FechaVencimientoV.L",
-          "type": "text",
-          "order": 1,
-          "label": "Fecha de Vencimiento",
-          "answer": ""
-        },
+            "id": 4,
+            "name": "fechaVencimientoVL",
+            "type": "date",
+            "order": 1,
+            "label": "FECHA DE VENCIMIENTO",
+            "dateFormatted": "",
+            "answer": "",
+            "isEnable": "true"
+          },
         {
           "id": 5,
-          "name": "CondicionesEmpaqueV.L",
-          "type": "text",
+          "name": "condicionesEmpaqueVL",
+          "type": "option",
           "order": 1,
-          "label": "Condiciones de Empaque - C/NC",
+          "label": "Condiciones de Empaque - C/NC/NA",
+          "options": [
+            "C",
+            "NC",
+            "NA"
+          ],
           "answer": ""
         },
         {
           "id": 6,
-          "name": "CondicionesRotuladoV.L",
-          "type": "text",
+          "name": "condicionesRotuladoVL",
+          "type": "option",
           "order": 1,
-          "label": "Condiciones de Rotulado - C/NC",
+          "label": "Condiciones de Rotulado - C/NC/NA",
+          "options": [
+            "C",
+            "NC",
+            "NA"
+          ],
           "answer": ""
         },
         {
@@ -4655,23 +4692,38 @@
           "name": "C/NCV.L",
           "type": "text",
           "order": 1,
-          "label": "C/NC",
+          "label": "C/NC/NA",
+          "options": [
+            "C",
+            "NC",
+            "NA"
+          ],
           "answer": ""
         },
         {
           "id": 12,
-          "name": "CondiTransporte",
-          "type": "text",
+          "name": "condiTransporte",
+          "type": "option",
           "order": 1,
           "label": "Condiciones de Transporte",
+          "options": [
+            "C",
+            "NC",
+            "NA"
+          ],
           "answer": ""
         },
         {
           "id": 12,
-          "name": "TempRecepcion",
-          "type": "text",
+          "name": "tempRecepcion",
+          "type": "option",
           "order": 1,
           "label": "Temperatura Recepcion",
+          "options": [
+            "C",
+            "NC",
+            "NA"
+          ],
           "answer": ""
         }
       ],
