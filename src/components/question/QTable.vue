@@ -114,6 +114,15 @@
                               </v-row>
                             </div>
                           </div>
+                          <div v-if="field.type == 'numeric'">
+                            <v-numeric
+                                text
+                                locale="en-US"
+                                :precision="field.precision"
+                                :label="field.label"
+                                v-model="$data['editedItem'][field.name]"
+                            ></v-numeric>
+                          </div>
                         </v-col>
                       </v-row>
                   </v-card-text>
