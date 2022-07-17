@@ -58,7 +58,7 @@
                           </div>
                           <div v-if="field.type=='date'">
                             <v-menu
-                                v-model="question.isEnable"
+                                v-model="field.isEnable"
                                 :close-on-content-click="false"
                                 :nudge-right="40"
                                 transition="scale-transition"
@@ -67,8 +67,8 @@
                             >
                               <template v-slot:activator="{ on, attrs }">
                                 <v-text-field
-                                    v-model="question.dateFormatted"
-                                    :label="question.label"
+                                    v-model="field.dateFormatted"
+                                    :label="field.label"
                                     readonly
                                     v-bind="attrs"
                                     v-on="on"
@@ -79,9 +79,9 @@
                               </template>
                               <v-date-picker
                                   no-title
-                                  v-model="question.answer"
-                                  @input="question.isEnable = false"
-                                  @change="question.dateFormatted = parseDate(question.answer)"
+                                  v-model="field.answer"
+                                  @input="field.isEnable = false"
+                                  @change="field.dateFormatted = parseDate(field.answer)"
                               ></v-date-picker>
                             </v-menu>
                           </div>
