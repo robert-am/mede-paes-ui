@@ -42,7 +42,7 @@
             <q-label :value=question.label></q-label>
           </div>
           <div v-if="question.type == 'text'">
-            <v-text-field :label="question.label" v-model="question.answer"></v-text-field>
+            <v-text-field :label="question.label" v-model="question.answer" :readonly="question.readonly"></v-text-field>
           </div>
           <div v-if="question.type == 'select'">
             <v-select

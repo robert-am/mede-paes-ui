@@ -47,7 +47,7 @@
                             v-for="(field, idx) in qFields" :key="idx"
                         >
                           <div v-if="field.type == 'text'">
-                            <v-text-field :label="field.label" v-model="$data['editedItem'][field.name]"></v-text-field>
+                            <v-text-field :label="field.label" v-model="$data['editedItem'][field.name]" :readonly="field.readonly"></v-text-field>
                           </div>
                           <div v-if="field.type == 'select'">
                             <v-select
@@ -113,6 +113,15 @@
                                 </v-col>
                               </v-row>
                             </div>
+                          </div>
+                          <div v-if="field.type == 'numeric'">
+                            <v-numeric
+                                text
+                                locale="en-US"
+                                :precision="field.precision"
+                                :label="field.label"
+                                v-model="$data['editedItem'][field.name]"
+                            ></v-numeric>
                           </div>
                         </v-col>
                       </v-row>
