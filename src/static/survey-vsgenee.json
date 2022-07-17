@@ -4585,7 +4585,7 @@
           "value": "cantDiferenciaVL"
         },
         {
-          "text": "C/NC/NA",
+          "text": "CANTIDAD - C/NC/NA",
           "value": "C/NCVL"
         },
         {
@@ -4665,34 +4665,37 @@
         },
         {
           "id": 7,
-          "name": "CantEncontradaV.L",
-          "type": "text",
+          "name": "cantEncontradaVL",
+          "type": "numeric",
           "order": 1,
           "label": "Cantidad Encontrada",
+          "precision": "0",
           "answer": ""
         },
         {
           "id": 8,
-          "name": "CantEsperadaV.L",
-          "type": "text",
+          "name": "cantEsperadaVL",
+          "type": "numeric",
           "order": 1,
           "label": "Cantidad Esperada",
+          "precision": "0",
           "answer": ""
         },
         {
           "id": 10,
-          "name": "CantDiferenciaV.L",
-          "type": "text",
+          "name": "cantDiferenciaVL",
+          "type": "numeric",
           "order": 1,
           "label": "Cantidad - Diferencia",
-          "answer": ""
+          "answer": "",
+          "precision": "0"
         },
         {
           "id": 11,
           "name": "C/NCVL",
-          "type": "text",
+          "type": "option",
           "order": 1,
-          "label": "C/NC/NA",
+          "label": "CANTIDAD - C/NC/NA",
           "options": [
             "C",
             "NC",
