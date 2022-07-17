@@ -29,11 +29,13 @@
           <div v-if="question.type == 'title'">
             <div>
               <h2>{{ question.label }}</h2>
+              <br/>
             </div>
           </div>
           <div v-if="question.type == 'subtitle'">
             <div>
               <h3>{{ question.label }}</h3>
+              <br/>
             </div>
           </div>
           <div v-if="question.type == 'label'">
@@ -104,6 +106,7 @@
                   multiple
                   @change="disableOptions"
               ></v-checkbox>
+              <br/>
             </div>
           </div>
           <div v-if="question.type == 'multi-question'">
@@ -112,6 +115,8 @@
                 <v-col>
                   <span>{{ question.label }}</span>
                 </v-col>
+              </v-row>
+              <v-row>
                 <v-col v-for="(innerQuestion, idx) in question.innerQuestions" :key="idx">
                   <div v-if="innerQuestion.enable">
                     <span>{{ innerQuestion.label }}</span>
@@ -149,6 +154,7 @@
                 :fields="question.fields"
             >
             </q-table>
+            <br/>
           </div>
         </div>
       </v-card-text>
@@ -220,12 +226,14 @@ export default {
     console.log('mounted')
   },
 
-
   methods: {
 
     disableQuestions(items) {
       console.log(items)
+    },
 
+    autoFill(data, field){
+      console.log(data, field)
     },
 
     disableOptions(items) {
@@ -236,7 +244,7 @@ export default {
           question.innerQuestions.forEach((iq) => {
             if (items.includes(iq.label)) {
               iq.enable = true
-            }else {
+            } else {
               iq.enable = false
             }
           })
@@ -244,44 +252,44 @@ export default {
       })
     },
 
-  parseDate(date) {
-    if (!date) return null
-    return moment(date).format('DD-MM-YY')
-  },
+    parseDate(date) {
+      if (!date) return null
+      return moment(date).format('DD-MM-YY')
+    },
 
-  checkInnerQuestionAnswer(e) {
-    switch (e) {
-      case 'NC':
-        this.dialogHallazgos = true
-        break
-      case 'NO':
-      case 'NA':
-        this.dialogNotas = true
-        break
+    checkInnerQuestionAnswer(e) {
+      switch (e) {
+        case 'NC':
+          this.dialogHallazgos = true
+          break
+        case 'NO':
+        case 'NA':
+          this.dialogNotas = true
+          break
+      }
+      console.log(e)
+    },
+
+    clearSignature(controlName) {
+      console.log(controlName)
+      this.$refs[controlName][0].clearSignature()
+    },
+    close() {
+      this.$emit("close-survey")
+    },
+    submit() {
+      this.$swal({
+        title: "Encusta",
+        text: `La encuesta ha sido guardada satisfactoriamente`,
+        icon: "success",
+        buttons: false
+      }).then(() => {
+        this.close()
+      })
+      //console.log(this.survey)
+      //console.log(this.questions)
     }
-    console.log(e)
-  },
-
-  clearSignature(controlName) {
-    console.log(controlName)
-    this.$refs[controlName][0].clearSignature()
-  },
-  close() {
-    this.$emit("close-survey")
-  },
-  submit() {
-    this.$swal({
-      title: "Encusta",
-      text: `La encuesta ha sido guardada satisfactoriamente`,
-      icon: "success",
-      buttons: false
-    }).then(() => {
-      this.close()
-    })
-    //console.log(this.survey)
-    //console.log(this.questions)
   }
-}
 }
 </script>
 <style>

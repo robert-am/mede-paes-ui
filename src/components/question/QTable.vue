@@ -135,6 +135,8 @@
   </div>
 </template>
 <script>
+import moment from "moment";
+
 export default {
   props: {
     title: String,
@@ -166,6 +168,12 @@ export default {
         this.defaultItem[field.name] = ""
       })
     },
+
+    parseDate(date) {
+      if (!date) return null
+      return moment(date).format('DD-MM-YY')
+    },
+
     close () {
       this.dialog = false
       this.$nextTick(() => {
