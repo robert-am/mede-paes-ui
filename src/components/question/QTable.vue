@@ -84,9 +84,34 @@
                               ></v-date-picker>
                             </v-menu>
                           </div>
-                          <div v-if="field.type=='check'">
-                            <v-checkbox v-model="$data['editedItem'][field.name]" :label="field.label" hide-details >
-                            </v-checkbox>
+                          <div v-if="field.type == 'check'">
+                            <span>{{ field.label }}</span>
+                            <div>
+                              <v-checkbox
+                                  v-for="(option, idx) in field.options" :key="idx"
+                                  v-model="$data['editedItem'][field.name]"
+                                  :label="option.label"
+                                  :value="option.value"
+                                  hide-details
+                                  multiple
+                              ></v-checkbox>
+                              <br/>
+                            </div>
+                          </div>
+                          <div v-if="field.type == 'option'">
+                            <div>
+                              <v-row>
+                                <v-col md="10">
+                                  <span>{{ field.label }}</span>
+                                </v-col>
+                                <v-col>
+                                  <v-radio-group v-model="$data['editedItem'][field.name]">
+                                    <v-radio v-for="(option, idx2) in field.options" :label="option" :value="option"
+                                             :key="idx2"></v-radio>
+                                  </v-radio-group>
+                                </v-col>
+                              </v-row>
+                            </div>
                           </div>
                         </v-col>
                       </v-row>
