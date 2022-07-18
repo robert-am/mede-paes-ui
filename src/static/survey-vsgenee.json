@@ -39,10 +39,25 @@
     },
     {
       "id": 5,
-      "type": "text",
+      "type": "selectObject",
       "order": 1,
       "label": "ESTABLECIMIENTO EDUCATIVO (E.E)",
-      "options": [],
+      "options": [
+        {
+          "fillQuestion":"q6",
+          "codigo": "1001",
+          "modalidad": "AMPM/VL",
+          "comedor": "INST EDUC BARRIO SAN NICOLAS",
+          "sede": "INST EDUC BARRIO SAN NICOLAS",
+          "direccion": "CARRERA 45A 96 17"
+        },
+        {"fillQuestion":"q6", "codigo": "1002", "modalidad": "AMPM/VL", "comedor": "SEC ESC ANTONIO DERKA", "itemValue": "SEC ESC ANTONIO DERKA", "direccion": "CARRERA 28 107 365"},
+        {"fillQuestion":"q6", "codigo": "1003", "modalidad": "AMPM/VL", "comedor": "INST EDUC REINO DE BELGICA", "itemValue": "INST EDUC REINO DE BELGICA", "direccion": "CARRERA 24C 93 44"},
+        {"fillQuestion":"q6", "codigo": "1004", "modalidad": "AMPM/VL", "comedor": "SEC ESC MEDELLIN", "itemValue": "SEC ESC MEDELLIN", "direccion": "CALLE 96 36 45"},
+        {"fillQuestion":"q6", "codigo": "1005", "modalidad": "AMPM/VL", "comedor": "SEC ESC NUEVO HORIZONTE 2", "itemValue": "SEC ESC NUEVO HORIZONTE 2", "direccion": "CARRERA 37 107AA 21"}
+      ],
+      "itemText": "comedor",
+      "itemValue": "itemValue",
       "answer": "",
       "isEnabled": "false",
       "name": "q5"
