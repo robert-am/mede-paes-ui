@@ -15,7 +15,7 @@
       "id": 2,
       "type": "label",
       "order": 1,
-      "label": "Registre el Nombre del Establecimiento Educativo (E.E)>, Se\u00f1ale con una X el Concepto Sanitario de Secretar\u00eda de Salud  y registre la fecha  de la visita utilizando dos d\u00edgitos para d\u00eda- mes y a\u00f1o, Seleccione con X  el o los operadores que ejecutan al interior del E.E"
+      "label": "Registre el Nombre del Establecimiento Educativo (E.E), Se\u00f1ale con una X el Concepto Sanitario de Secretar\u00eda de Salud  y registre la fecha  de la visita utilizando dos d\u00edgitos para d\u00eda- mes y a\u00f1o, Seleccione con X  el o los operadores que ejecutan al interior del E.E"
     },
     {
       "id": 3,
@@ -23,10 +23,9 @@
       "order": 1,
       "label": "CONTRATISTA",
       "options": [
-        "contratista 1",
-        "contratista 2",
-        "contratista 3"
-      ],
+        "GR LOGÍSTICA INTEGRAL", 
+        "ALIRIO GÓMEZ G. SERVICIOS DE ALIMENTACIÓN S.A.S",
+        "CONSORCIO PAE MEDELLÍN"],
       "answer": "",
       "isEnabled": "false",
       "name": "q3"
@@ -55,8 +54,9 @@
       "label": "DIRECCION",
       "options": [],
       "answer": "",
-      "disabled": "false",
-      "name": "q6"
+      "disabled": "true",
+      "name": "q6",
+      "readonly": true
     },
     {
       "id": 7,
@@ -286,6 +286,19 @@
       "name": "q24"
     },
     {
+        "id": 2,
+        "type": "label",
+        "order": 1,
+        "label": "Complete las secciones de acuerdo a los complementos indicados anteriormente"
+    },
+    {
+        "id": 24,
+        "type": "subtitle",
+        "order": 1,
+        "label": "COMPLEMENTO TIPO ALMUERZO",
+        "name": "q24"
+      },
+    {
       "id": 25,
       "type": "numeric",
       "order": 1,
@@ -294,57 +307,62 @@
       "answer": "",
       "isEnabled": "false",
       "name": "q25",
-      "precision": "2"
+      "precision": "0"
     },
     {
       "id": 26,
-      "type": "text",
+      "type": "numeric",
       "order": 1,
       "label": "Primero a Tercero (1ero a 3ro)",
       "options": [],
       "answer": "",
       "isEnabled": "false",
-      "name": "q26"
+      "name": "q26",
+      "precision": "0"
     },
     {
       "id": 27,
-      "type": "text",
+      "type": "numeric",
       "order": 1,
       "label": "Cuato a Quinto (4to a 5to)",
       "options": [],
       "answer": "",
       "isEnabled": "false",
-      "name": "q27"
+      "name": "q27",
+      "precision": "0"
     },
     {
       "id": 28,
-      "type": "text",
+      "type": "numeric",
       "order": 1,
       "label": "Sexto a Noveno (6to a 9no)",
       "options": [],
       "answer": "",
       "isEnabled": "false",
-      "name": "q28"
+      "name": "q28",
+      "precision": "0"
     },
     {
       "id": 29,
-      "type": "text",
+      "type": "numeric",
       "order": 1,
       "label": "Decimo a Once (10mo a 11) ",
       "options": [],
       "answer": "",
       "isEnabled": "false",
-      "name": "q29"
+      "name": "q29",
+      "precision": "0"
     },
     {
       "id": 30,
-      "type": "text",
+      "type": "numeric",
       "order": 1,
       "label": "Semana del dia de la visita",
       "options": [],
       "answer": "",
       "isEnabled": "false",
-      "name": "q30"
+      "name": "q30",
+      "precision": "0"
     },
     {
       "id": 31,
@@ -358,22 +376,9 @@
     },
     {
       "id": 32,
-      "type": "label",
+      "type": "subtitle",
       "order": 1,
-      "label": "Complemento"
-    },
-    {
-      "id": 33,
-      "type": "option",
-      "order": 1,
-      "label": "Racion Industrializada",
-      "options": [
-        "SI",
-        "NO"
-      ],
-      "answer": "",
-      "isEnabled": "false",
-      "name": "q33"
+      "label": "COMPLEMENTO TIPO AM/PM"
     },
     {
       "id": 34,
@@ -382,65 +387,71 @@
       "label": "Numero de Beneficiarios por Complemento"
     },
     {
-      "id": 35,
-      "type": "text",
-      "order": 1,
-      "label": "Transicion",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false",
-      "name": "q35"
-    },
-    {
-      "id": 36,
-      "type": "text",
-      "order": 1,
-      "label": "Primero a Tercero (1ero a 3ro)",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false",
-      "name": "q36"
-    },
-    {
-      "id": 37,
-      "type": "text",
-      "order": 1,
-      "label": "Cuato a Quinto (4to a 5to)",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false",
-      "name": "q37"
-    },
-    {
-      "id": 38,
-      "type": "text",
-      "order": 1,
-      "label": "Sexto a Noveno (6to a 9no)",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false",
-      "name": "q38"
-    },
-    {
-      "id": 39,
-      "type": "text",
-      "order": 1,
-      "label": "Decimo a Once (10mo a 11) ",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false",
-      "name": "q39"
-    },
-    {
-      "id": 40,
-      "type": "text",
-      "order": 1,
-      "label": "Semana del dia de la visita",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false",
-      "name": "q40"
-    },
+        "id": 25,
+        "type": "numeric",
+        "order": 1,
+        "label": "Transicion",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q25",
+        "precision": "0"
+      },
+      {
+        "id": 26,
+        "type": "numeric",
+        "order": 1,
+        "label": "Primero a Tercero (1ero a 3ro)",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q26",
+        "precision": "0"
+      },
+      {
+        "id": 27,
+        "type": "numeric",
+        "order": 1,
+        "label": "Cuato a Quinto (4to a 5to)",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q27",
+        "precision": "0"
+      },
+      {
+        "id": 28,
+        "type": "numeric",
+        "order": 1,
+        "label": "Sexto a Noveno (6to a 9no)",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q28",
+        "precision": "0"
+      },
+      {
+        "id": 29,
+        "type": "numeric",
+        "order": 1,
+        "label": "Decimo a Once (10mo a 11) ",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q29",
+        "precision": "0"
+      },
+      {
+        "id": 30,
+        "type": "numeric",
+        "order": 1,
+        "label": "Semana del dia de la visita",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q30",
+        "precision": "0"
+      },
     {
       "id": 41,
       "type": "text",
@@ -453,22 +464,9 @@
     },
     {
       "id": 42,
-      "type": "label",
+      "type": "subtitle",
       "order": 1,
-      "label": "Complemento"
-    },
-    {
-      "id": 43,
-      "type": "option",
-      "order": 1,
-      "label": "Vaso de Leche",
-      "options": [
-        "SI",
-        "NO"
-      ],
-      "answer": "",
-      "isEnabled": "false",
-      "name": "q43"
+      "label": "RACION INDISTRIALIZADA"
     },
     {
       "id": 44,
@@ -487,55 +485,71 @@
       "name": "q45"
     },
     {
-      "id": 46,
-      "type": "text",
-      "order": 1,
-      "label": "Primero a Tercero (1ero a 3ro)",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false",
-      "name": "q46"
-    },
-    {
-      "id": 47,
-      "type": "text",
-      "order": 1,
-      "label": "Cuato a Quinto (4to a 5to)",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false",
-      "name": "q47"
-    },
-    {
-      "id": 48,
-      "type": "text",
-      "order": 1,
-      "label": "Sexto a Noveno (6to a 9no)",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false",
-      "name": "q48"
-    },
-    {
-      "id": 49,
-      "type": "text",
-      "order": 1,
-      "label": "Decimo a Once (10mo a 11) ",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false",
-      "name": "q49"
-    },
-    {
-      "id": 50,
-      "type": "text",
-      "order": 1,
-      "label": "Semana del dia de la visita",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false",
-      "name": "q50"
-    },
+        "id": 25,
+        "type": "numeric",
+        "order": 1,
+        "label": "Transicion",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q25",
+        "precision": "0"
+      },
+      {
+        "id": 26,
+        "type": "numeric",
+        "order": 1,
+        "label": "Primero a Tercero (1ero a 3ro)",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q26",
+        "precision": "0"
+      },
+      {
+        "id": 27,
+        "type": "numeric",
+        "order": 1,
+        "label": "Cuato a Quinto (4to a 5to)",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q27",
+        "precision": "0"
+      },
+      {
+        "id": 28,
+        "type": "numeric",
+        "order": 1,
+        "label": "Sexto a Noveno (6to a 9no)",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q28",
+        "precision": "0"
+      },
+      {
+        "id": 29,
+        "type": "numeric",
+        "order": 1,
+        "label": "Decimo a Once (10mo a 11) ",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q29",
+        "precision": "0"
+      },
+      {
+        "id": 30,
+        "type": "numeric",
+        "order": 1,
+        "label": "Semana del dia de la visita",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q30",
+        "precision": "0"
+      },
     {
       "id": 51,
       "type": "text",
@@ -547,90 +561,171 @@
       "name": "q51"
     },
     {
-      "id": 52,
-      "type": "label",
-      "order": 1,
-      "label": "Complemento"
-    },
+        "id": 42,
+        "type": "subtitle",
+        "order": 1,
+        "label": "VASO DE LECHE"
+      },
+      {
+        "id": 44,
+        "type": "label",
+        "order": 1,
+        "label": "Numero de Beneficiarios por Complemento"
+      },
     {
-      "id": 53,
-      "type": "option",
-      "order": 1,
-      "label": "Racion de Contingencia",
-      "options": [
-        "SI",
-        "NO"
-      ],
-      "answer": "",
-      "isEnabled": "false",
-      "name": "q53"
-    },
+        "id": 25,
+        "type": "numeric",
+        "order": 1,
+        "label": "Transicion",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q25",
+        "precision": "0"
+      },
+      {
+        "id": 26,
+        "type": "numeric",
+        "order": 1,
+        "label": "Primero a Tercero (1ero a 3ro)",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q26",
+        "precision": "0"
+      },
+      {
+        "id": 27,
+        "type": "numeric",
+        "order": 1,
+        "label": "Cuato a Quinto (4to a 5to)",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q27",
+        "precision": "0"
+      },
+      {
+        "id": 28,
+        "type": "numeric",
+        "order": 1,
+        "label": "Sexto a Noveno (6to a 9no)",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q28",
+        "precision": "0"
+      },
+      {
+        "id": 29,
+        "type": "numeric",
+        "order": 1,
+        "label": "Decimo a Once (10mo a 11) ",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q29",
+        "precision": "0"
+      },
+      {
+        "id": 30,
+        "type": "numeric",
+        "order": 1,
+        "label": "Semana del dia de la visita",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q30",
+        "precision": "0"
+      },
     {
-      "id": 54,
-      "type": "label",
-      "order": 1,
-      "label": "Numero de Beneficiarios por Complemento"
-    },
-    {
-      "id": 55,
+      "id": 61,
       "type": "text",
       "order": 1,
-      "label": "Transicion",
+      "label": "Men\u00fa del dia de la visita",
       "options": [],
       "answer": "",
       "isEnabled": "false",
-      "name": "q55"
+      "name": "q61"
     },
     {
-      "id": 56,
-      "type": "text",
-      "order": 1,
-      "label": "Primero a Tercero (1ero a 3ro)",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false",
-      "name": "q56"
-    },
+        "id": 42,
+        "type": "subtitle",
+        "order": 1,
+        "label": "RACION DE CONTINGENCIA"
+      },
+      {
+        "id": 44,
+        "type": "label",
+        "order": 1,
+        "label": "Numero de Beneficiarios por Complemento"
+      },
     {
-      "id": 57,
-      "type": "text",
-      "order": 1,
-      "label": "Cuato a Quinto (4to a 5to)",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false",
-      "name": "q57"
-    },
-    {
-      "id": 58,
-      "type": "text",
-      "order": 1,
-      "label": "Sexto a Noveno (6to a 9no)",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false",
-      "name": "q58"
-    },
-    {
-      "id": 59,
-      "type": "text",
-      "order": 1,
-      "label": "Decimo a Once (10mo a 11) ",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false",
-      "name": "q59"
-    },
-    {
-      "id": 60,
-      "type": "text",
-      "order": 1,
-      "label": "Semana del dia de la visita",
-      "options": [],
-      "answer": "",
-      "isEnabled": "false",
-      "name": "q60"
-    },
+        "id": 25,
+        "type": "numeric",
+        "order": 1,
+        "label": "Transicion",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q25",
+        "precision": "0"
+      },
+      {
+        "id": 26,
+        "type": "numeric",
+        "order": 1,
+        "label": "Primero a Tercero (1ero a 3ro)",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q26",
+        "precision": "0"
+      },
+      {
+        "id": 27,
+        "type": "numeric",
+        "order": 1,
+        "label": "Cuato a Quinto (4to a 5to)",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q27",
+        "precision": "0"
+      },
+      {
+        "id": 28,
+        "type": "numeric",
+        "order": 1,
+        "label": "Sexto a Noveno (6to a 9no)",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q28",
+        "precision": "0"
+      },
+      {
+        "id": 29,
+        "type": "numeric",
+        "order": 1,
+        "label": "Decimo a Once (10mo a 11) ",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q29",
+        "precision": "0"
+      },
+      {
+        "id": 30,
+        "type": "numeric",
+        "order": 1,
+        "label": "Semana del dia de la visita",
+        "options": [],
+        "answer": "",
+        "isEnabled": "false",
+        "name": "q30",
+        "precision": "0"
+      },
     {
       "id": 61,
       "type": "text",
@@ -4088,7 +4183,8 @@
           "type": "text",
           "order": 1,
           "label": "Preparacion",
-          "answer": ""
+          "answer": "",
+          "readonly":true
         },
         {
           "id": 1,
@@ -4110,19 +4206,19 @@
               "value": "TRN"
             },
             {
-              "label": "1-3",
+              "label": "1°-3°",
               "value": "1-3"
             },
             {
-              "label": "4-5",
+              "label": "4°-5°",
               "value": "4-5"
             },
             {
-              "label": "6-9",
+              "label": "6°-9°",
               "value": "6-9"
             },
             {
-              "label": "10-11",
+              "label": "10°-11°",
               "value": "10-11"
             }
           ],
@@ -4131,18 +4227,20 @@
         {
           "id": 1,
           "name": "ref",
-          "type": "text",
+          "type": "numeric",
           "order": 1,
           "label": "PESOS(G)/ VOLUMEN(cc) REF",
-          "answer": ""
+          "answer": "",
+          "precision": "2"
         },
         {
           "id": 1,
           "name": "real",
-          "type": "text",
+          "type": "numeric",
           "order": 1,
           "label": "PESOS(G)/ VOLUMEN(cc) REAL",
-          "answer": ""
+          "answer": "",
+          "precision": "2"
         },
         {
           "id": 1,
@@ -4320,73 +4418,100 @@
         {
           "id": 4,
           "name": "fechaVencimiento",
-          "type": "text",
+          "type": "date",
           "order": 1,
           "label": "FECHA DE VENCIMIENTO",
-          "answer": ""
+          "dateFormatted": "",
+          "answer": "",
+          "isEnable": "true"
         },
         {
           "id": 5,
-          "name": "CondicionesEmpaque",
-          "type": "text",
+          "name": "condicionesEmpaque",
+          "type": "option",
           "order": 1,
           "label": "CONDICIONES DE EMPAQUE - C/NC/NA",
-          "answer": ""
+          "answer": "",
+          "options": [
+            "C",
+            "NC",
+            "NA"
+          ]
         },
         {
           "id": 6,
-          "name": "CondicionesRotulado",
-          "type": "text",
+          "name": "condicionesRotulado",
+          "type": "option",
           "order": 1,
           "label": "CONDICIONES DE ROTULO - C/NC/NA",
+          "options": [
+            "C",
+            "NC",
+            "NA"
+          ],
           "answer": ""
         },
         {
           "id": 7,
-          "name": "CantEncontrada",
-          "type": "text",
+          "name": "cantEncontrada",
+          "type": "numeric",
           "order": 1,
           "label": "CANTIDAD - ENCONTRADA",
-          "answer": ""
+          "answer": "",
+          "precision": "0"
         },
         {
           "id": 8,
-          "name": "CantEsperada",
-          "type": "text",
+          "name": "cantEsperada",
+          "type": "numeric",
           "order": 1,
           "label": "CANTIDAD - ESPERADA",
-          "answer": ""
+          "answer": "",
+          "precision": "0"
         },
         {
           "id": 9,
-          "name": "CantExedenteEmpaque",
-          "type": "text",
+          "name": "cantExedenteEmpaque",
+          "type": "numeric",
           "order": 1,
           "label": "CANTIDAD - EXCEDENTE DE EMPAQUE",
-          "answer": ""
+          "answer": "",
+          "precision": "0"
         },
         {
           "id": 10,
-          "name": "CantDiferencia",
-          "type": "text",
+          "name": "cantDiferencia",
+          "type": "numeric",
           "order": 1,
           "label": "CANTIDAD - DIFERENCIA",
-          "answer": ""
+          "answer": "",
+          "precision": "0"
+
         },
         {
           "id": 11,
-          "name": "C/NC",
-          "type": "text",
+          "name": "cantOptions",
+          "type": "option",
           "order": 1,
           "label": "CANTIDAD C/NC/NA",
+          "options": [
+            "C",
+            "NC",
+            "NA"
+          ],
           "answer": ""
         },
         {
           "id": 12,
-          "name": "CoincideKardex",
-          "type": "text",
+          "name": "coincideKardex",
+          "type": "option",
           "order": 1,
           "label": "COINCIDE CON KARDEX - C/NC/NA",
+          "options": [
+            "C",
+            "NC",
+            "NA"
+          ],
           "answer": ""
         }
       ],
@@ -4425,51 +4550,51 @@
       "headers": [
         {
           "text": "Productos V.L - R.I",
-          "value": "ProductosV.L"
+          "value": "productosVL"
         },
         {
           "text": "Marca",
-          "value": "MarcaV.L"
+          "value": "marcaVL"
         },
         {
           "text": "Lote",
-          "value": "LoteV.L"
+          "value": "loteVL"
         },
         {
           "text": "Fecha de Vencimiento",
-          "value": "FechaVencimientoV.L"
+          "value": "fechaVencimientoVL"
         },
         {
-          "text": "Condiciones de Empaque - C/NC",
-          "value": "CondicionesEmpaqueV.L"
+          "text": "Condiciones de Empaque - C/NC/NA",
+          "value": "condicionesEmpaqueVL"
         },
         {
-          "text": "Condiciones de Rotulado - C/NC",
-          "value": "CondicionesRotuladoV.L"
+          "text": "Condiciones de Rotulado - C/NC/NA",
+          "value": "condicionesRotuladoVL"
         },
         {
           "text": "Cantidad Encontrada",
-          "value": "CantEncontradaV.L"
+          "value": "cantEncontradaVL"
         },
         {
           "text": "Cantidad Esperada",
-          "value": "CantEsperadaV.L"
+          "value": "cantEsperadaVL"
         },
         {
           "text": "Cantidad - Diferencia",
-          "value": "CantDiferenciaV.L"
+          "value": "cantDiferenciaVL"
         },
         {
-          "text": "C/NC",
-          "value": "C/NCV.L"
+          "text": "CANTIDAD - C/NC/NA",
+          "value": "C/NCVL"
         },
         {
           "text": "Condiciones de Transporte",
-          "value": "CondiTransporte"
+          "value": "condiTransporte"
         },
         {
           "text": "Temperatura Recepcion",
-          "value": "TempRecepcion"
+          "value": "tempRecepcion"
         },
         {
           "text": "Actions",
@@ -4480,7 +4605,7 @@
       "fields": [
         {
           "id": 1,
-          "name": "ProductosVL",
+          "name": "productosVL",
           "type": "text",
           "order": 1,
           "label": "Productos V.L - RJ",
@@ -4488,7 +4613,7 @@
         },
         {
           "id": 2,
-          "name": "MarcaV.L",
+          "name": "marcaVL",
           "type": "text",
           "order": 1,
           "label": "Marca",
@@ -4496,82 +4621,112 @@
         },
         {
           "id": 3,
-          "name": "LoteV.L",
+          "name": "loteVL",
           "type": "text",
           "order": 1,
           "label": "Lote",
           "answer": ""
         },
         {
-          "id": 4,
-          "name": "FechaVencimientoV.L",
-          "type": "text",
-          "order": 1,
-          "label": "Fecha de Vencimiento",
-          "answer": ""
-        },
+            "id": 4,
+            "name": "fechaVencimientoVL",
+            "type": "date",
+            "order": 1,
+            "label": "FECHA DE VENCIMIENTO",
+            "dateFormatted": "",
+            "answer": "",
+            "isEnable": "true"
+          },
         {
           "id": 5,
-          "name": "CondicionesEmpaqueV.L",
-          "type": "text",
+          "name": "condicionesEmpaqueVL",
+          "type": "option",
           "order": 1,
-          "label": "Condiciones de Empaque - C/NC",
+          "label": "Condiciones de Empaque - C/NC/NA",
+          "options": [
+            "C",
+            "NC",
+            "NA"
+          ],
           "answer": ""
         },
         {
           "id": 6,
-          "name": "CondicionesRotuladoV.L",
-          "type": "text",
+          "name": "condicionesRotuladoVL",
+          "type": "option",
           "order": 1,
-          "label": "Condiciones de Rotulado - C/NC",
+          "label": "Condiciones de Rotulado - C/NC/NA",
+          "options": [
+            "C",
+            "NC",
+            "NA"
+          ],
           "answer": ""
         },
         {
           "id": 7,
-          "name": "CantEncontradaV.L",
-          "type": "text",
+          "name": "cantEncontradaVL",
+          "type": "numeric",
           "order": 1,
           "label": "Cantidad Encontrada",
+          "precision": "0",
           "answer": ""
         },
         {
           "id": 8,
-          "name": "CantEsperadaV.L",
-          "type": "text",
+          "name": "cantEsperadaVL",
+          "type": "numeric",
           "order": 1,
           "label": "Cantidad Esperada",
+          "precision": "0",
           "answer": ""
         },
         {
           "id": 10,
-          "name": "CantDiferenciaV.L",
-          "type": "text",
+          "name": "cantDiferenciaVL",
+          "type": "numeric",
           "order": 1,
           "label": "Cantidad - Diferencia",
-          "answer": ""
+          "answer": "",
+          "precision": "0"
         },
         {
           "id": 11,
-          "name": "C/NCV.L",
-          "type": "text",
+          "name": "C/NCVL",
+          "type": "option",
           "order": 1,
-          "label": "C/NC",
+          "label": "CANTIDAD - C/NC/NA",
+          "options": [
+            "C",
+            "NC",
+            "NA"
+          ],
           "answer": ""
         },
         {
           "id": 12,
-          "name": "CondiTransporte",
-          "type": "text",
+          "name": "condiTransporte",
+          "type": "option",
           "order": 1,
           "label": "Condiciones de Transporte",
+          "options": [
+            "C",
+            "NC",
+            "NA"
+          ],
           "answer": ""
         },
         {
           "id": 12,
-          "name": "TempRecepcion",
-          "type": "text",
+          "name": "tempRecepcion",
+          "type": "option",
           "order": 1,
           "label": "Temperatura Recepcion",
+          "options": [
+            "C",
+            "NC",
+            "NA"
+          ],
           "answer": ""
         }
       ],
@@ -4605,51 +4760,51 @@
       "headers": [
         {
           "text": "Productos R.C",
-          "value": "ProductosR.C"
+          "value": "productosRC"
         },
         {
           "text": "Marca",
-          "value": "MarcaR.C"
+          "value": "marcaRC"
         },
         {
           "text": "Lote",
-          "value": "LoteR.C"
+          "value": "loteRC"
         },
         {
           "text": "Fecha de Vencimiento",
-          "value": "FechaVencimientoR.C"
+          "value": "fechaVencimientoRC"
         },
         {
           "text": "Condiciones de Empaque - C/NC",
-          "value": "CondicionesEmpaqueR.C"
+          "value": "condicionesEmpaqueRC"
         },
         {
           "text": "Condiciones de Rotulado - C/NC",
-          "value": "CondicionesRotuladoR.C"
+          "value": "condicionesRotuladoRC"
         },
         {
           "text": "Cantidad Encontrada",
-          "value": "CantEncontradaR.C"
+          "value": "cantEncontradaRC"
         },
         {
           "text": "Cantidad Esperada",
-          "value": "CantEsperadaR.C"
+          "value": "cantEsperadaRC"
         },
         {
           "text": "Cantidad - Diferencia",
-          "value": "CantDiferenciaR.C"
+          "value": "cantDiferenciaRC"
         },
         {
           "text": "C/NC",
-          "value": "C/NCR.C"
+          "value": "CNCRC"
         },
         {
           "text": "Condiciones de Transporte",
-          "value": "CondiTransporteR.C"
+          "value": "condiTransporteRC"
         },
         {
           "text": "Temperatura Recepcion",
-          "value": "TempRecepcionR.C"
+          "value": "tempRecepcionRC"
         },
         {
           "text": "Actions",
@@ -4660,15 +4815,15 @@
       "fields": [
         {
           "id": 1,
-          "name": "ProductosR.C",
+          "name": "productosRC",
           "type": "text",
           "order": 1,
-          "label": "Productos V.L - RJ",
+          "label": "Productos R.C",
           "answer": ""
         },
         {
           "id": 2,
-          "name": "MarcaR.C",
+          "name": "marcaRC",
           "type": "text",
           "order": 1,
           "label": "Marca",
@@ -4676,7 +4831,7 @@
         },
         {
           "id": 3,
-          "name": "LoteR.C",
+          "name": "loteRC",
           "type": "text",
           "order": 1,
           "label": "Lote",
@@ -4684,74 +4839,104 @@
         },
         {
           "id": 4,
-          "name": "FechaVencimientoR.C",
-          "type": "text",
+          "name": "fechaVencimientoRC",
+          "type": "date",
           "order": 1,
           "label": "Fecha de Vencimiento",
-          "answer": ""
+          "answer": "",
+          "isEnable": "true"
         },
         {
           "id": 5,
-          "name": "CondicionesEmpaqueR.C",
-          "type": "text",
+          "name": "condicionesEmpaqueRC",
+          "type": "option",
           "order": 1,
-          "label": "Condiciones de Empaque - C/NC",
-          "answer": ""
+          "label": "Condiciones de Empaque - C/NC/NA",
+          "answer": "",
+          "options": [
+            "C",
+            "NC",
+            "NA"
+          ]
         },
         {
           "id": 6,
-          "name": "CondicionesRotuladoR.C",
-          "type": "text",
+          "name": "condicionesRotuladoRC",
+          "type": "option",
           "order": 1,
-          "label": "Condiciones de Rotulado - C/NC",
-          "answer": ""
+          "label": "Condiciones de Rotulado - C/NC/NA",
+          "answer": "",
+          "options": [
+            "C",
+            "NC",
+            "NA"
+          ]
         },
         {
           "id": 7,
-          "name": "CantEncontradaR.C",
-          "type": "text",
+          "name": "cantEncontradaRC",
+          "type": "numeric",
           "order": 1,
           "label": "Cantidad Encontrada",
-          "answer": ""
+          "answer": "",
+          "precision": "0"
         },
         {
           "id": 8,
-          "name": "CantEsperadaR.C",
-          "type": "text",
+          "name": "cantEsperadaRC",
+          "type": "numeric",
           "order": 1,
           "label": "Cantidad Esperada",
-          "answer": ""
+          "answer": "",
+          "precision": "0"
         },
         {
           "id": 10,
-          "name": "CantDiferenciaR.C",
-          "type": "text",
+          "name": "cantDiferenciaRC",
+          "type": "numeric",
           "order": 1,
           "label": "Cantidad - Diferencia",
-          "answer": ""
+          "answer": "",
+          "precision": "0"
         },
         {
           "id": 11,
-          "name": "C/NCR.C",
-          "type": "text",
+          "name": "CNCRC",
+          "type": "option",
           "order": 1,
-          "label": "C/NC",
-          "answer": ""
+          "label": "CANTIDAD - C/NC/NA",
+          "answer": "",
+          "options": [
+            "C",
+            "NC",
+            "NA"
+          ],
+          "precision": "0"
         },
         {
           "id": 12,
-          "name": "CondiTransporteR.C",
-          "type": "text",
+          "name": "condiTransporteRC",
+          "type": "option",
           "order": 1,
           "label": "Condiciones de Transporte",
+          "options": [
+            "C",
+            "NC",
+            "NA"
+          ],
           "answer": ""
         },
         {
           "id": 12,
-          "name": "TempRecepcionR.C",
-          "type": "text",
+          "name": "tempRecepcionRC",
+          "type": "option",
           "order": 1,
           "label": "Temperatura Recepcion",
+          "options": [
+            "C",
+            "NC",
+            "NA"
+          ],
           "answer": ""
         }
       ],
