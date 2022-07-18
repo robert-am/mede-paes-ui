@@ -663,7 +663,7 @@
       "id": 8,
       "type": "date",
       "order": 1,
-      "label": "FECHA DE LA VISITA - R.P.S.",
+      "label": "FECHA DEL CONCEPTO - R.P.S.",
       "options": [],
       "answer": "",
       "isEnable": "false",
@@ -687,7 +687,7 @@
       "id": 10,
       "type": "date",
       "order": 1,
-      "label": "FECHA DE LA VISITA - R.C.",
+      "label": "FECHA DEL CONCEPTO - R.C.",
       "options": [],
       "answer": "",
       "isEnable": "false",
@@ -711,7 +711,7 @@
       "id": 12,
       "type": "date",
       "order": 1,
-      "label": "FECHA DE LA VISITA - R.I.",
+      "label": "FECHA DEL CONCEPTO - R.I.",
       "options": [],
       "answer": "",
       "isEnable": "false",
@@ -735,7 +735,7 @@
       "id": 14,
       "type": "date",
       "order": 1,
-      "label": "FECHA DE LA VISITA",
+      "label": "FECHA DEL CONCEPTO",
       "options": [],
       "answer": "",
       "isEnable": "false",
@@ -3689,14 +3689,6 @@
         {
           "label": "RI",
           "answer": ""
-        },
-        {
-          "label": "VL",
-          "answer": ""
-        },
-        {
-          "label": "RC",
-          "answer": ""
         }
       ],
       "options": [
@@ -3714,19 +3706,11 @@
       "label": "69. \u00bfEl empaque de las bebidas, tiene impresa la leyenda: \u201cMunicipio de Medell\u00edn Secretar\u00eda de Inclusi\u00f3n Social, Familia y Derechos Humanos; prohibida su venta o comercializaci\u00f3n\u201d y el logo actual de la Alcald\u00eda de Medell\u00edn?",
       "innerQuestions": [
         {
-          "label": "AM/PM",
-          "answer": ""
-        },
-        {
           "label": "RI",
           "answer": ""
         },
         {
           "label": "VL",
-          "answer": ""
-        },
-        {
-          "label": "RC",
           "answer": ""
         }
       ],
@@ -3821,6 +3805,10 @@
       "order": 1,
       "label": "73. \u00bfLos productos l\u00e1cteos (leche, yogurt, yogurt griego y el queso en porci\u00f3n individual) se entregan en el EE con una temperatura entre 0\u00b0C y 6\u00b0C seg\u00fan normatividad vigente, siendo este el l\u00edmite permisible para la entrega de estos alimentos?",
       "innerQuestions": [
+        {
+            "label": "AM/PM",
+            "answer": ""
+        },
         {
           "label": "CTA",
           "answer": ""
@@ -5322,6 +5310,11 @@
         {},
         {},
         {},
+        {},
+        {},
+        {},
+        {},
+        {},
         {}
       ],
       "name": "q188"
@@ -5528,9 +5521,12 @@
         }
       ],
       "answers": [
-        {
-          "ProductosVL": "Bebida 1"
-        },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
         {},
         {},
         {},
@@ -6190,6 +6186,10 @@
         {
           "label": "AM/PM",
           "answer": ""
+        },
+        {
+            "label": "CTA",
+            "answer": ""
         }
       ],
       "options": [
