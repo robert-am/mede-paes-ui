@@ -188,10 +188,12 @@
         {
           "id": 1,
           "name": "FechaVisita",
-          "type": "text",
+          "type": "date",
           "order": 1,
           "label": "Fecha de Visita",
-          "answer": ""
+          "answer": "",
+          "dateFormatted": "",
+          "isEnable": "true"
         },
         {
           "id": 2,
