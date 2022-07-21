@@ -55,6 +55,10 @@
 <script>
 export default {
   name: "AppLayoutLinks",
+  mounted() {
+    let user = JSON.parse(localStorage.getItem("user"))
+    this.username = `${user.name} ${user.lastname}`
+  },
   data() {
     return {
       username:'',
@@ -64,7 +68,7 @@ export default {
         {title: 'Home', icon: 'mdi-home-city' , path:"/"},
       //  {title: 'Diseñador de Encuestas', icon: 'mdi-file-document-edit-outline', path:"/survey/designer"},
         {title: 'Encuestas', icon: 'mdi-text-box-check-outline', path:"/survey/surveys"},
-        {title: 'Usuarios', icon: 'mdi-account', path:"/survey/users"},
+      //  {title: 'Usuarios', icon: 'mdi-account', path:"/survey/users"},
       ],
     }
   },

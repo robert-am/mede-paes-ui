@@ -5,6 +5,9 @@ import router from './router'
 import VueSwal from 'vue-swal'
 import VueSignaturePad from 'vue-signature-pad';
 import VNumeric from "vuetify-numeric/vuetify-numeric.umd";
+import axios from 'axios'
+axios.defaults.withCredentials = true
+axios.defaults.baseURL = process.env.VUE_APP_API
 
 Vue.config.productionTip = false
 Vue.use(VueSignaturePad);

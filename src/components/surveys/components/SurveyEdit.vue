@@ -42,7 +42,8 @@
             <q-label :value=question.label></q-label>
           </div>
           <div v-if="question.type == 'text'">
-            <v-text-field :label="question.label" v-model="question.answer" :readonly="question.readonly"></v-text-field>
+            <v-text-field :label="question.label" v-model="question.answer"
+                          :readonly="question.readonly"></v-text-field>
           </div>
           <div v-if="question.type == 'select'">
             <v-select
@@ -258,6 +259,8 @@
 import QLabel from "@/components/question/QLabel";
 import QTable from "@/components/question/QTable";
 import moment from 'moment'
+import axios from "axios";
+import authHeader from "@/middlewares/authHeaders";
 
 export default {
   name: "SurveyEdit",
@@ -268,7 +271,8 @@ export default {
   },
   components: {QTable, QLabel},
   data: () => ({
-    menu2:null,
+
+    menu2: null,
     dialogNotas: false,
     dialogHallazgos: false,
   }),
@@ -283,10 +287,10 @@ export default {
       console.log(items)
     },
 
-    autoFill(data){
+    autoFill(data) {
       console.log(data)
-      this.questions.forEach((question) =>{
-        if(question.name == data.fillQuestion ){
+      this.questions.forEach((question) => {
+        if (question.name == data.fillQuestion) {
           question.answer = data.itemValue
         }
       })
@@ -334,16 +338,25 @@ export default {
       this.$emit("close-survey")
     },
     submit() {
-      this.$swal({
-        title: "Encusta",
-        text: `La encuesta ha sido guardada satisfactoriamente`,
-        icon: "success",
-        buttons: false
-      }).then(() => {
-        this.close()
+      let data = {
+        ... this.survey,
+        questions: this.questions
+      }
+      console.log(`${data}`)
+      axios.post("/survey", data, {
+        headers: authHeader()
+      }).then(response => {
+        this.$swal({
+          title: "Encusta",
+          text: `La encuesta ha sido guardada satisfactoriamente ${response.data.id}`,
+          icon: "success",
+          buttons: false
+        }).then(() => {
+          this.close()
+        })
+      }).then(err => {
+        console.log(err)
       })
-      //console.log(this.survey)
-      //console.log(this.questions)
     }
   }
 }

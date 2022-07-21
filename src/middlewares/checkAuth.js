@@ -3,7 +3,7 @@ export default function checkAuth() {
     if(user == null){
         return false
     }
-    if (user.status == true) {
+    if (user.access_token != "") {
         return true
     } else {
         return false

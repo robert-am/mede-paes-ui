@@ -28,7 +28,7 @@
           </v-card-text>
           <v-card-actions>
             <v-spacer></v-spacer>
-            <v-btn color="primary" @click="login" >Iniciar Sesion</v-btn>
+            <v-btn color="primary" @click="login">Iniciar Sesion</v-btn>
           </v-card-actions>
         </v-card>
       </v-flex>
@@ -37,27 +37,46 @@
 </template>
 <script>
 
+import axios from "axios";
+
 export default {
   name: "LoginPage",
   components: {},
-  data: () =>({
+  data: () => ({
     username: "",
-    password:""
+    password: ""
   }),
-  computed: {
-
+  computed: {},
+  mounted() {
+    console.log(process.env.VUE_APP_API)
   },
   methods: {
-    login(){
-      localStorage.setItem("user", JSON.stringify( {"name":this.username , "password": this.password, "status": true}) )
-      this.$router.push("/")
-    }
+    login() {
+      const user = new FormData()
+      user.append("username", this.username);
+      user.append("password", this.password);
+      user.append("grant_type", "password");
+      axios.post('security/oauth/token',
+          user,
+          {
+            headers: {
+              'Authorization': `Basic ` + process.env.VUE_APP_KEY
+            }
+          }
+      ).then(response => {
+        console.log(response)
+        localStorage.setItem("user", JSON.stringify(response.data))
+        this.$router.push("/")
+      }).catch(err => {
+        console.log("Error: " + err)
+      })
+    },
   }
 }
 </script>
 <style>
-  .loginCard {
-    opacity: 0.9;
-    width: 80%;
-  }
+.loginCard {
+  opacity: 0.9;
+  width: 80%;
+}
 </style>
