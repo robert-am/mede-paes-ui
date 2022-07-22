@@ -115,7 +115,7 @@
       </v-toolbar>
     </template>
     <template v-slot:[`item.status`]="{ item }">
-      <v-icon :color="getEstado(item.status)" dark>
+      <v-icon :color="getEstado(item.enable)" dark>
         {{(item.status) === true ? "mdi-check-circle-outline" : "mdi-close-circle-outline" }}
       </v-icon>
     </template>
@@ -150,14 +150,16 @@ export default {
         sortable: false,
         value: 'id',
       },
-      { text: 'Nombre Completo', value: 'nameComplete' },
+      { text: 'Nombre Completo', value: 'fullName' },
       { text: 'Cedula', value: 'document' },
-      { text: 'Cargo', value: 'position' },
-      { text: 'Celular', value: 'phone' },
-      { text: 'Correo Personal', value: 'ePersonal' },
+      { text: 'Cargo', value: 'jobtitle' },
+      { text: 'Celular', value: 'cellPhone' },
+      { text: 'Correo Personal', value: 'personalEmail' },
       { text: 'Aprobacion', value: 'approval' },
-      { text: 'Corre Corporativo', value: 'eCoorp' },
-      { text: 'Usuario ESAN', value: 'esan' },
+      { text: 'Corre Corporativo', value: 'corporateEmail' },
+      { text: 'Usuario ESAN', value: 'esanUser' },
+      { text: 'Tipo', value: 'type' },
+      {text: 'agentCode', value: 'agentCode'},
       { text: 'Estado', value: 'status' },
       { text: 'Actions', value: 'actions', sortable: false },
     ],
@@ -165,14 +167,15 @@ export default {
     editedIndex: -1,
     editedItem: {
       id: '',
-      nameComplete: '',
+      fullName: '',
       document: '',
-      position: '',
-      phone: '',
-      ePersonal: '',
+      jobtitle: '',
+      cellPhone: '',
+      personalEmail: '',
       approval: '',
-      eCoorp: '',
-      esan: '',
+      corporateEmail: '',
+      esanUser: '',
+      agentCode: '',
       status: ''
     },
     defaultItem: {
