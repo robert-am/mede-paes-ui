@@ -13,7 +13,27 @@
         </router-link>
       </div>
       <v-spacer></v-spacer>
-      <v-btn icon><v-icon>mdi-account</v-icon> </v-btn>
+      <v-menu
+        bottom
+        left
+      >
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn
+            dark
+            icon
+            v-bind="attrs"
+            v-on="on"
+          >
+          <v-icon>mdi-dots-vertical</v-icon>
+          </v-btn>
+
+        </template>
+        <v-list>
+          <v-list-item>
+            <v-list-item-title @click="closeSesion">Cerrar Sessión</v-list-item-title>
+          </v-list-item>
+        </v-list>
+      </v-menu>
     </v-app-bar>
     <v-navigation-drawer app
                          v-model="drawer"
@@ -49,7 +69,6 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-
   </div>
 </template>
 <script>
@@ -72,6 +91,12 @@ export default {
       ],
     }
   },
+  methods: {
+    closeSesion(){
+      localStorage.clear()
+      this.$router.push("/login")
+    }
+  }
 }
 </script>
 <style scoped>
