@@ -33,7 +33,7 @@
           </template>
           <v-card>
             <v-card-title>
-              <span class="text-h5">{{ formTitle }}</span>
+              <span class="text-h5"><v-icon color='black' class="mb-2" dark>{{ icon }}</v-icon>{{ formTitle }}</span>
             </v-card-title>
             <v-card-text>
               <v-container>
@@ -286,8 +286,12 @@ export default {
 
   computed: {
     formTitle () {
-      return this.editedIndex === -1 ? 'Nuevo Usuario' : 'Editar Usuario'
+      return this.editedIndex === -1 ? ' Nuevo Usuario' : ' Editar Usuario'
     },
+
+    icon (){
+      return this.editedIndex === -1 ? 'mdi-account-plus' : 'mdi-account-edit'
+    }
   },
 
   watch: {
