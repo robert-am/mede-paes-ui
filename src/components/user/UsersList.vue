@@ -44,7 +44,29 @@
                       md="4"
                   >
                     <v-text-field
-                        v-model="editedItem.UserName"
+                        v-model="editedItem.agentCode"
+                        label="Codigo del Agente"
+                        disabled
+                    ></v-text-field>
+                    </v-col>
+                    <v-col
+                      cols="12"
+                      sm="6"
+                      md="4"
+                  >
+                    <v-text-field
+                        v-model="editedItem.esanUser"
+                        label="Usuario ESAN"
+                        disabled
+                    ></v-text-field>
+                    </v-col>
+                  <v-col
+                      cols="12"
+                      sm="6"
+                      md="4"
+                  >
+                    <v-text-field
+                        v-model="editedItem.username"
                         label="Nombre Usuario"
                     ></v-text-field>
                   </v-col>
@@ -54,8 +76,9 @@
                       md="4"
                   >
                     <v-text-field
-                        v-model="editedItem.name"
-                        label="Nombre"
+                        v-model="editedItem.username"
+                        label="Contraseña"
+                        disabled
                     ></v-text-field>
                   </v-col>
                   <v-col
@@ -64,8 +87,8 @@
                       md="4"
                   >
                     <v-text-field
-                        v-model="editedItem.email"
-                        label="Correo"
+                        v-model="editedItem.firstName"
+                        label="Nombres"
                     ></v-text-field>
                   </v-col>
                   <v-col
@@ -74,9 +97,60 @@
                       md="4"
                   >
                     <v-text-field
-                        v-model="editedItem.status"
-                        label="Estado"
+                        v-model="editedItem.lastName"
+                        label="Apellidos"
                     ></v-text-field>
+                  </v-col>
+                  <v-col
+                      cols="12"
+                      sm="6"
+                      md="4"
+                  >
+                    <v-text-field
+                        v-model="editedItem.document"
+                        label="Documento"
+                    ></v-text-field>
+                  </v-col>
+                  <v-col
+                      cols="12"
+                      sm="6"
+                      md="4"
+                  >
+                    <v-text-field
+                        v-model="editedItem.personalEmail"
+                        label="Correo Personal"
+                    ></v-text-field>
+                  </v-col>
+                  <v-col
+                      cols="12"
+                      sm="6"
+                      md="4"
+                  >
+                    <v-text-field
+                        v-model="editedItem.corporateEmail"
+                        label="Correo Institucional"
+                    ></v-text-field>
+                  </v-col>
+                  <v-col
+                      cols="12"
+                      sm="6"
+                      md="4"
+                  >
+                    <v-text-field
+                        v-model="editedItem.cellPhone"
+                        label="Celular"
+                    ></v-text-field>
+                  </v-col>
+                  <v-col
+                      cols="12"
+                      sm="6"
+                      md="4"
+                  >
+                    <v-select
+                        v-model="editedItem.jobTitle"
+                        label="Cargo"
+                        :items="items"
+                    ></v-select>
                   </v-col>
                 </v-row>
               </v-container>
@@ -115,7 +189,7 @@
       </v-toolbar>
     </template>
     <template v-slot:[`item.status`]="{ item }">
-      <v-icon :color="getEstado(item.enable)" dark>
+      <v-icon :color="getEstado(item.status)" dark>
         {{(item.status) === true ? "mdi-check-circle-outline" : "mdi-close-circle-outline" }}
       </v-icon>
     </template>
@@ -139,10 +213,15 @@
 </template>
 
 <script>
+import authHeader from "../../middlewares/authHeaders";
+import axios from "axios";
+
 export default {
+  
   data: () => ({
     dialog: false,
     dialogDelete: false,
+    items: ['TÉCNICO EN GESTIÓN DOCUMENTAL','INGENIERO DE SISTEMAS GESIS', 'TECNÓLOGO EN SISTEMAS DE INFORMACIÓN', 'TÉCNICO EN MANTENIMIENTO', 'INTERVENTOR EJECUTOR DE PLANTA', 'INTERVENTOR EJECUTOR DE CAMPO'],
     headers: [
       {
         text: 'Nro',
@@ -150,45 +229,58 @@ export default {
         sortable: false,
         value: 'id',
       },
-      { text: 'Nombre Completo', value: 'fullName' },
+      { text: 'Codigo del Agente', value: 'agentCode'},
       { text: 'Cedula', value: 'document' },
-      { text: 'Cargo', value: 'jobtitle' },
+      { text: 'Nombre Completo', value: 'firstName' },
+      { text: 'Cargo', value: 'jobTitle' },
       { text: 'Celular', value: 'cellPhone' },
       { text: 'Correo Personal', value: 'personalEmail' },
       { text: 'Aprobacion', value: 'approval' },
       { text: 'Corre Corporativo', value: 'corporateEmail' },
       { text: 'Usuario ESAN', value: 'esanUser' },
       { text: 'Tipo', value: 'type' },
-      {text: 'agentCode', value: 'agentCode'},
       { text: 'Estado', value: 'status' },
       { text: 'Actions', value: 'actions', sortable: false },
     ],
     desserts: [],
     editedIndex: -1,
     editedItem: {
-      id: '',
-      fullName: '',
-      document: '',
-      jobtitle: '',
+      id:'',
+      agentCode: null,
+      approval: null,
       cellPhone: '',
+      corporateEmail: null,
+      document: '',
+      esanUser: null,
+      firstName: '',
+      jobTitle: '',
+      lastName: '',
+      password: "",
       personalEmail: '',
-      approval: '',
-      corporateEmail: '',
-      esanUser: '',
-      agentCode: '',
-      status: ''
+      retries: 0,
+      signature: null,
+      status: true,
+      type: "user",
+      username: ''
     },
     defaultItem: {
-      id: '',
-      nameComplete: '',
+      id:'',
+      agentCode: null,
+      approval: null,
+      cellPhone: '',
+      corporateEmail: null,
       document: '',
-      position: '',
-      phone: '',
-      ePersonal: '',
-      approval: '',
-      eCoorp: '',
-      esan: '',
-      status: ''
+      esanUser: null,
+      firstName: '',
+      jobTitle: '',
+      lastName: '',
+      password: "",
+      personalEmail: '',
+      retries: 0,
+      signature: null,
+      status: true,
+      type: "user",
+      username: ''
     },
   }),
 
@@ -213,48 +305,17 @@ export default {
 
   methods: {
     initialize () {
-      this.desserts = [
-        {
-          id: '1',
-          nameComplete: 'GLORIA CRISTINA CASTAÑO ZULUAGA',
-          document: '43278547',
-          position: 'INTERVENTOR EJECUTOR DE CAMPO',
-          phone: '3122606734',
-          ePersonal: 'CRISTINA0124@GMAIL.COM ',
-          approval: 'Si',
-          eCoorp: 'EJECUTOR 1',
-          esan: '',
-          status: true
-        },
-        {
-          id: '2',
-          nameComplete: 'HUMBERTO CARLOS FLOREZ ROSSO',
-          document: '78746253',
-          position: 'INTERVENTOR EJECUTOR DE CAMPO',
-          phone: '3126214019',
-          ePersonal: 'FLOREZHUMBERTOCARLOS@HOTMAIL.COM',
-          approval: 'Pendiente aprobación',
-          eCoorp: 'EJECUTOR 30',
-          esan: '',
-          status: true
-        },
-        {
-          id: '3',
-          nameComplete: 'GLORIA EMILSEN GAVIRIA LLANOS',
-          document: '43603765',
-          position: 'INTERVENTOR EJECUTOR DE PLANTA',
-          phone: '3003572550',
-          ePersonal: 'GLORIAEGAVIRIAL@GMAIL.COM',
-          approval: 'Aprobada para Campo - Pendiente aprobación para Planta',
-          eCoorp: 'EJECUTOR 51\n',
-          esan: '',
-          status: false
-        }
-      ]
+      this.getUsers()
+    },
+
+    async getUsers(){
+      axios.get("/users/users", { headers: authHeader()
+      }).then( (response) => {
+        this.desserts = response.data._embedded.users;
+      })
     },
 
     getEstado(status) {
-      console.log(status);
       if (status === true ) return "green";
       else return "red";
     },
@@ -294,11 +355,29 @@ export default {
 
     save () {
       if (this.editedIndex > -1) {
+        axios.post("/users/users/"+this.editedItem.id, this.editedItem, {
+          headers: authHeader()
+        }).then(() => {
+          this.$swal({
+            title: "Edicion de Usuario",
+            text: `El usuario fue editado Satisfactoriamente`,
+            icon: "success",
+            buttons: false
+          }).then(() =>{this.close})
+        })
         Object.assign(this.desserts[this.editedIndex], this.editedItem)
       } else {
-        this.desserts.push(this.editedItem)
+        axios.post("/users/users",this.editedItem, {
+          headers: authHeader()
+        }).then(() => {
+          this.$swal({
+            title: "Creacion de Usuario",
+            text: `El usuario fue creado Satisfactoriamente`,
+            icon: "success",
+            buttons: false
+          }).then(() =>{this.close})
+        })
       }
-      this.close()
     },
   },
 }
