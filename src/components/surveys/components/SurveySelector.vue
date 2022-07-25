@@ -195,14 +195,14 @@ export default {
         let data = []
         let row = {}
         result.data.forEach(survey => {
+          row["interID"] = survey._id.timestamp
+          row["surveyCode"] = survey.surveyCode
           this.questions = survey.questions
           this.questions.forEach(q => {
             if ("viewlist" in q) {
-              console.log(q)
               row[q.name] = q.answer
             }
           })
-          console.log(row)
           data.push(row)
           this.surveyList = data
         })
@@ -210,20 +210,18 @@ export default {
       this.dialogTable = true
     },
 
-    editSurvey() {
-      console.log("edit")
+    editSurvey(survey) {
+      console.log(`survey: ${survey}`)
     },
 
     async newSurvey(survey) {
       let locaUser = JSON.parse(localStorage.getItem("user"))
       let user = await this.loadUserData(locaUser.id)
-      console.log(user)
       import(`@/static/${survey.file}`).then(surveyResult => {
         this.survey = surveyResult;
         this.questions = surveyResult.questions
         this.questions.forEach(q => {
           if ("autofill" in q) {
-            console.log(q)
             q.answer = user[q.autofill]
           }
         })
@@ -248,7 +246,6 @@ export default {
     },
 
     closeSurvey() {
-      console.log("Close")
       this.dialog = false
       this.$router.go()
     },
@@ -256,7 +253,14 @@ export default {
 
     },
     showPdf(survey) {
-      console.log(survey)
+      axios.get(`/surveypdf/${survey.surveyCode}/1`, {
+        responseType: "blob",
+        headers: authHeader()
+      }).then(response =>{
+        const file = new Blob([response.data], { type: "application/pdf" });
+        const fileURL = URL.createObjectURL(file);
+        window.open(fileURL);
+      })
     }
   }
 }
