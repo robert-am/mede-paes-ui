@@ -327,6 +327,10 @@ export default {
       return moment(date).format('DD-MM-YY')
     },
 
+    setInternalCode(){
+
+    },
+
     checkInnerQuestionAnswer( q, e) {
       this.hallazgoQ = q
       switch (e) {
@@ -347,13 +351,26 @@ export default {
     close() {
       this.$emit("close-survey")
     },
-    submit() {
-      let user = JSON.parse(localStorage.getItem("user"))
+    async submit() {
+      let localUser = JSON.parse(localStorage.getItem("user"))
+      let user = await axios.get(`/users/users/${localUser.id}`, {
+        headers: authHeader()
+      }).then((response) => {
+        return response.data;
+      })
+      let complemento = this.questions.find(q => q.name == 'complementos')
+      let visita = this.questions.find(q => q.name == 'visita')
+      let establecimiento = this.questions.find(q => q.name == 'establecimiento')
+      let internalCode = `${complemento.answer}V${visita.answer}E${user.agentCode}${establecimiento.answer.codigo}`
       let data = {
         ... this.survey,
+        complemento: complemento.answer,
+        visita: visita.answer,
+        ejecutor: user,
         hallazgos: this.hallazgos,
-        createBy: user.id,
-        questions: this.questions
+        createdBy: user.id,
+        questions: this.questions,
+        internalCode: internalCode
       }
       console.log(`${data}`)
       axios.post("/survey", data, {
