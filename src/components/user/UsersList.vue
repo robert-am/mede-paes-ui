@@ -1,7 +1,7 @@
 <template>
   <v-data-table
       :headers="headers"
-      :items="desserts"
+      :items="users"
       sort-by="calories"
       class="elevation-1"
   >
@@ -208,7 +208,6 @@
         mdi-delete
       </v-icon>
     </template>
-
   </v-data-table>
 </template>
 
@@ -242,7 +241,7 @@ export default {
       { text: 'Estado', value: 'status' },
       { text: 'Actions', value: 'actions', sortable: false },
     ],
-    desserts: [],
+    users: [],
     editedIndex: -1,
     editedItem: {
       id:'',
@@ -315,7 +314,7 @@ export default {
     async getUsers(){
       axios.get("/users/users", { headers: authHeader()
       }).then( (response) => {
-        this.desserts = response.data._embedded.users;
+        this.users = response.data._embedded.users;
       })
     },
 
@@ -325,19 +324,19 @@ export default {
     },
 
     editItem (item) {
-      this.editedIndex = this.desserts.indexOf(item)
+      this.editedIndex = this.users.indexOf(item)
       this.editedItem = Object.assign({}, item)
       this.dialog = true
     },
 
     deleteItem (item) {
-      this.editedIndex = this.desserts.indexOf(item)
+      this.editedIndex = this.users.indexOf(item)
       this.editedItem = Object.assign({}, item)
       this.dialogDelete = true
     },
 
     deleteItemConfirm () {
-      this.desserts.splice(this.editedIndex, 1)
+      this.users.splice(this.editedIndex, 1)
       this.closeDelete()
     },
 
@@ -369,7 +368,7 @@ export default {
             buttons: false
           }).then(() =>{this.close})
         })
-        Object.assign(this.desserts[this.editedIndex], this.editedItem)
+        Object.assign(this.users[this.editedIndex], this.editedItem)
       } else {
         axios.post("/users/users",this.editedItem, {
           headers: authHeader()

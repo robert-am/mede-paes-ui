@@ -2,7 +2,7 @@
   <div>
     <header class="header"></header>
     <AppLayoutsLinks></AppLayoutsLinks>
-    <div class="container">
+    <div class="wrap">
       <slot/>
     </div>
   </div>
@@ -20,7 +20,8 @@ export default {
 body{
   font-family: Arial, Helvetica, sans-serif;
 }
-.container{
+.wrap{
+  margin: 20px 20px 20px 70px;
 }
 
 </style>

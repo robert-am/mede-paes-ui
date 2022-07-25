@@ -133,7 +133,7 @@
                   <div v-if="innerQuestion.enable">
                     <span>{{ innerQuestion.label }}</span>
                     <v-radio-group v-model="innerQuestion.answer"
-                                   @change="checkInnerQuestionAnswer(innerQuestion.answer)">
+                                   @change="checkInnerQuestionAnswer( question, innerQuestion.answer)">
                       <v-radio v-for="(option, idx2) in question.options" :label="option" :value="option"
                                :key="idx2"
                       ></v-radio>
@@ -224,9 +224,11 @@
           <v-toolbar-title>Hallazgos</v-toolbar-title>
         </v-toolbar>
         <v-card-text>
-          <v-textarea></v-textarea>
+          <v-text-field v-model="hallazgoQ.label"></v-text-field>
+          <v-textarea v-model="hallazgo"></v-textarea>
         </v-card-text>
         <v-card-actions>
+          <v-btn @click="addHallazgo">Agregar</v-btn>
           <v-btn @click="dialogHallazgos =false">Cerrar</v-btn>
         </v-card-actions>
       </v-card>
@@ -245,7 +247,7 @@
           <v-toolbar-title>Notas de Apoyo</v-toolbar-title>
         </v-toolbar>
         <v-card-text>
-          <v-textarea></v-textarea>
+          <v-textarea v-model="notes"></v-textarea>
         </v-card-text>
         <v-card-actions>
           <v-btn @click="dialogNotas =false">Cerrar</v-btn>
@@ -270,15 +272,18 @@ export default {
     questions: [],
   },
   components: {QTable, QLabel},
-  data: () => ({
 
+  data: () => ({
+    notes: "",
+    hallazgos:[],
     menu2: null,
     dialogNotas: false,
     dialogHallazgos: false,
+    hallazgoQ: {},
+    hallazgo: ''
   }),
 
   mounted() {
-    console.log('mounted')
   },
 
   methods: {
@@ -288,7 +293,6 @@ export default {
     },
 
     autoFill(data) {
-      console.log(data)
       this.questions.forEach((question) => {
         if (question.name == data.fillQuestion) {
           question.answer = data.itemValue
@@ -296,8 +300,14 @@ export default {
       })
     },
 
+    addHallazgo(){
+      this.hallazgos.push({question: this.hallazgoQ, hallazgo: this.hallazgo})
+      this.hallazgoQ = {}
+      this.hallazgo =""
+      this.dialogHallazgos = false
+    },
+
     disableOptions(items) {
-      console.log(items)
       this.questions.forEach((question) => {
         if (question.type === 'multi-question') {
           console.log(question)
@@ -317,7 +327,8 @@ export default {
       return moment(date).format('DD-MM-YY')
     },
 
-    checkInnerQuestionAnswer(e) {
+    checkInnerQuestionAnswer( q, e) {
+      this.hallazgoQ = q
       switch (e) {
         case 'NC':
           this.dialogHallazgos = true
@@ -331,15 +342,17 @@ export default {
     },
 
     clearSignature(controlName) {
-      console.log(controlName)
       this.$refs[controlName][0].clearSignature()
     },
     close() {
       this.$emit("close-survey")
     },
     submit() {
+      let user = JSON.parse(localStorage.getItem("user"))
       let data = {
         ... this.survey,
+        hallazgos: this.hallazgos,
+        createBy: user.id,
         questions: this.questions
       }
       console.log(`${data}`)

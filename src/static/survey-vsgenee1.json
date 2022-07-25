@@ -5,8 +5,9 @@
   "internalCode": "",
   "codeGen":"",
   "notes":"",
-  "hallazgos": "",
+  "hallazgos": [],
   "surveyCode":"1655",
+  "createdBy": "",
   "questions": [
     {
       "id": 1,

@@ -1,11 +1,11 @@
 <template>
   <div>
     <v-row dense>
-      <v-col v-for="(survey, idx) in surveys" :key="idx" md="4" >
+      <v-col v-for="(survey, idx) in surveys" :key="idx" md="4">
         <v-card color="#26c6da">
           <v-card-title>
             <v-icon>mdi-document</v-icon>
-            {{survey.code}} {{survey.title}}
+            {{ survey.code }} {{ survey.title }}
           </v-card-title>
           <v-card-subtitle>
             {{
@@ -27,7 +27,8 @@
         persistent
         transition="dialog-bottom-transition"
     >
-      <SurveyEdit :survey="survey" :questions="questions" :survey-name="surveyName" v-on:close-survey="closeSurvey"></SurveyEdit>
+      <SurveyEdit :survey="survey" :questions="questions" :survey-name="surveyName"
+                  v-on:close-survey="closeSurvey" ></SurveyEdit>
     </v-dialog>
   </div>
 </template>
@@ -46,9 +47,9 @@ export default {
     return {
       dialog: false,
       surveyType: '',
-      surveyName:'',
+      surveyName: '',
       survey: {},
-      questions:[],
+      questions: [],
       surveys: [
         {
           title: "Acta de Visita de Supervisión General en Establecimiento Educativo",
@@ -84,10 +85,11 @@ export default {
         this.dialog = true
       })
     },
-    closeSurvey(){
-      this.dialog=false
-      this.surveyType = ''
-    }
+    closeSurvey() {
+      console.log("Close")
+      this.dialog = false
+      this.$router.go()
+    },
   }
 }
 </script>
