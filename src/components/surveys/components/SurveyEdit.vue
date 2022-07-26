@@ -352,6 +352,15 @@ export default {
       this.$emit("close-survey")
     },
     async submit() {
+      this.questions.forEach(q => {
+        if(q.type == "signature"){
+          const { isEmpty, data } = this.$refs[q.name][0].saveSignature();
+          if (!isEmpty) {
+            q.answer = data;
+          }
+        }
+      })
+
       let localUser = JSON.parse(localStorage.getItem("user"))
       let user = await axios.get(`/users/users/${localUser.id}`, {
         headers: authHeader()
